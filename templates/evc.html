@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write EVC</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap Datepicker Stylesheet and Script -->
+  <!-- Option 1: Include in HTML -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}">
+   <!-- Custom fonts for this template-->
+   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+   <link
+       href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+       rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}">
+
+
+  
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/sb-admin-2.css') }}">
+</head>
+
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper" >
+  
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" >
+  
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+              <!-- <div class="sidebar-brand-icon rotate-n-15" >
+                <img src="{{ url_for('static', filename='img/1200px-PTT-01.svg (1).png') }}" style="width: 40%;" alt="">
+            </div> -->
+                <div class="sidebar-brand-text mx-3" style="margin-top: 10px;">PTT<p style="font-size: xx-small;" >AUTOMATIC METER READING</p></div>
+                
+            </a>
+  
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+  
+            <!-- Nav Item - Dashboard -->
+            <!-- Nav Item - Dashboard -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/">
+              <i class="fas fa-fw fa-chart-area"></i>
+                <span>Dashboard</span></a>
+        </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            Interface
+        </div>
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
+                <i class="fas fa-fw fa-table"></i>
+                <span>Reports</span>
+            </a>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">List Reports:</h6>
+                    <a class="collapse-item" href="billing_data">View Billing Data</a>
+                    <a class="collapse-item" href="#">View EVC Status</a>
+                    <a class="collapse-item" href="DailySummary">Daily Summary</a>
+                    <a class="collapse-item" href="#">Monthly Summary</a>
+                    <a class="collapse-item" href="site_detail">Site Detail</a>
+                </div>
+            </div>
+        </li>
+        <hr class="sidebar-divider">
+        <div class="sidebar-heading">
+          Manage
+      </div>
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+              aria-expanded="true" aria-controls="collapsePages">
+              <i class="fas fa-user-cog"></i>
+
+
+              <span>Manage Users</span>
+          </a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+              <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">List Manage Users:</h6>
+                <a class="collapse-item" href="add_user">Add User</a>
+                <a class="collapse-item" href="edit_user">Edit User</a>
+                <a class="collapse-item" href="remove_user">Remove User</a>
+                <a class="collapse-item" href="user_history">User History</a>
+              </div>
+          </div>
+      </li>
+        
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+              aria-expanded="true" aria-controls="collapseUtilities">
+              <i class="fas fa-sitemap"></i>
+
+
+
+
+              <span>Manage Sites</span>
+          </a>
+          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+              data-parent="#accordionSidebar">
+              <div class="bg-white py-2 collapse-inner rounded">
+                  <h6 class="collapse-header">List Manage Site:</h6>
+                  <a class="collapse-item" href="add_site">Add Site</a>
+                  <a class="collapse-item" href="edit_site">Edit Site</a>
+                  <a class="collapse-item" href="remove_site">Remove Site</a>
+                  
+              </div>
+          </div>
+      </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            Polling
+        </div>
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePolling"
+              aria-expanded="true" aria-controls="collapsePolling">
+              <i class="fas fa-cogs"></i>
+
+
+
+              <span>Polling Setting</span>
+          </a>
+          <div id="collapsePolling" class="collapse" aria-labelledby="headingPolling"
+              data-parent="#accordionSidebar">
+              <div class="bg-white py-2 collapse-inner rounded">
+                  <h6 class="collapse-header">List Polling Setting:</h6>
+                  <a class="collapse-item" href="evc_management">EVC Management</a>
+                  <a class="collapse-item" href="polling_route">Polling Range Setting</a>
+                  <a class="collapse-item" href="polling_hourly">Polling Range Hourly</a>
+                  <a class="collapse-item" href="mapping_config">Configuration Mapping</a>
+                  <a class="collapse-item" href="mapping_billing">Daily Billing Mapping</a>
+                  <a class="collapse-item" href="mapping_hourly">Hourly Billing Mapping</a>
+                  
+              </div>
+          </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseActions"
+            aria-expanded="true" aria-controls="collapseActions">
+            <i class="fas fa-fw fa-wrench"></i>
+            <span>Polling Actions</span>
+        </a>
+        <div id="collapseActions" class="collapse" aria-labelledby="headingActions"
+            data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">List Polling Actions:</h6>
+                <a class="collapse-item" href="Manualpoll_data">Manual Poll (EVC Profile)</a>
+                <a class="collapse-item" href="write_evc">Write Config (SG,CO2,N2)</a>
+               
+                
+            </div>
+        </div>
+    </li>
+    <hr class="sidebar-divider">
+    <div class="sidebar-heading">
+      Prediction
+  </div>
+
+  <!-- Nav Item - Pages Collapse Menu -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseai"
+        aria-expanded="true" aria-controls="collapseai">
+        <i class="fas fa-robot"></i>
+<span>AI Prediction</span>
+
+    </a>
+    <div id="collapseai" class="collapse" aria-labelledby="headingai"
+        data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">List AI Prediction:</h6>
+            
+            <a class="collapse-item" href="Numeric_Prediction">Numeric Prediction</a>
+           
+            
+        </div>
+    </div>
+</li>      
+           
+          <!-- Nav Item - Tables -->
+          
+              <!-- Divider -->
+              <hr class="sidebar-divider d-none d-md-block">
+  
+              <!-- Sidebar Toggler (Sidebar) -->
+              <div class="text-center d-none d-md-inline">
+                  <button class="rounded-circle border-0" id="sidebarToggle"></button>
+              </div>
+  
+          </ul>
+          <!-- End of Sidebar -->
+<!-- Content Wrapper -->
+<div id="content-wrapper" class="d-flex flex-column">
+
+    <!-- Main Content -->
+    <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+            <!-- Sidebar Toggle (Topbar) -->
+            <form class="form-inline">
+                <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </form>
+
+            <!-- Topbar Search -->
+            <form
+                      class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                      <div class="input-group">                    
+                          <div class="input-group-append" style="padding: 0px 20px; display: inline-block; width: 40%;border-radius: 15px;margin-left: -40px;">
+                            <img src="https://www.pttplc.com/uploads/About/logo_PTT_3.png" style="width: 100%;display: block;height: auto" alt="">
+                          </div>
+                      </div>
+                  </form>
+
+            <!-- Topbar Navbar -->
+            <ul class="navbar-nav ml-auto">
+
+                <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                <li class="nav-item dropdown no-arrow d-sm-none">
+                    <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <!-- Dropdown - Messages -->
+                    <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                        aria-labelledby="searchDropdown">
+                        <form class="form-inline mr-auto w-100 navbar-search">
+                            <div class="input-group">
+                                <input type="text" class="form-control bg-light border-0 small"
+                                    placeholder="Search for..." aria-label="Search"
+                                    aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button">
+                                        <i class="fas fa-search fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+
+               
+                
+
+                <div class="topbar-divider d-none d-sm-block"></div>
+
+                <!-- Nav Item - User Information -->
+                <li class="nav-item dropdown no-arrow">
+                  <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{username}}</span>
+                  <i class="fa-solid fa-user fa-lg" style="color: #e5e9f6;"></i>
+              </a>
+                    <!-- Dropdown - User Information -->
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                        aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Profile
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Settings
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Activity Log
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="logout" >
+                          <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                          Logout
+                      </a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+        <!-- sidebar-wrapper  -->
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+        
+  
+          <div class="card shadow mb-4" style="width: 100%;">
+          <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Write evc</h6>
+             
+      </div> 
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <div class="box_we">
+           
+                <div class="container-menu">
+                        <form id="filterForm" action="write_evc" method="get" lass="form-container" style="padding: 40px;">
+                          <div class="row"  style="justify-content: center;">
+                            <div class="col-md-4">
+                            <label for="region_dropdown" >Select Region:</label>
+                            <select id="region_dropdown" name="region_dropdown" class="form-control" required>
+                                <option value="{{ selected_region }}">Select....</option>
+                              {% for region_option in region_options %}
+                              <option value="{{ region_option }}" {% if region_option==selected_region %}selected{% endif %}>{{
+                                region_option
+                                }}</option>
+                              {% endfor %}
+                            </select>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="tag_dropdown" >Select Tag:</label>
+                            <select id="tag_dropdown" name="tag_dropdown" class="form-control" required>
+                                <option value="{{ selected_tag }}" selected>--selected_tag--</option>
+                              {% for tag_option in tag_options %}
+                              <option value="{{ tag_option }}" {% if tag_option==selected_tag %}selected{% endif %}>{{ tag_option }}
+                              </option>
+                              {% endfor %}
+                            </select>
+                          </div>
+                          <div class="col-md-4">
+                            <label for="run_dropdown" >Select Run:</label>
+                            <select id="run_dropdown" name="run_dropdown" class="form-control" required>
+                             <option value="">Select....</option>
+                              {% for run_option in run_options %}
+                              <option value="{{ run_option }}" {% if run_option==selected_run %}selected{% endif %}>{{ run_option }}
+                              </option>
+                              {% endfor %}
+                            </select>
+                          </div>
+                       
+                          <div class="button-container" style="margin-top: 32px;">
+                            <input class="btn btn-primary" type="submit" value="Submit">
+                          </div>
+                        </form>
+                      </div>
+                  
+                      <form method="POST" action="/process_selected_rows" class="form-container">
+                  
+                        {% if not df.empty %}
+                        <div class="card-body d-flex justify-content-center align-items-center" >
+                          <div class="table-responsive" style="width: 90%;">
+                        <table border="1"  class="table table-bordered"   id="dataTable" width="100%"cellspacing="0">
+                          <thead style="background-color: rgb(248, 251, 253);">
+                            <tr style="color: rgb(97, 97, 97);">
+                  
+                  
+                              <th>RUN</th>
+                              <th>Region</th>
+                              <th>Sitename</th>
+                              <th>NoRun</th>
+                              <th>METERID</th>
+                              <th>VCtype</th>
+                              <th>EVCtype</th>
+                              <th>IPAddress</th>
+                              <th>Port</th>
+                  
+                  
+                  
+                  
+                            </tr>
+                          </thead>
+                          <tbody style="background-color: #ffffff; position: relative;">
+                            {% for _, row in df.iterrows() %}
+                            <tr>
+                  
+                  
+                              <td>{{ row['RUN'] }}</td>
+                              <td>{{ row['Region'] }}</td>
+                              <td>{{ row['Sitename'] }}</td>
+                              <td>{{ row['NoRun'] }}</td>
+                              <td>{{ row['METERID'] }}</td>
+                              <td>{{ row['VCtype'] }}</td>
+                              <td >{{row['EVCtype']}}</td>
+                              <!-- <td>{{ '127.0.0.1' }}</td> -->
+                              <td>{{ row['IPAddress'] }}</td>
+                              <td>{{ row['Port'] }}</td>
+                  
+                            </tr>
+                            {% endfor %}
+                          </tbody>
+                        </table>
+                        {% endif %}
+                      </form>
+                    </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                    <div class="form-group col-md-12 " > 
+                      <div class="box_we " >
+
+
+                        <div class="card-body d-flex justify-content-center align-items-center"  >
+                  
+                          <form method="POST" class="form-container "  >
+                           
+                            
+                            {% if not df.empty %}
+                            
+                            <div id="starting_address_1" class="form-group hidden " >
+                              <label   for="starting_address_1">Starting Address</label>
+                              <select class="form-control" id="starting_address_1_select" name="starting_address_1" required>
+                                  <option value="">Select</option>
+                                  <option value="33">SG</option>
+                                  <option value="79">Co2</option>
+                                  <option value="83">N2</option>
+                              </select>
+                          </div>
+                          <div id="starting_address_2" class="form-group hidden" >
+                              <label  for="starting_address_2">Starting Address</label>
+                              <select class="form-control" id="starting_address_2_select" name="starting_address_2" required>
+                                  <option value="">Select</option>
+                                  <option value="1003">SG</option>
+                                  <option value="1005">Co2</option>
+                                  <option value="1007">N2</option>
+                              </select>
+                          </div>
+                          
+
+                           
+
+                            
+                            
+                            
+                            
+                            
+                           
+                  
+                  
+                            <div class="form-group">
+                              <input type="number" class="form-control" id="data_0" name="data_0" step="any" value="" required placeholder="Value">
+                          </div>  
+                          
+                          
+                  
+                            <div class="form-group">
+                              <input type="number" class="form-control" id="data_1" name="data_1" step="any" value="0" required>
+                            </div>
+                  
+                            <div class="form-group">
+                              <input type="number" class="form-control" id="data_2" name="data_2" step="any" value="0" required>
+                            </div>
+                  
+                            <div class="form-group">
+                              <input type="number" class="form-control" id="data_3" name="data_3" step="any" value="0" required>
+                            </div>
+                            <label>
+                              <input type="checkbox" id="wake_up_checkbox"> offset 0,1
+                            </label>
+                            <!-- เพิ่มปุ่มสำหรับเปลี่ยนเป็น 16-bit -->
+                            <div class="button-container">
+                            <button  class="btn btn-success" type="submit"  name="is_16bit" value="true">Read
+                              Data</button>
+                              
+                              {% endif %}
+                            <!-- เพิ่มปุ่มสำหรับเปลี่ยนเป็น 32-bit -->
+                            <button type="submit" style="display: none;" class="btn btn-secondary" name="is_16bit" value="false">Change to
+                              32-bit</button>
+                            <input type="hidden" style="display: none;" name="is_quantity_multiplied"
+                              value="{{ is_quantity_multiplied }}">
+                  
+                            <div  class="text-center" style="display: none;">
+                              <button type="submit" class="btn btn-success">Read Data</button>
+                              <button type="button" class="btn btn-warning" onclick="clearForm()">Clear</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                  
+                  
+                    <div  class="card-body d-flex justify-content-center align-items-center">
+                      {% if communication_traffic %}
+                  
+                  
+                  
+                      <h3>Communication Traffic</h3>
+                  
+                      <table class="table table-bordered">
+                  
+                        <thead style="background-color: rgb(248, 251, 253);">
+                          <tr style="color: rgb(97, 97, 97);">
+                            <th>Direction</th>
+                            <th>Data</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {% for data in communication_traffic %}
+                          <tr>
+                            <td>{{ data['direction'] }}</td>
+                            <td>{{ data['data'] }}</td>
+                          </tr>
+                          {% endfor %}
+                        </tbody>
+                      </table>
+                    </div>
+                    {% else %}
+                    <p style="display: none;">Communication Traffic is not available</p>
+                    {% endif %}
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        
+        <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+
+</body>
+<script>
+  let originalValues = {};
+
+  document.getElementById('wake_up_checkbox').addEventListener('change', function() {
+      ['starting_address_1_select', 'starting_address_2_select'].forEach(id => {
+          const selectElement = document.getElementById(id);
+          if (!selectElement) return;
+
+          const selectedOption = selectElement.options[selectElement.selectedIndex];
+          if (!selectedOption) return;
+
+          if (this.checked) {
+              if (selectedOption.value) {
+                  if (!originalValues[id]) {
+                      originalValues[id] = {};
+                  }
+                  if (!originalValues[id][selectedOption.index]) {
+                      originalValues[id][selectedOption.index] = selectedOption.value;
+                  }
+                  const newValue = parseInt(originalValues[id][selectedOption.index]) - 1;
+                  selectedOption.value = newValue;
+              }
+          } else {
+              if (originalValues[id] && originalValues[id][selectedOption.index]) {
+                  selectedOption.value = originalValues[id][selectedOption.index];
+              }
+          }
+      });
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      var startingAddressSelect1 = document.getElementById("starting_address_1_select");
+      var startingAddressSelect2 = document.getElementById("starting_address_2_select");
+      
+      var dataInputs = document.querySelectorAll('[id^="data_"]');
+      
+      function hideAllDataInputs() {
+          dataInputs.forEach(function (input) {
+              input.style.display = "none";
+          });
+      }
+  
+      function showRelevantInputs(selectedValue) {
+          hideAllDataInputs();
+          if ([33, 79, 83, 1003, 1005, 1007].includes(selectedValue)) {
+              dataInputs[0].style.display = "block";
+          }
+      }
+  
+      [startingAddressSelect1, startingAddressSelect2].forEach(selectElement => {
+          selectElement.addEventListener("change", function () {
+              showRelevantInputs(parseInt(this.value));
+          });
+      });
+  
+      hideAllDataInputs();
+  });
+  
+  </script>
+
+<script>
+function checkEVCtype() {
+    const rows = document.querySelectorAll('tbody tr');
+    rows.forEach(row => {
+        const evctype = parseInt(row.querySelector('td:nth-child(7)').textContent, 10);
+        const startingAddress1 = document.getElementById('starting_address_1');
+        const startingAddress2 = document.getElementById('starting_address_2');
+
+        if ([5, 8, 9, 10, 12].includes(evctype)) {
+            startingAddress1.classList.remove('hidden');
+            startingAddress1.querySelector('select').disabled = false;
+
+            startingAddress2.classList.add('hidden');
+            startingAddress2.querySelector('select').disabled = true;
+        } else if (evctype === 13) {
+            startingAddress1.classList.add('hidden');
+            startingAddress1.querySelector('select').disabled = true;
+
+            startingAddress2.classList.remove('hidden');
+            startingAddress2.querySelector('select').disabled = false;
+        } else {
+            startingAddress1.classList.add('hidden');
+            startingAddress1.querySelector('select').disabled = true;
+
+            startingAddress2.classList.add('hidden');
+            startingAddress2.querySelector('select').disabled = true;
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    checkEVCtype();
+});
+</script>
+
+<script>
+
+  function clearForm() {
+    document.getElementById("slave_id").value = "";
+    document.getElementById("function_code").value = "";
+    document.getElementById("starting_address").value = "";
+    document.getElementById("quantity").value = "";
+
+
+    var communicationTrafficTable = document.querySelector(".communication-traffic table tbody");
+    communicationTrafficTable.innerHTML = "";
+
+    // Clear the response data
+    var responseDataTable = document.querySelector(".table.table-hover tbody");
+    responseDataTable.innerHTML = "";
+  }
+
+  // เพิ่มฟังก์ชันสำหรับเปลี่ยนเป็น 16-bit
+  function changeTo16Bit() {
+    document.getElementById("is_16bit").value = "true";
+    const startingAddressInput = document.getElementById("starting_address");
+    const quantityInput = document.getElementById("quantity");
+
+    startingAddressInput.max = 65535;
+    quantityInput.max = 65535;
+
+  }
+
+  function changeTo32Bit() {
+    document.getElementById("is_16bit").value = "false";
+    const startingAddressInput = document.getElementById("starting_address");
+    const quantityInput = document.getElementById("quantity");
+
+    startingAddressInput.max = 4294967295;
+    quantityInput.max = 4294967295;
+
+  }
+
+
+</script>
+<script>
+  $(document).ready(function () {
+    // Event listener for region dropdown change
+    $('#region_dropdown').change(function () {
+        var selectedRegion = $(this).val();
+        localStorage.setItem('selectedRegion', selectedRegion);
+        // Make an AJAX request to update the tag dropdown based on the selected region
+        $.ajax({
+            type: 'GET',
+            url: '/get_tags',
+            data: { 'selected_region': selectedRegion },
+            success: function (response) {
+                // Sort tag options alphabetically
+                response.tag_options.sort();
+
+                // Update tag dropdown options based on the sorted response
+                var tagDropdown = $('#tag_dropdown');
+                tagDropdown.empty(); // Clear existing options
+
+                // Add placeholder option
+                tagDropdown.append('<option value="" selected>--selected_tag--</option>');
+
+                // Add new options based on the sorted response
+                for (var i = 0; i < response.tag_options.length; i++) {
+                    var tagOption = response.tag_options[i];
+                    tagDropdown.append('<option value="' + tagOption + '">' + tagOption + '</option>');
+                }
+
+                // Load the previously selected tag option from local storage
+                var selectedTag = localStorage.getItem('selectedTag');
+                if (selectedTag && selectedTag !== "") {
+                    // If there is a selected tag in localStorage, set it
+                    tagDropdown.val(selectedTag);
+                } else {
+                    // If no tag is selected, set the placeholder as the selected option
+                    tagDropdown.val('');  // Ensure placeholder is selected
+                }
+
+                // You can comment this out if it causes unwanted changes
+                // tagDropdown.change();
+            },
+            error: function (error) {
+                console.log('Error fetching tag options:', error);
+            }
+        });
+    });
+
+    // Event listener for tag dropdown change
+    $('#tag_dropdown').change(function () {
+        var selectedTag = $(this).val();
+
+        // Save the selected tag option to local storage
+        localStorage.setItem('selectedTag', selectedTag);
+
+        // Make an AJAX request to update the run dropdown based on the selected tag
+        $.ajax({
+            type: 'GET',
+            url: '/get_runs',
+            data: { 'selected_tag': selectedTag },
+            success: function (response) {
+                // Sort run options alphabetically
+                response.run_options.sort();
+
+                // Update run dropdown options based on the sorted response
+                var runDropdown = $('#run_dropdown');
+                runDropdown.empty(); // Clear existing options
+
+                // Add placeholder option
+                runDropdown.append('<option value="" selected>--selected_run--</option>');
+
+                // Add new options based on the sorted response
+                for (var i = 0; i < response.run_options.length; i++) {
+                    var runOption = response.run_options[i];
+                    runDropdown.append('<option value="' + runOption + '">' + runOption + '</option>');
+                }
+
+                // Load the previously selected run option from local storage
+                var selectedRun = localStorage.getItem('selectedRun');
+                if (selectedRun && selectedRun !== "") {
+                    runDropdown.val(selectedRun);
+                }
+            },
+            error: function (error) {
+                console.log('Error fetching run options:', error);
+            }
+        });
+    });
+
+    // Event listener for run dropdown change
+    $('#run_dropdown').change(function () {
+        // Save the selected run option to local storage
+        var selectedRun = $(this).val();
+        localStorage.setItem('selectedRun', selectedRun);
+    });
+
+    // Trigger a change in the region dropdown on page load (optional)
+    $('#region_dropdown').change();
+});
+
+</script>
+<script>
+    // Function to show the loading bar
+    function showLoadingBar() {
+        document.getElementById('loading-bar').style.width = '100%';
+    }
+
+    // Function to hide the loading bar
+    function hideLoadingBar() {
+        document.getElementById('loading-bar').style.width = '0';
+    }
+
+    // Event listener for page load
+    window.addEventListener('load', function () {
+        hideLoadingBar(); // Hide the loading bar initially
+    });
+
+    // Event listener for beforeunload (when the page is about to be reloaded)
+    window.addEventListener('beforeunload', function () {
+        showLoadingBar(); // Show the loading bar before the page reloads
+    });
+
+</script>
+<script>
+    function checkInternetConnection() {
+        // ตรวจสอบสถานะเชื่อมต่ออินเทอร์เน็ต
+        // ตรวจสอบได้ว่ามีการเชื่อมต่อหรือไม่ โดยใช้ navigator.onLine
+        return navigator.onLine;
+    }
+
+    // JavaScript
+    function updateStatus() {
+        var statusContainer = document.getElementById('status-container');
+        var statusIcon = document.getElementById('status-icon');
+        var statusText = document.getElementById('status-text');
+        var lastUpdate = document.getElementById('last-update-time');
+
+        var now = new Date();
+        var timeString = now.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true });
+
+        if (checkInternetConnection()) {
+            // ถ้าเชื่อมต่ออินเทอร์เน็ต
+            statusIcon.style.color = 'green'; // สีเขียว
+            statusText.textContent = 'Online';
+            statusText.classList.remove('offline'); // ลบ class 'offline' ถ้ามี
+        } else {
+            // ถ้าไม่เชื่อมต่ออินเทอร์เน็ต
+            statusIcon.style.color = 'red'; // สีแดง
+            statusText.textContent = 'Offline';
+            statusText.classList.add('offline'); // เพิ่ม class 'offline'
+        }
+
+        lastUpdate.textContent = timeString;
+    }
+    // JavaScript
+    setInterval(updateStatus, 10000); // อัปเดตทุก 1 วินาที (1000 มิลลิวินาที)
+
+</script>
+<script>
+    // Function to update weather icon
+    function updateWeatherIcon(weatherCondition) {
+        var iconClass;
+
+        // Add logic to determine the appropriate weather icon based on the condition
+        switch (weatherCondition.toLowerCase()) {
+            case 'clear':
+                iconClass = 'fas fa-sun'; // Font Awesome sun icon
+                break;
+            case 'clouds':
+                iconClass = 'fas fa-cloud'; // Font Awesome cloud icon
+                break;
+            case 'rain':
+                iconClass = 'fas fa-cloud-showers-heavy'; // Font Awesome rain icon
+                break;
+            case 'thunderstorm':
+                iconClass = 'fas fa-bolt'; // Font Awesome thunderstorm icon
+                break;
+            case 'snow':
+                iconClass = 'fas fa-snowflake'; // Font Awesome snow icon
+                break;
+            default:
+                iconClass = 'fas fa-question-circle'; // Default to a question mark icon for unknown conditions
+        }
+
+        // Set the appropriate icon class
+        document.getElementById('weather-icon').innerHTML = '<i class="' + iconClass + '"></i>';
+    }
+
+</script>
+<script>
+    // Function to update date and time
+    function updateDateTime() {
+        var now = new Date();
+        var dateTimeString = now.toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false });
+        document.getElementById('date-time').textContent = dateTimeString;
+    }
+
+    // Function to update weather data from OpenWeatherMap API
+    function updateWeatherData() {
+        // Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
+        var apiKey = 'fbae867d03fc9892a7469d2f562ce558';
+        var city = 'Bangkok'; // Replace with your city name
+        var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + apiKey;
+
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                // Extract relevant weather data
+                var weatherCondition = data.weather[0].main;
+                var weatherDescription = data.weather[0].description;
+                var temperatureKelvin = data.main.temp;
+
+                // Convert temperature from Kelvin to Celsius
+                var temperatureCelsius = temperatureKelvin - 273.15;
+
+                // Update weather icon, description, and temperature
+                updateWeatherIcon(weatherCondition);
+                document.getElementById('weather-description').textContent = 'Weather: ' + weatherDescription;
+                document.getElementById('temperature').textContent = 'Temperature: ' + temperatureCelsius.toFixed(2) + '°C';
+            })
+            .catch(error => console.error('Error fetching weather data:', error));
+    }
+
+
+    // Function to update weather icon
+    function updateWeatherIcon(weatherCondition) {
+        var iconClass;
+
+        // Add logic to determine the appropriate weather icon based on the condition
+        switch (weatherCondition.toLowerCase()) {
+            case 'clear':
+                iconClass = 'fa-sun';
+                break;
+            case 'clouds':
+                iconClass = 'fa-cloud';
+                break;
+            case 'rain':
+                iconClass = 'fa-cloud-showers-heavy';
+                break;
+            default:
+                iconClass = 'fa-question-circle'; // Default to a question mark icon for unknown conditions
+        }
+
+        // Set the appropriate icon class
+        document.getElementById('weather-icon').innerHTML = '<i class="fa ' + iconClass + '" aria-hidden="true"></i>';
+    }
+
+    // Call the functions initially
+    updateDateTime();
+    updateWeatherData();
+
+    // Update date and time every second
+    setInterval(updateDateTime, 1000);
+
+    // Update weather data every 10 minutes (adjust as needed)
+    setInterval(updateWeatherData, 600000);
+</script>
+<script>
+    $(".sidebar-dropdown > a").click(function () {
+        $(".sidebar-submenu").slideUp(200);
+        if (
+            $(this)
+                .parent()
+                .hasClass("active")
+        ) {
+            $(".sidebar-dropdown").removeClass("active");
+            $(this)
+                .parent()
+                .removeClass("active");
+        } else {
+            $(".sidebar-dropdown").removeClass("active");
+            $(this)
+                .next(".sidebar-submenu")
+                .slideDown(200);
+            $(this)
+                .parent()
+                .addClass("active");
+        }
+    });
+
+    $("#close-sidebar").click(function () {
+        $(".page-wrapper").removeClass("toggled");
+    });
+    $("#show-sidebar").click(function () {
+        $(".page-wrapper").addClass("toggled");
+    });
+
+
+
+</script>
+<script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/sb-admin-2.min.js') }}"></script>

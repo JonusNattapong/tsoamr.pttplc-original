@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modbus TCP Data Reader</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}">
+   <!-- Custom fonts for this template-->
+   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+   <link
+       href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+       rel="stylesheet">
+
+   <!-- Custom styles for this template-->
+   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/sb-admin-2.css') }}">
+   
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+<!-- Bootstrap Datepicker JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+</head>
+
+<body>
+  <!-- ส่วนของเนื้อหาเว็บไซต์ -->
+  <nav>
+    <a href="{{ url_for('home_amr') }}">Home</a>
+</nav>
+ <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3 t pt-4">
+      <h2 class="text-center">กรอกข้อมูล</h2>
+      <form method="POST">
+        <div class="form-group">
+          <label for="slave_id">Slave ID</label>
+          <input type="number" class="form-control" id="slave_id" name="slave_id" value="1" required>
+        </div>
+
+        <div class="form-group">
+          <label for="function_code">Function Code</label>
+          <input type="number" class="form-control" id="function_code" name="function_code" value="3"
+            required>
+        </div>
+        <div class="form-group">
+          <label for="starting_address">Starting Address</label>
+          <input type="number" class="form-control" id="starting_address" name="starting_address"
+            value="" required>
+        </div>
+       <div class="form-group">
+          <label for="quantity">Quantity</label>
+          <input type="number" class="form-control" id="quantity" name="quantity" value="" required>
+
+        </div>
+<div class="form-group">
+  <label for="tcp_ip">TCP IP</label>
+                <input type="text" class="form-control" id="tcp_ip" name="tcp_ip" value="" required>
+</div>
+
+<div class="form-group">
+  <label for="tcp_port">TCP Port</label>
+                <input type="number" class="form-control" id="tcp_port" name="tcp_port" value="" required>
+</div>
+
+
+<input type="checkbox" id="blockchainCheckbox" name="blockchainCheckbox">
+<label for="blockchainCheckbox">Wake up EVC (G1,G2,G3,G4)</label>
+
+
+
+
+<input type="hidden" name="tcp_ip_filled" value="{{ tcp_ip_filled }}">
+<input type="hidden" name="tcp_port_filled" value="{{ tcp_port_filled }}">
+        <!-- เพิ่มปุ่มสำหรับเปลี่ยนเป็น 16-bit -->
+        <button type="submit" style="display:none;" class="btn btn-primary" name="is_16bit" value="true">Change to 16-bit</button>
+
+        <!-- เพิ่มปุ่มสำหรับเปลี่ยนเป็น 32-bit -->
+        <button type="submit" class="btn btn-secondary" name="is_16bit" value="false">Read Data</button>
+        <input type="hidden" name="is_quantity_multiplied" value="{{ is_quantity_multiplied }}">
+
+        <div class="text-center">
+          <button type="submit"style="display:none;" class="btn btn-success">Read Data</button>
+          <button type="button" style="display:none;" class="btn btn-warning" onclick="clearForm()">Clear</button>
+        </div>
+      </form>
+    </div>
+     <div class="col-sm-9">
+      <div class="table-responsive" style="max-height: 650px;">
+        <h2 class="text-center">แสดงข้อมูล</h2>
+        {% if data_list %}
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Address</th>
+              <th>Value</th>
+                <th>HEX Value</th>
+                <th>Binary Value</th>
+                 <th>Decimal Representation</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for data in data_list %}
+            <tr>
+              <td>{{ data['address'] }}</td>
+              <td>{{ data['value'] }}</td>
+                <td>{{ data['hex_value'] }}</td>
+          <td>{{ data['binary_value'] }}</td>
+            <td>{{ data['float_value'] }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+  {% if communication_traffic %}
+    <div id="communicationTrafficContainer" class="communication-traffic">
+      <h4>Communication Traffic</h4>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Direction</th>
+            <th>Data</th>
+          </tr>
+        </thead>
+        <tbody style="background-color: #ffffff;">
+          {% for data in communication_traffic[-2:] %}
+            <tr>
+              <td>{{ data['direction'] }}</td>
+              <td>{{ data['data'] }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endif %}
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+  <script>
+document.getElementById("blockchainCheckbox").addEventListener("change", function() {
+    var isChecked = this.checked ? 1 : 0; // ถ้า checkbox ถูกติ๊กให้เป็น 1 ไม่ติ๊กให้เป็น 0
+    sendDataToServer(isChecked); // เรียกฟังก์ชันส่งข้อมูลไปยังเซิร์ฟเวอร์
+});
+
+function sendDataToServer(value) {
+    // ส่งข้อมูลไปยังเซิร์ฟเวอร์ด้วย Ajax
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "/Manualpoll", true); // เปลี่ยน URL ตามความเหมาะสม
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+            // การตอบกลับจากเซิร์ฟเวอร์ (ถ้ามี)
+            console.log("Data sent successfully");
+        }
+    };
+    xhr.send("blockchainCheckbox=" + (isChecked ? "1" : "0"));
+ // ส่งค่า checkbox ไปยังเซิร์ฟเวอร์
+}
+
+
+
+
+
+
+    function clearForm() {
+      document.getElementById("slave_id").value = "";
+      document.getElementById("function_code").value = "";
+      document.getElementById("starting_address").value = "";
+      document.getElementById("quantity").value = "";
+
+
+var communicationTrafficTable = document.querySelector(".communication-traffic table tbody");
+    communicationTrafficTable.innerHTML = "";
+
+    // Clear the response data
+    var responseDataTable = document.querySelector(".table.table-hover tbody");
+    responseDataTable.innerHTML = "";
+    }
+
+    // เพิ่มฟังก์ชันสำหรับเปลี่ยนเป็น 16-bit
+    function changeTo16Bit() {
+        document.getElementById("is_16bit").value = "true";
+      const startingAddressInput = document.getElementById("starting_address");
+      const quantityInput = document.getElementById("quantity");
+
+      startingAddressInput.max = 65535;
+      quantityInput.max = 65535;
+
+    }
+
+    function changeTo32Bit() {
+    document.getElementById("is_16bit").value = "false";
+    const startingAddressInput = document.getElementById("starting_address");
+    const quantityInput = document.getElementById("quantity");
+
+    startingAddressInput.max = 4294967295;
+    quantityInput.max = 4294967295;
+
+  }
+
+  function updateTable(data_list) {
+  const responseDataTable = document.querySelector(".table.table-hover tbody");
+  responseDataTable.innerHTML = "";
+
+  for (const data of data_list) {
+    const newRow = document.createElement("tr");
+    const addressCell = document.createElement("td");
+    addressCell.textContent = data.address;
+    newRow.appendChild(addressCell);
+
+    const valueCell = document.createElement("td");
+    valueCell.textContent = data.value;
+    newRow.appendChild(valueCell);
+
+    const hexValueCell = document.createElement("td");
+    hexValueCell.textContent = "0x" + Number(data.value).toString(16).toUpperCase(); // Convert to HEX and display
+    newRow.appendChild(hexValueCell);
+
+    responseDataTable.appendChild(newRow);
+  }
+}
+  </script>
+  <!-- ส่วนของการเรียกใช้ Bootstrap 4 JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

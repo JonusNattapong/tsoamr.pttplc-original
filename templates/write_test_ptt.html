@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVC</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<style>
+      body {
+            
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+            font-family: var(--font-family);
+            
+            background-image: linear-gradient(0deg, #d3d1d1 1%, #ebe8e8 99%);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .form-group label{
+            margin-bottom: 100px;
+           
+        }
+        .container-fluid{
+            margin-top: -50px;
+        }
+        .table-responsive{
+            margin-top: auto;
+        }
+        
+       
+
+    form {
+        margin: 20px;
+    }
+
+    table {
+        text-align: center;
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
+    .disabled {
+        color: red;
+    }
+
+    .communication-traffic {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+
+    .communication-traffic div {
+        width: 18%;
+    }
+
+    .table {
+        table-layout: fixed;
+        height: 100px; /* Set your desired height */
+    }
+
+    .table th, .table td {
+        text-align: center;
+    }
+    .container-fluid {
+    margin-top: 100px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="number"],
+  select,
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  select {
+    height: 38px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .col-sm-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .t {
+    text-align: center;
+  }
+
+  .pt-4 {
+    padding-top: 1.5rem !important;
+  }
+  
+</style>
+<body>
+    
+  <nav>
+    <a href="{{ url_for('home_amr') }}">Home</a>
+</nav>
+        <div class="container-fluid" style="margin-top: 100px;">
+          <div class="row">
+            <div class="col-sm-3 t pt-4" >
+              
+              <form method="POST" >
+                <div class="form-group" >
+                  <label for="slave_id">Slave ID</label>
+                  <input type="number" class="form-control" id="slave_id" name="slave_id" value="1" required>
+                </div>
+        
+                <div class="form-group" >
+                  <label for="function_code">Function Code</label>
+                  <input type="number" class="form-control" id="function_code" name="function_code" value="16"
+                    required>
+                </div>
+                
+                
+                <div class="form-group"  >
+                  <label for="tcp_ip">TCP IP</label>
+                  <input type="text" class="form-control" id="tcp_ip" name="tcp_ip" value="{{ ip_str }}" required>
+              </div>
+              
+                <div class="form-group"  >
+                  <label for="tcp_port">TCP Port</label>
+                  <input type="text" class="form-control" id="tcp_port" name="tcp_port" value="{{ Port_str }}" required>
+                </div>
+                <div class="form-group">
+                  <label for="starting_address">Starting Address</label>
+                  <input type="number" class="form-control" id="starting_address" name="starting_address"
+                    value="{{starting_address}}" required>
+                </div>
+               <div class="form-group">
+                  <label for="quantity">Quantity</label>
+                  <select type="number" class="form-control" id="quantity" name="quantity"  required>
+                  <option value="">Select</option> 
+        
+                  <option value="2">1</option>
+                  <option value="4">2</option>
+                  <option value="6">3</option>
+                  <option value="8">4</option>
+                  
+                  </select>
+                </div>
+                
+        
+        
+                <div class="form-group">
+                  
+                  <input type="number" class="form-control" id="data_0" name="data_0" step="any" value="0" required>
+              </div>
+              
+              <div class="form-group">
+                  <input type="number" class="form-control" id="data_1" name="data_1" step="any" value="0" required>
+              </div>
+              
+              <div class="form-group">
+                  <input type="number" class="form-control" id="data_2" name="data_2" step="any" value="0" required>
+              </div>
+              
+              <div class="form-group">
+                  <input type="number" class="form-control" id="data_3" name="data_3" step="any" value="0" required>
+              </div>
+                <!-- เพิ่มปุ่มสำหรับเปลี่ยนเป็น 16-bit -->
+                
+                <button type="submit" class="btn btn-primary" name="is_16bit" value="true">Read Data</button>
+        
+                <!-- เพิ่มปุ่มสำหรับเปลี่ยนเป็น 32-bit -->
+                <button type="submit" style="display: none;" class="btn btn-secondary" name="is_16bit" value="false">Change to 32-bit</button>
+                <input type="hidden" style="display: none;" name="is_quantity_multiplied" value="{{ is_quantity_multiplied }}">
+        
+                <div class="text-center" style="display: none;">
+                  <button type="submit" class="btn btn-success">Read Data</button>
+                  <button type="button" class="btn btn-warning" onclick="clearForm()">Clear</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+       
+        {% if communication_traffic %}
+<div class="communication-traffic">
+    <h3>Communication Traffic</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Direction</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in communication_traffic %}
+            <tr>
+                <td>{{ data['direction'] }}</td>
+                <td>{{ data['data'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% else %}
+<p>Communication Traffic is not available</p>
+{% endif %}
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // เลือก element ของ dropdown "Quantity"
+    var quantitySelect = document.getElementById("quantity");
+    // เลือก element ของช่องข้อมูลทั้งหมด
+    var dataInputs = document.querySelectorAll('[id^="data_"]');
+
+    // ฟังก์ชันเพื่อซ่อนช่องข้อมูลทั้งหมด
+    function hideAllDataInputs() {
+      dataInputs.forEach(function(input) {
+        input.style.display = "none";
+      });
+    }
+
+    // เมื่อมีการเลือกค่าใน dropdown "Quantity"
+    quantitySelect.addEventListener("change", function() {
+      // ซ่อนช่องข้อมูลทั้งหมดก่อน
+      hideAllDataInputs();
+
+      // หาค่าที่เลือกใน dropdown
+      var selectedQuantity = parseInt(this.value);
+
+      // แสดงช่องข้อมูลเฉพาะที่ต้องการ
+      if (selectedQuantity === 2) {
+        dataInputs[0].style.display = "block";
+      }
+      if (selectedQuantity === 4) {
+        dataInputs[0].style.display = "block";
+        dataInputs[1].style.display = "block";
+      }
+      if (selectedQuantity === 6) {
+        dataInputs[0].style.display = "block";
+        dataInputs[1].style.display = "block";
+        dataInputs[2].style.display = "block";
+      }
+      if (selectedQuantity === 8) {
+        dataInputs[0].style.display = "block";
+        dataInputs[1].style.display = "block";
+        dataInputs[2].style.display = "block";
+        dataInputs[3].style.display = "block";
+      }
+    });
+
+    // เรียกใช้ฟังก์ชันเพื่อซ่อนช่องข้อมูลทั้งหมดเมื่อโหลดหน้าเสร็จ
+    hideAllDataInputs();
+  });
+</script>
+
+
+      
+  <script>
+
+    function clearForm() {
+      document.getElementById("slave_id").value = "";
+      document.getElementById("function_code").value = "";
+      document.getElementById("starting_address").value = "";
+      document.getElementById("quantity").value = "";
+
+
+var communicationTrafficTable = document.querySelector(".communication-traffic table tbody");
+    communicationTrafficTable.innerHTML = "";
+
+    // Clear the response data
+    var responseDataTable = document.querySelector(".table.table-hover tbody");
+    responseDataTable.innerHTML = "";
+    }
+
+    // เพิ่มฟังก์ชันสำหรับเปลี่ยนเป็น 16-bit
+    function changeTo16Bit() {
+        document.getElementById("is_16bit").value = "true";
+      const startingAddressInput = document.getElementById("starting_address");
+      const quantityInput = document.getElementById("quantity");
+
+      startingAddressInput.max = 65535;
+      quantityInput.max = 65535;
+
+    }
+
+    function changeTo32Bit() {
+    document.getElementById("is_16bit").value = "false";
+    const startingAddressInput = document.getElementById("starting_address");
+    const quantityInput = document.getElementById("quantity");
+
+    startingAddressInput.max = 4294967295;
+    quantityInput.max = 4294967295;
+
+  }
+
+
+  </script>
+
+
+        
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+       
+        
+</body>
+
+
+</html>

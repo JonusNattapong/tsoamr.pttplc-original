@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add_Site</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap Datepicker Stylesheet and Script -->
+  <!-- Option 1: Include in HTML -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}">
+   <!-- Custom fonts for this template-->
+   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+   <link
+       href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+       rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}">
+
+
+  
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/sb-admin-2.css') }}">
+</head>
+
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper" >
+  
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" >
+  
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+              <!-- <div class="sidebar-brand-icon rotate-n-15" >
+                <img src="{{ url_for('static', filename='img/1200px-PTT-01.svg (1).png') }}" style="width: 40%;" alt="">
+            </div> -->
+                <div class="sidebar-brand-text mx-3" style="margin-top: 10px;">PTT<p style="font-size: xx-small;" >AUTOMATIC METER READING</p></div>
+                
+            </a>
+  
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+  
+            <!-- Nav Item - Dashboard -->
+            <!-- Nav Item - Dashboard -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/">
+              <i class="fas fa-fw fa-chart-area"></i>
+                <span>Dashboard</span></a>
+        </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            Interface
+        </div>
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
+                <i class="fas fa-fw fa-table"></i>
+                <span>Reports</span>
+            </a>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">List Reports:</h6>
+                    <a class="collapse-item" href="billing_data">View Billing Data</a>
+                    <a class="collapse-item" href="#">View EVC Status</a>
+                    <a class="collapse-item" href="DailySummary">Daily Summary</a>
+                    <a class="collapse-item" href="#">Monthly Summary</a>
+                    <a class="collapse-item" href="site_detail">Site Detail</a>
+                </div>
+            </div>
+        </li>
+        <hr class="sidebar-divider">
+        <div class="sidebar-heading">
+          Manage
+      </div>
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+              aria-expanded="true" aria-controls="collapsePages">
+              <i class="fas fa-user-cog"></i>
+
+
+              <span>Manage Users</span>
+          </a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+              <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">List Manage Users:</h6>
+                <a class="collapse-item" href="add_user">Add User</a>
+                <a class="collapse-item" href="edit_user">Edit User</a>
+                <a class="collapse-item" href="remove_user">Remove User</a>
+                <a class="collapse-item" href="user_history">User History</a>
+              </div>
+          </div>
+      </li>
+        
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+              aria-expanded="true" aria-controls="collapseUtilities">
+              <i class="fas fa-sitemap"></i>
+
+
+
+
+              <span>Manage Sites</span>
+          </a>
+          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+              data-parent="#accordionSidebar">
+              <div class="bg-white py-2 collapse-inner rounded">
+                  <h6 class="collapse-header">List Manage Site:</h6>
+                  <a class="collapse-item" href="add_site">Add Site</a>
+                  <a class="collapse-item" href="edit_site">Edit Site</a>
+                  <a class="collapse-item" href="remove_site">Remove Site</a>
+                  
+              </div>
+          </div>
+      </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            Polling
+        </div>
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePolling"
+              aria-expanded="true" aria-controls="collapsePolling">
+              <i class="fas fa-cogs"></i>
+
+
+
+              <span>Polling Setting</span>
+          </a>
+          <div id="collapsePolling" class="collapse" aria-labelledby="headingPolling"
+              data-parent="#accordionSidebar">
+              <div class="bg-white py-2 collapse-inner rounded">
+                  <h6 class="collapse-header">List Polling Setting:</h6>
+                  <a class="collapse-item" href="evc_management">EVC Management</a>
+                  <a class="collapse-item" href="polling_route">Polling Range Setting</a>
+                  <a class="collapse-item" href="polling_hourly">Polling Range Hourly</a>
+                  <a class="collapse-item" href="mapping_config">Configuration Mapping</a>
+                  <a class="collapse-item" href="mapping_billing">Daily Billing Mapping</a>
+                  <a class="collapse-item" href="mapping_hourly">Hourly Billing Mapping</a>
+                  
+              </div>
+          </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseActions"
+            aria-expanded="true" aria-controls="collapseActions">
+            <i class="fas fa-fw fa-wrench"></i>
+            <span>Polling Actions</span>
+        </a>
+        <div id="collapseActions" class="collapse" aria-labelledby="headingActions"
+            data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">List Polling Actions:</h6>
+                <a class="collapse-item" href="Manualpoll_data">Manual Poll (EVC Profile)</a>
+                <a class="collapse-item" href="write_evc">Write Config (SG,CO2,N2)</a>
+               
+                
+            </div>
+        </div>
+    </li>
+    <hr class="sidebar-divider">
+    <div class="sidebar-heading">
+      Prediction
+  </div>
+
+  <!-- Nav Item - Pages Collapse Menu -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseai"
+        aria-expanded="true" aria-controls="collapseai">
+        <i class="fas fa-robot"></i>
+<span>AI Prediction</span>
+
+    </a>
+    <div id="collapseai" class="collapse" aria-labelledby="headingai"
+        data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">List AI Prediction:</h6>
+            
+            <a class="collapse-item" href="Numeric_Prediction">Numeric Prediction</a>
+           
+            
+        </div>
+    </div>
+</li> 
+           
+          <!-- Nav Item - Tables -->
+          
+              <!-- Divider -->
+              <hr class="sidebar-divider d-none d-md-block">
+  
+              <!-- Sidebar Toggler (Sidebar) -->
+              <div class="text-center d-none d-md-inline">
+                  <button class="rounded-circle border-0" id="sidebarToggle"></button>
+              </div>
+  
+          </ul>
+          <!-- End of Sidebar -->
+<!-- Content Wrapper -->
+<div id="content-wrapper" class="d-flex flex-column">
+
+    <!-- Main Content -->
+    <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+            <!-- Sidebar Toggle (Topbar) -->
+            <form class="form-inline">
+                <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </form>
+
+            <!-- Topbar Search -->
+            <form
+                      class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                      <div class="input-group">                    
+                          <div class="input-group-append" style="padding: 0px 20px; display: inline-block; width: 40%;border-radius: 15px;margin-left: -40px;">
+                            <img src="https://www.pttplc.com/uploads/About/logo_PTT_3.png" style="width: 100%;display: block;height: auto" alt="">
+                          </div>
+                      </div>
+                  </form>
+
+            <!-- Topbar Navbar -->
+            <ul class="navbar-nav ml-auto">
+
+                <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                <li class="nav-item dropdown no-arrow d-sm-none">
+                    <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <!-- Dropdown - Messages -->
+                    <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                        aria-labelledby="searchDropdown">
+                        <form class="form-inline mr-auto w-100 navbar-search">
+                            <div class="input-group">
+                                <input type="text" class="form-control bg-light border-0 small"
+                                    placeholder="Search for..." aria-label="Search"
+                                    aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button">
+                                        <i class="fas fa-search fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+
+               
+                
+
+                <div class="topbar-divider d-none d-sm-block"></div>
+
+                <!-- Nav Item - User Information -->
+                <li class="nav-item dropdown no-arrow">
+                    <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{username}}</span>
+                              <i class="fa-solid fa-user fa-lg" style="color: #e5e9f6;"></i>
+                          </a>
+                    <!-- Dropdown - User Information -->
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                        aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Profile
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Settings
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Activity Log
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="logout" >
+                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Logout
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+
+        <!-- sidebar-wrapper  -->
+        <div class="container-fluid" >
+
+            <!-- Page Heading -->
+          
+            {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <ul class="flashes">
+            {% for category, message in messages %}
+                <li class="alert alert-{{ 'danger' if category == 'error' else category }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+
+            <div class="card shadow mb-4" style="width: 100%;">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Add Site</h6>
+               
+        </div> 
+
+      
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <form method="POST" action="{{ url_for('add_site') }}" class="form-container" style="padding: 40px;">
+                            
+                                
+                                    <label class="label" for="id">ID:</label>
+                                    <input type="text" id="id" class="form-control bg-light1  small" name="id" required value="{{ max_id_value }}" readonly
+                                        class="input-select"><br>
+                                
+
+                                
+                                    <label class="label" for="phase">PHASE:</label>
+                                    <select id="phase" name="phase" required  class="form-control bg-light  small" >
+                                        {% for phase_option in range(2, 100) %}
+                                        <option value="{{ phase_option }}" {% if phase_option==2 %}selected{% endif %}>
+                                            {{ phase_option }}
+                                        </option>
+                                        {% endfor %}
+                                    </select><br>
+                                
+
+                                
+                                    <label class="label" for="site_name">SITE NAME:</label>
+                                    <input type="text" id="site_name" name="site_name" class="form-control bg-light  small" required class="input-text" placeholder="Enter site_name" style="border-radius: 5px;"><br>
+                                
+
+                                
+                                    <label class="label" for="factory_name">FACTORY NAME:</label>
+                                    <input type="text" id="factory_name"class="form-control bg-light  small" name="factory_name" required placeholder="Enter FACTORY" style="border-radius: 5px;" class="input-text"><br>
+                                
+
+
+                                    
+                                    <label class="label" for="region">REGION:</label>
+                                    <select id="region" name="region"class="form-control bg-light  small">
+                                        <option value="pt001">Region 1</option>
+                                        <option value="pt002">Region 2</option>
+                                        <option value="pt003">Region 3</option>
+                                        <option value="pt005">Region 5</option>
+                                        <option value="pt006">Region 6</option>
+                                        <option value="pt009">Region 9</option>
+                                        <option value="pt010">Region 10</option>
+                                        <option value="pt011">Region 11</option>
+                                        <option value="ptngv">NGV</option>
+                                    </select><br>
+                                    
+
+
+                                
+                                    <label class="label" for="rmiu_type">RMIU TYPE:</label>
+                                    <select id="rmiu_type" name="rmiu_type" required class="form-control bg-light  small">
+                                        <option value="1" selected>VIOLA</option>
+                                        <option value="2">T-Box lite</option>
+                                        <option value="3">VIOLA-GE_TCP</option>
+                                        <option value="4">VIOLA-GE_SERAIL</option>
+                                        <option value="5">Micro-AMR</option>
+                                    </select><br>
+                                
+
+                                
+                                    <label class="label" for="power_indicator">POWER INDICATOR:</label>
+                                    <select id="power_indicator" name="power_indicator" class="form-control bg-light  small">
+                                        <option value="None">None</option>
+                                        <option value="Comparator">Comparator</option>
+                                        <option value="Analog Module">Analog Module</option>
+                                    </select><br>
+                                
+
+                                
+                                    <label class="label" for="modbus_id">MODBUS ID(T-Box only):</label>
+                                    <input type="text" id="modbus_id" name="modbus_id" required class="form-control bg-light  small"><br>
+                                
+
+                                
+                                    <label class="label" for="ip_address">IP ADDRESS:</label>
+                                    <input type="text" id="ip_address" name="ip_address" required class="form-control bg-light  small"><br>
+                                
+
+                                
+                                    <label class="label" for="ready_to_billing">READY TO BILLING:</label>
+                                    <input type="checkbox" id="ready_to_billing" name="ready_to_billing" value="1"
+                                        class="input-checkbox" >
+                                    <input type="hidden" id="ready_to_billing" name="ready_to_billing" value="0"><br>
+                                
+
+                                
+                                    <label class="label" for="auto_ping">AUTO PING:</label>
+                                    <input type="checkbox" id="auto_ping" name="auto_ping" value="1" checked
+                                        class="input-checkbox" >
+                                    <input type="hidden" id="auto_ping" name="auto_ping" value="0"><br>
+                                
+
+                                
+                                    <label class="label" for="billing_date">BILLING DATE:</label>
+                                    <select id="billing_date" name="billing_date" class="form-control bg-light  small">
+                                        <option value="28">28</option>
+                                        <option value="Last month">Last month</option>
+                                    </select><br>
+                                
+
+                                
+                                    <label class="label" for="show_sg_co2_n2">SHOW SG CO2 N2:</label>
+                                    <select id="show_sg_co2_n2" name="show_sg_co2_n2" class="form-control bg-light  small">
+                                        <option value="Show">Show</option>
+                                        <option value="Hidden">Hidden</option>
+                                    </select><br>
+                                
+
+                                
+                                    <label class="label" for="amount_of_meter">AMOUNT OF METER:</label>
+                                    <select id="amount_of_meter" name="amount_of_meter" class="form-control bg-light  small">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                
+
+                                    <br>
+                                    <label class="label" for="initial_username">INITIAL USERNAME:</label>
+                                    <input type="text" id="initial_username" name="initial_username" required
+                                    class="form-control bg-light  small"><br>
+                                
+
+                                
+                                    <label class="label" for="initial_password">INITIAL PASSWORD:</label>
+                                    <div class="password-container">
+                                    <input type="password" id="initial_password" name="initial_password" required
+                                    class="form-control bg-light  small" style="border-radius: 5px;">
+                                    <i id="togglePassword" class="eye-icon fas fa-eye" ></i>
+                                  
+                                        
+                                        </div>
+                                        <div id="passwordMessage" class="validation-message"></div>
+                                        <br><br>
+                                    <table border="1" align="">
+                                        <tr>
+                                            <th>NO.</th>
+                                            <th>EVC TYPE</th>
+                                            <th>PORT</th>
+                                            <th>AUTO</th>
+                                        </tr>
+                                        <tr class="port-table" id="port_1">
+                                            <td>1</td>
+                                            <td>
+                                                <select name="port_1">
+                                                    {% for type in all_type_result %}
+                                                    <option value="{{ type[0] }}">{{ type[1] }}</option>
+                                                {% endfor %}
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <select name="port1">
+                                                    <option value="1">Viola Port no.1</option>
+                                                    <option value="2">Viola Port no.2</option>
+                                                    <option value="3">Viola + Digi Port no. 1</option>
+                                                    <option value="4">Viola + Digi Port no. 2</option>
+                                                    <option value="5">Viola + Digi Port no. 3</option>
+                                                    <option value="6">Viola + Digi Port no. 4</option>
+                                                    <option value="7">Viola + Moxa Port no. 1</option>
+                                                    <option value="8">Viola + Moxa Port no. 2</option>
+                                                    <option value="9">Viola + Moxa Port no. 3</option>
+                                                    <option value="10">Viola + Moxa Port no. 4</option>
+                                                    <option value="11">Tbox + Moxa Port no. 1</option>
+                                                    <option value="12">Tbox + Moxa Port no. 2</option>
+                                                    <option value="13">Tbox + Moxa Port no. 3</option>
+                                                    <option value="14">Tbox + Moxa Port no. 4</option>
+                                                    <option value="15">Micro AMR Port no. 1</option>
+                                                    <option value="16">Micro AMR Port no. 2</option>
+                                                    <option value="17">Micro AMR Port no. 3</option>
+                                                    <option value="18">Micro AMR Port no. 4</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input type="checkbox" name="auto_1" value="1" checked="checked">
+                                                <input type="hidden" name="auto_1" value="0">
+                                            </td>
+                                        </tr>
+                                        <tr class="port-table" id="port_2">
+                                            <td>2</td>
+                                            <td>
+                                                <select name="port_2">
+                                                    {% for type in all_type_result %}
+                                                    <option value="{{ type[0] }}">{{ type[1] }}</option>
+                                                {% endfor %}
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <select name="port2">
+                                                    <option value="1" selected="">Viola Port no.1</option>
+                                                    <option value="2">Viola Port no.2</option>
+                                                    <option value="3">Viola + Digi Port no. 1</option>
+                                                    <option value="4">Viola + Digi Port no. 2</option>
+                                                    <option value="5">Viola + Digi Port no. 3</option>
+                                                    <option value="6">Viola + Digi Port no. 4</option>
+                                                    <option value="7">Viola + Moxa Port no. 1</option>
+                                                    <option value="8">Viola + Moxa Port no. 2</option>
+                                                    <option value="9">Viola + Moxa Port no. 3</option>
+                                                    <option value="10">Viola + Moxa Port no. 4</option>
+                                                    <option value="11">Tbox + Moxa Port no. 1</option>
+                                                    <option value="12">Tbox + Moxa Port no. 2</option>
+                                                    <option value="13">Tbox + Moxa Port no. 3</option>
+                                                    <option value="14">Tbox + Moxa Port no. 4</option>
+                                                    <option value="15">Micro AMR Port no. 1</option>
+                                                    <option value="16">Micro AMR Port no. 2</option>
+                                                    <option value="17">Micro AMR Port no. 3</option>
+                                                    <option value="18">Micro AMR Port no. 4</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input type="checkbox" name="auto_2" value="1" checked="checked">
+                                                <input type="hidden" name="auto_2" value="0">
+                                            </td>
+                                        </tr>
+                                        <tr class="port-table" id="port_3">
+                                        
+                                            <td>3</td>
+                                            <td><select name="port_3">
+                                                {% for type in all_type_result %}
+                                                <option value="{{ type[0] }}">{{ type[1] }}</option>
+                                            {% endfor %}
+                                                </select></td>
+                                            <td>
+                                                <select name="port3">
+                                                    <option value="1" selected="">Viola Port no.1</option>
+                                                    <option value="2">Viola Port no.2</option>
+                                                    <option value="3">Viola + Digi Port no. 1</option>
+                                                    <option value="4">Viola + Digi Port no. 2</option>
+                                                    <option value="5">Viola + Digi Port no. 3</option>
+                                                    <option value="6">Viola + Digi Port no. 4</option>
+                                                    <option value="3">Tbox + Digi Port no. 1</option>
+                                                    <option value="4">Tbox + Digi Port no. 2</option>
+                                                    <option value="5">Tbox + Digi Port no. 3</option>
+                                                    <option value="6">Tbox + Digi Port no. 4</option>
+                                                    <option value="7">Viola + Moxa Port no. 1</option>
+                                                    <option value="8">Viola + Moxa Port no. 2</option>
+                                                    <option value="9">Viola + Moxa Port no. 3</option>
+                                                    <option value="10">Viola + Moxa Port no. 4</option>
+                                                    <option value="11">Tbox + Moxa Port no. 1</option>
+                                                    <option value="12">Tbox + Moxa Port no. 2</option>
+                                                    <option value="13">Tbox + Moxa Port no. 3</option>
+                                                    <option value="14">Tbox + Moxa Port no. 4</option>
+                                                    <option value="15">Micro AMR Port no. 1</option>
+                                                    <option value="16">Micro AMR Port no. 2</option>
+                                                    <option value="17">Micro AMR Port no. 3</option>
+                                                    <option value="18">Micro AMR Port no. 4</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input type="checkbox" name="auto_3" value="1" checked="checked">
+                                                <input type="hidden" name="auto_3" value="0">
+                                            </td>
+                                        </tr>
+
+                                        <tr class="port-table" id="port_4">
+                                            <td>4</td>
+                                            <td><select name="port_4">
+                                                {% for type in all_type_result %}
+                                                <option value="{{ type[0] }}">{{ type[1] }}</option>
+                                            {% endfor %}
+                                                </select></td>
+                                            <td>
+                                                <select name="port4">
+                                                    <option value="1" selected="">Viola Port no.1</option>
+                                                    <option value="2">Viola Port no.2</option>
+                                                    <option value="3">Viola + Digi Port no. 1</option>
+                                                    <option value="4">Viola + Digi Port no. 2</option>
+                                                    <option value="5">Viola + Digi Port no. 3</option>
+                                                    <option value="6">Viola + Digi Port no. 4</option>
+                                                    <option value="3">Tbox + Digi Port no. 1</option>
+                                                    <option value="4">Tbox + Digi Port no. 2</option>
+                                                    <option value="5">Tbox + Digi Port no. 3</option>
+                                                    <option value="6">Tbox + Digi Port no. 4</option>
+                                                    <option value="7">Viola + Moxa Port no. 1</option>
+                                                    <option value="8">Viola + Moxa Port no. 2</option>
+                                                    <option value="9">Viola + Moxa Port no. 3</option>
+                                                    <option value="10">Viola + Moxa Port no. 4</option>
+                                                    <option value="11">Tbox + Moxa Port no. 1</option>
+                                                    <option value="12">Tbox + Moxa Port no. 2</option>
+                                                    <option value="13">Tbox + Moxa Port no. 3</option>
+                                                    <option value="14">Tbox + Moxa Port no. 4</option>
+                                                    <option value="15">Micro AMR Port no. 1</option>
+                                                    <option value="16">Micro AMR Port no. 2</option>
+                                                    <option value="17">Micro AMR Port no. 3</option>
+                                                    <option value="18">Micro AMR Port no. 4</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input type="checkbox" name="auto_4" value="1" checked="checked">
+                                                <input type="hidden" name="auto_4" value="0">
+                                            </td>
+                                        </tr>
+
+                                        <tr class="port-table" id="port_5">
+                                            <td>5</td>
+                                            <td><select name="port_5">
+                                                {% for type in all_type_result %}
+                                                <option value="{{ type[0] }}">{{ type[1] }}</option>
+                                            {% endfor %}
+                                                </select></td>
+                                            <td>
+                                                <select name="port5">
+                                                    <option value="1" selected="">Viola Port no.1</option>
+                                                    <option value="2">Viola Port no.2</option>
+                                                    <option value="3">Viola + Digi Port no. 1</option>
+                                                    <option value="4">Viola + Digi Port no. 2</option>
+                                                    <option value="5">Viola + Digi Port no. 3</option>
+                                                    <option value="6">Viola + Digi Port no. 4</option>
+                                                    <option value="3">Tbox + Digi Port no. 1</option>
+                                                    <option value="4">Tbox + Digi Port no. 2</option>
+                                                    <option value="5">Tbox + Digi Port no. 3</option>
+                                                    <option value="6">Tbox + Digi Port no. 4</option>
+                                                    <option value="7">Viola + Moxa Port no. 1</option>
+                                                    <option value="8">Viola + Moxa Port no. 2</option>
+                                                    <option value="9">Viola + Moxa Port no. 3</option>
+                                                    <option value="10">Viola + Moxa Port no. 4</option>
+                                                    <option value="11">Tbox + Moxa Port no. 1</option>
+                                                    <option value="12">Tbox + Moxa Port no. 2</option>
+                                                    <option value="13">Tbox + Moxa Port no. 3</option>
+                                                    <option value="14">Tbox + Moxa Port no. 4</option>
+                                                    <option value="15">Micro AMR Port no. 1</option>
+                                                    <option value="16">Micro AMR Port no. 2</option>
+                                                    <option value="17">Micro AMR Port no. 3</option>
+                                                    <option value="18">Micro AMR Port no. 4</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input type="checkbox" name="auto_5" value="1" checked="checked">
+                                                <input type="hidden" name="auto_5" value="0">
+                                            </td>
+                                        </tr>
+
+                                        <tr class="port-table" id="port_6">
+                                            <td>6</td>
+                                            <td><select name="port_6">
+                                                {% for type in all_type_result %}
+                                                <option value="{{ type[0] }}">{{ type[1] }}</option>
+                                            {% endfor %}
+                                                </select></td>
+                                            <td>
+                                                <select name="port6">
+                                                    <option value="1" selected="">Viola Port no.1</option>
+                                                    <option value="2">Viola Port no.2</option>
+                                                    <option value="3">Viola + Digi Port no. 1</option>
+                                                    <option value="4">Viola + Digi Port no. 2</option>
+                                                    <option value="5">Viola + Digi Port no. 3</option>
+                                                    <option value="6">Viola + Digi Port no. 4</option>
+                                                    <option value="3">Tbox + Digi Port no. 1</option>
+                                                    <option value="4">Tbox + Digi Port no. 2</option>
+                                                    <option value="5">Tbox + Digi Port no. 3</option>
+                                                    <option value="6">Tbox + Digi Port no. 4</option>
+                                                    <option value="7">Viola + Moxa Port no. 1</option>
+                                                    <option value="8">Viola + Moxa Port no. 2</option>
+                                                    <option value="9">Viola + Moxa Port no. 3</option>
+                                                    <option value="10">Viola + Moxa Port no. 4</option>
+                                                    <option value="11">Tbox + Moxa Port no. 1</option>
+                                                    <option value="12">Tbox + Moxa Port no. 2</option>
+                                                    <option value="13">Tbox + Moxa Port no. 3</option>
+                                                    <option value="14">Tbox + Moxa Port no. 4</option>
+                                                    <option value="15">Micro AMR Port no. 1</option>
+                                                    <option value="16">Micro AMR Port no. 2</option>
+                                                    <option value="17">Micro AMR Port no. 3</option>
+                                                    <option value="18">Micro AMR Port no. 4</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input type="checkbox" name="auto_6" value="1" checked="checked">
+                                                <input type="hidden" name="auto_6" value="0">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <br>
+
+
+                                    <input type="submit" name="ADD" value="ADD" class="btn btn-success" id="submitButton" disabled>
+                                    <input type="reset" name="CLEAR" value="CLEAR" class="btn btn-danger ">
+                                    
+
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+
+</body>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script>
+    var passwordInput = document.getElementById('initial_password'); 
+    var eyeIcon = document.getElementById('togglePassword');
+    var messageElement = document.getElementById('passwordMessage');
+    var submitButton = document.getElementById('submitButton');
+    var form = document.getElementById('passwordForm');
+
+    // Event listener to show the eye icon and validate password as the user types
+    passwordInput.addEventListener('input', function() {
+        var password = this.value;
+        var validationResult = validatePassword(password);
+
+        // Show password validation message
+        if (validationResult.valid) {
+            messageElement.textContent = 'Password is valid.';
+            messageElement.classList.remove('invalid');
+            messageElement.classList.add('valid');
+            submitButton.disabled = false; // Enable the submit button when password is valid
+        } else {
+            messageElement.textContent = validationResult.message;
+            messageElement.classList.remove('valid');
+            messageElement.classList.add('invalid');
+            submitButton.disabled = true; // Disable the submit button when password is invalid
+        }
+
+        // Show or hide the eye icon based on password input
+        eyeIcon.style.display = password.length > 0 ? 'block' : 'none';
+    });
+
+    // Function to validate password based on length, letter, number, and special character criteria
+    function validatePassword(password) {
+        var lengthCriteria = password.length >= 8 && password.length <= 12;
+        var letterUpperCriteria = /[A-Z]/.test(password);
+        var letterLowerCriteria = /[a-z]/.test(password);
+        var numberCriteria = /[0-9]/.test(password);
+        var specialCharCriteria = /[!@#$%^&*()_+{}\[\]:;"'<>,.?~`]/.test(password); 
+        var message = '';
+
+        if (!lengthCriteria) message += '8-12 characters required. ';
+        if (!letterUpperCriteria) message += 'Include at least one uppercase letter. ';
+        if (!letterLowerCriteria) message += 'Include at least one lowercase letter. ';
+        if (!numberCriteria) message += 'Include at least one number. ';
+        if (!specialCharCriteria) message += 'Include at least one special character. ';
+
+        return {
+            valid: lengthCriteria && letterUpperCriteria && letterLowerCriteria && numberCriteria && specialCharCriteria,
+            message: message.trim()
+        };
+    }
+
+    // Toggle password visibility
+    eyeIcon.addEventListener('click', function() {
+        var type = passwordInput.type === 'password' ? 'text' : 'password';
+        passwordInput.type = type;
+        this.classList.toggle('fa-eye');
+        this.classList.toggle('fa-eye-slash');
+    });
+
+    // Initially hide the eye icon when the password field is empty
+    eyeIcon.style.display = passwordInput.value.length > 0 ? 'block' : 'none';
+
+    // Add confirmation before submitting the form
+    document.getElementById('submitButton').addEventListener('click', function(event) {
+        var isConfirmed = confirm('Are you sure you want to proceed with this action?');
+        if (!isConfirmed) {
+            event.preventDefault(); // Prevent form submission if the user clicks "Cancel"
+        }
+    });
+</script>
+
+<script>
+    function showSelectedPort() {
+        var selectedValue = parseInt(document.getElementById("amount_of_meter").value, 10);
+        var rows = document.querySelectorAll(".port-table");
+        
+        rows.forEach(function(row) {
+            row.style.display = "none";
+        });
+        
+        for (var i = 1; i <= selectedValue; i++) {
+            var selectedRow = document.getElementById("port_" + i);
+            if (selectedRow) {
+                selectedRow.style.display = "table-row";
+            }
+        }
+    }
+
+    window.onload = function() {
+        document.getElementById("amount_of_meter").addEventListener("change", showSelectedPort);
+        showSelectedPort(); // To show the initial selection
+    }
+</script>
+
+<script>
+    function submitForm() {
+        // Trigger the form submission
+        document.getElementById("mapping_billingForm").submit();
+    }
+
+    // Add an event listener to dynamically update the dropdown options
+    document.getElementById("type_dropdown").addEventListener("change", function () {
+        // Get the selected value
+        var selectedtype = this.value;
+
+        // Hide the "All" option if no type is selected
+        var allOption = this.options[0];
+        if (selectedtype) {
+            allOption.style.display = "none";
+        } else {
+            allOption.style.display = "block";
+        }
+
+    });
+</script>
+<script>
+    // Function to show the loading bar
+    function showLoadingBar() {
+        document.getElementById('loading-bar').style.width = '100%';
+    }
+
+    // Function to hide the loading bar
+    function hideLoadingBar() {
+        document.getElementById('loading-bar').style.width = '0';
+    }
+
+    // Event listener for page load
+    window.addEventListener('load', function () {
+        hideLoadingBar(); // Hide the loading bar initially
+    });
+
+    // Event listener for beforeunload (when the page is about to be reloaded)
+    window.addEventListener('beforeunload', function () {
+        showLoadingBar(); // Show the loading bar before the page reloads
+    });
+
+</script>
+<script>
+    function checkInternetConnection() {
+        // ตรวจสอบสถานะเชื่อมต่ออินเทอร์เน็ต
+        // ตรวจสอบได้ว่ามีการเชื่อมต่อหรือไม่ โดยใช้ navigator.onLine
+        return navigator.onLine;
+    }
+
+    // JavaScript
+    function updateStatus() {
+        var statusContainer = document.getElementById('status-container');
+        var statusIcon = document.getElementById('status-icon');
+        var statusText = document.getElementById('status-text');
+        var lastUpdate = document.getElementById('last-update-time');
+
+        var now = new Date();
+        var timeString = now.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true });
+
+        if (checkInternetConnection()) {
+            // ถ้าเชื่อมต่ออินเทอร์เน็ต
+            statusIcon.style.color = 'green'; // สีเขียว
+            statusText.textContent = 'Online';
+            statusText.classList.remove('offline'); // ลบ class 'offline' ถ้ามี
+        } else {
+            // ถ้าไม่เชื่อมต่ออินเทอร์เน็ต
+            statusIcon.style.color = 'red'; // สีแดง
+            statusText.textContent = 'Offline';
+            statusText.classList.add('offline'); // เพิ่ม class 'offline'
+        }
+
+        lastUpdate.textContent = timeString;
+    }
+    // JavaScript
+    setInterval(updateStatus, 10000); // อัปเดตทุก 1 วินาที (1000 มิลลิวินาที)
+
+</script>
+<script>
+    // Function to update weather icon
+    function updateWeatherIcon(weatherCondition) {
+        var iconClass;
+
+        // Add logic to determine the appropriate weather icon based on the condition
+        switch (weatherCondition.toLowerCase()) {
+            case 'clear':
+                iconClass = 'fas fa-sun'; // Font Awesome sun icon
+                break;
+            case 'clouds':
+                iconClass = 'fas fa-cloud'; // Font Awesome cloud icon
+                break;
+            case 'rain':
+                iconClass = 'fas fa-cloud-showers-heavy'; // Font Awesome rain icon
+                break;
+            case 'thunderstorm':
+                iconClass = 'fas fa-bolt'; // Font Awesome thunderstorm icon
+                break;
+            case 'snow':
+                iconClass = 'fas fa-snowflake'; // Font Awesome snow icon
+                break;
+            default:
+                iconClass = 'fas fa-question-circle'; // Default to a question mark icon for unknown conditions
+        }
+
+        // Set the appropriate icon class
+        document.getElementById('weather-icon').innerHTML = '<i class="' + iconClass + '"></i>';
+    }
+
+</script>
+<script>
+    // Function to update date and time
+    function updateDateTime() {
+        var now = new Date();
+        var dateTimeString = now.toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false });
+        document.getElementById('date-time').textContent = dateTimeString;
+    }
+
+    // Function to update weather data from OpenWeatherMap API
+    function updateWeatherData() {
+        // Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
+        var apiKey = 'fbae867d03fc9892a7469d2f562ce558';
+        var city = 'Bangkok'; // Replace with your city name
+        var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + apiKey;
+
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                // Extract relevant weather data
+                var weatherCondition = data.weather[0].main;
+                var weatherDescription = data.weather[0].description;
+                var temperatureKelvin = data.main.temp;
+
+                // Convert temperature from Kelvin to Celsius
+                var temperatureCelsius = temperatureKelvin - 273.15;
+
+                // Update weather icon, description, and temperature
+                updateWeatherIcon(weatherCondition);
+                document.getElementById('weather-description').textContent = 'Weather: ' + weatherDescription;
+                document.getElementById('temperature').textContent = 'Temperature: ' + temperatureCelsius.toFixed(2) + '°C';
+            })
+            .catch(error => console.error('Error fetching weather data:', error));
+    }
+
+
+    // Function to update weather icon
+    function updateWeatherIcon(weatherCondition) {
+        var iconClass;
+
+        // Add logic to determine the appropriate weather icon based on the condition
+        switch (weatherCondition.toLowerCase()) {
+            case 'clear':
+                iconClass = 'fa-sun';
+                break;
+            case 'clouds':
+                iconClass = 'fa-cloud';
+                break;
+            case 'rain':
+                iconClass = 'fa-cloud-showers-heavy';
+                break;
+            default:
+                iconClass = 'fa-question-circle'; // Default to a question mark icon for unknown conditions
+        }
+
+        // Set the appropriate icon class
+        document.getElementById('weather-icon').innerHTML = '<i class="fa ' + iconClass + '" aria-hidden="true"></i>';
+    }
+
+    // Call the functions initially
+    updateDateTime();
+    updateWeatherData();
+
+    // Update date and time every second
+    setInterval(updateDateTime, 1000);
+
+    // Update weather data every 10 minutes (adjust as needed)
+    setInterval(updateWeatherData, 600000);
+</script>
+<script>
+    $(".sidebar-dropdown > a").click(function () {
+        $(".sidebar-submenu").slideUp(200);
+        if (
+            $(this)
+                .parent()
+                .hasClass("active")
+        ) {
+            $(".sidebar-dropdown").removeClass("active");
+            $(this)
+                .parent()
+                .removeClass("active");
+        } else {
+            $(".sidebar-dropdown").removeClass("active");
+            $(this)
+                .next(".sidebar-submenu")
+                .slideDown(200);
+            $(this)
+                .parent()
+                .addClass("active");
+        }
+    });
+
+    $("#close-sidebar").click(function () {
+        $(".page-wrapper").removeClass("toggled");
+    });
+    $("#show-sidebar").click(function () {
+        $(".page-wrapper").addClass("toggled");
+    });
+
+
+
+</script>
+
+<script src="{{ url_for('static', filename='js/sb-admin-2.min.js') }}"></script>
+</html>

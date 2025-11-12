@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mapping_config</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap Datepicker Stylesheet and Script -->
+  <!-- Option 1: Include in HTML -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}">
+   <!-- Custom fonts for this template-->
+   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+   <link
+       href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+       rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}">
+
+
+  
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/sb-admin-2.css') }}">
+</head>
+
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper" >
+  
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" >
+  
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+              <!-- <div class="sidebar-brand-icon rotate-n-15" >
+                <img src="{{ url_for('static', filename='img/1200px-PTT-01.svg (1).png') }}" style="width: 40%;" alt="">
+            </div> -->
+                <div class="sidebar-brand-text mx-3" style="margin-top: 10px;">PTT<p style="font-size: xx-small;" >AUTOMATIC METER READING</p></div>
+                
+            </a>
+  
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+  
+            <!-- Nav Item - Dashboard -->
+            <!-- Nav Item - Dashboard -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/">
+              <i class="fas fa-fw fa-chart-area"></i>
+                <span>Dashboard</span></a>
+        </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            Interface
+        </div>
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
+                <i class="fas fa-fw fa-table"></i>
+                <span>Reports</span>
+            </a>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">List Reports:</h6>
+                    <a class="collapse-item" href="billing_data">View Billing Data</a>
+                    <a class="collapse-item" href="#">View EVC Status</a>
+                    <a class="collapse-item" href="DailySummary">Daily Summary</a>
+                    <a class="collapse-item" href="#">Monthly Summary</a>
+                    <a class="collapse-item" href="site_detail">Site Detail</a>
+                </div>
+            </div>
+        </li>
+        <hr class="sidebar-divider">
+        <div class="sidebar-heading">
+          Manage
+      </div>
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+              aria-expanded="true" aria-controls="collapsePages">
+              <i class="fas fa-user-cog"></i>
+
+
+              <span>Manage Users</span>
+          </a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+              <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">List Manage Users:</h6>
+                <a class="collapse-item" href="add_user">Add User</a>
+                <a class="collapse-item" href="edit_user">Edit User</a>
+                <a class="collapse-item" href="remove_user">Remove User</a>
+                <a class="collapse-item" href="user_history">User History</a>
+              </div>
+          </div>
+      </li>
+        
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+              aria-expanded="true" aria-controls="collapseUtilities">
+              <i class="fas fa-sitemap"></i>
+
+
+
+
+              <span>Manage Sites</span>
+          </a>
+          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+              data-parent="#accordionSidebar">
+              <div class="bg-white py-2 collapse-inner rounded">
+                  <h6 class="collapse-header">List Manage Site:</h6>
+                  <a class="collapse-item" href="add_site">Add Site</a>
+                  <a class="collapse-item" href="edit_site">Edit Site</a>
+                  <a class="collapse-item" href="remove_site">Remove Site</a>
+                  
+              </div>
+          </div>
+      </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            Polling
+        </div>
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePolling"
+              aria-expanded="true" aria-controls="collapsePolling">
+              <i class="fas fa-cogs"></i>
+
+
+
+              <span>Polling Setting</span>
+          </a>
+          <div id="collapsePolling" class="collapse" aria-labelledby="headingPolling"
+              data-parent="#accordionSidebar">
+              <div class="bg-white py-2 collapse-inner rounded">
+                  <h6 class="collapse-header">List Polling Setting:</h6>
+                  <a class="collapse-item" href="evc_management">EVC Management</a>
+                  <a class="collapse-item" href="polling_route">Polling Range Setting</a>
+                  <a class="collapse-item" href="polling_hourly">Polling Range Hourly</a>
+                  <a class="collapse-item" href="mapping_config">Configuration Mapping</a>
+                  <a class="collapse-item" href="mapping_billing">Daily Billing Mapping</a>
+                  <a class="collapse-item" href="mapping_hourly">Hourly Billing Mapping</a>
+                  
+              </div>
+          </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseActions"
+            aria-expanded="true" aria-controls="collapseActions">
+            <i class="fas fa-fw fa-wrench"></i>
+            <span>Polling Actions</span>
+        </a>
+        <div id="collapseActions" class="collapse" aria-labelledby="headingActions"
+            data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">List Polling Actions:</h6>
+                <a class="collapse-item" href="Manualpoll_data">Manual Poll (EVC Profile)</a>
+                <a class="collapse-item" href="write_evc">Write Config (SG,CO2,N2)</a>
+               
+                
+            </div>
+        </div>
+    </li>
+    <hr class="sidebar-divider">
+    <div class="sidebar-heading">
+      Prediction
+  </div>
+
+  <!-- Nav Item - Pages Collapse Menu -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseai"
+        aria-expanded="true" aria-controls="collapseai">
+        <i class="fas fa-robot"></i>
+<span>AI Prediction</span>
+
+    </a>
+    <div id="collapseai" class="collapse" aria-labelledby="headingai"
+        data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">List AI Prediction:</h6>
+            
+            <a class="collapse-item" href="Numeric_Prediction">Numeric Prediction</a>
+           
+            
+        </div>
+    </div>
+</li>     
+           
+          <!-- Nav Item - Tables -->
+        
+              <!-- Divider -->
+              <hr class="sidebar-divider d-none d-md-block">
+  
+              <!-- Sidebar Toggler (Sidebar) -->
+              <div class="text-center d-none d-md-inline">
+                  <button class="rounded-circle border-0" id="sidebarToggle"></button>
+              </div>
+  
+          </ul>
+          <!-- End of Sidebar -->
+<!-- Content Wrapper -->
+<div id="content-wrapper" class="d-flex flex-column">
+
+    <!-- Main Content -->
+    <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+            <!-- Sidebar Toggle (Topbar) -->
+            <form class="form-inline">
+                <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </form>
+
+            <!-- Topbar Search -->
+            <form
+                      class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                      <div class="input-group">                    
+                          <div class="input-group-append" style="padding: 0px 20px; display: inline-block; width: 40%;border-radius: 15px;margin-left: -40px;">
+                            <img src="https://www.pttplc.com/uploads/About/logo_PTT_3.png" style="width: 100%;display: block;height: auto" alt="">
+                          </div>
+                      </div>
+                  </form>
+
+            <!-- Topbar Navbar -->
+            <ul class="navbar-nav ml-auto">
+
+                <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                <li class="nav-item dropdown no-arrow d-sm-none">
+                    <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-search fa-fw"></i>
+                    </a>
+                    <!-- Dropdown - Messages -->
+                    <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                        aria-labelledby="searchDropdown">
+                        <form class="form-inline mr-auto w-100 navbar-search">
+                            <div class="input-group">
+                                <input type="text" class="form-control bg-light border-0 small"
+                                    placeholder="Search for..." aria-label="Search"
+                                    aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button">
+                                        <i class="fas fa-search fa-sm"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+
+               
+                
+
+                <div class="topbar-divider d-none d-sm-block"></div>
+
+                <!-- Nav Item - User Information -->
+                <li class="nav-item dropdown no-arrow">
+                    <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{username}}</span>
+                              <i class="fa-solid fa-user fa-lg" style="color: #e5e9f6;"></i>
+                          </a>
+                    <!-- Dropdown - User Information -->
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                        aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Profile
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Settings
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Activity Log
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="logout" >
+                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Logout
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+        <!-- sidebar-wrapper  -->
+        <div class="container-fluid">
+
+            <!-- Page Heading -->
+            {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <ul class="flashes">
+                    {% for category, message in messages %}
+                        <li class="alert alert-{{ 'danger' if category == 'error' else category }}">{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+        
+    
+            <div class="card shadow mb-4" style="width: 100%;">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Configuration Mapping</h6>
+               
+        </div> 
+                
+        <form id="mapping_configForm" method="get" action="{{ url_for('mapping_config_route') }}"class="form-container" style="padding: 40px; display: flex; justify-content: center; margin: 0 auto;">
+                            <label for="type_dropdown">Select Type:</label>
+
+                            <select id="type_dropdown" name="type_dropdown" class="form-control">
+                                <option value="" {% if selected_type=="" %}selected{% endif %}>-- Select Type --
+                                </option>
+                                {% for type in type_options %}
+                                <option value="{{ type }}" {% if selected_type==type %}selected{% endif %}>{{ type }}
+                                </option>
+                                {% endfor %}
+                            </select>
+
+                            <button  class="btn btn-primary" style="height: fit-content; margin-left: 20px;"
+                                type="submit">View</button>
+                   
+                    </form>
+           
+
+
+                <!-- {% if table %}
+                            {{ table | safe }}
+                        {% else %}
+                            <p>No data available.</p>
+                        {% endif %} -->
+
+                        <form method="POST" action="/update_mapping_config_route" class="form-container" style="padding: 40px;">
+                            <input type="hidden" name="selected_type" value="{{ selected_type }}">
+                            
+                            <div class="container">
+                                <!-- ตรวจสอบว่ามีข้อมูลใน list_address หรือไม่ -->
+                                {% if list_address|length > 0 %}
+                                <!-- Table Headers (แสดงเฉพาะเมื่อมีข้อมูลใน list_address) -->
+                                <div class="row">
+                                    <div class="col-12" style="display: flex; padding: 5px; text-align: center;">
+                                        <div style="flex: 1; margin: 0 5px;">
+                                            <h4>Address</h4>
+                                        </div>
+                                        <div style="flex: 1; margin: 0 10px;">
+                                            <h4>Description</h4>
+                                        </div>
+                                        <div style="flex: 1; margin: 0 5px;">
+                                            <h4>Data Type</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endif %}
+                        
+                                <!-- Input Fields -->
+                                {% for i in range(0, list_address|length) %}
+                                <div class="row">
+                                    <div class="col-12" style="display: flex; padding: 5px;">
+                                        <!-- Address Section -->
+                                        <div style="flex: 1; margin: 0 5px;">
+                                            <input type="text" id="list_address{{ '{:02d}'.format(i) }}" name="list_address{{ '{:02d}'.format(i) }}" value="{{ list_address[i] }}" class="form-control">
+                                        </div>
+                                        
+                                        <!-- Description Section -->
+                                        <div style="flex: 1; margin: 0 10px;">
+                                            <input type="text" id="list_description{{ '{:02d}'.format(i) }}" name="list_description{{ '{:02d}'.format(i) }}" value="{{ list_description[i] }}" class="form-control">
+                                        </div>
+                                        
+                                        <!-- Data Type Section -->
+                                        <div style="flex: 1; margin: 0 5px;">
+                                            <select id="text{{ '{:02d}'.format(i) }}" name="list_data_type{{ '{:02d}'.format(i) }}" class="form-control" style="background-color: #dfc54e39;">
+                                                <option value="None" {% if list_data_type[i]=='None' %} selected {% endif %}>None</option>
+                                                <option value="Date" {% if list_data_type[i]=='Date' %} selected {% endif %}>Date</option>
+                                                <option value="EVODate" {% if list_data_type[i]=='EVODate' %} selected {% endif %}>EVODate</option>
+                                                <option value="Ulong" {% if list_data_type[i]=='Ulong' %} selected {% endif %}>Ulong</option>
+                                                <option value="Float" {% if list_data_type[i]=='Float' %} selected {% endif %}>Float</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                        
+                                    <!-- Hidden Fields -->
+                                    <div class="col-12" style="display: none;">
+                                        <label for="evc_type{{ '{:02d}'.format(i) }}">EVC Type {{ '{:02d}'.format(i + 1) }}</label>
+                                        <input type="text" id="list_evc_type{{ '{:02d}'.format(i) }}" name="list_evc_type{{ '{:02d}'.format(i) }}" value="{{ list_evc_type[i] }}" readonly>
+                                    </div>
+                                    <div class="col-12" style="display: none;">
+                                        <label for="or_der{{ '{:02d}'.format(i) }}">Order {{ '{:02d}'.format(i + 1) }}</label>
+                                        <input type="text" id="list_or_der{{ '{:02d}'.format(i) }}" name="list_or_der{{ '{:02d}'.format(i) }}" value="{{ list_or_der[i] }}" readonly>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                                
+                                <input id="submitButton" class="btn btn-success" type="submit" style="display: none;" value="Submit">
+                            </div>
+                        </form>
+                        
+                        
+        
+                
+
+   
+    <!-- <div class="form-group col-md-12"> -->
+
+    </div>
+    </div>
+
+
+    </div>
+
+    </main>
+    <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var listAddressElements = document.querySelectorAll('input[name^="list_address"]');
+        var submitButton = document.getElementById('submitButton');
+
+        var hasData = Array.from(listAddressElements).some(function(input) {
+            return input.value.trim() !== '';
+        });
+
+        if (hasData) {
+            submitButton.style.display = 'block';
+        }
+    });
+    document.getElementById('submitButton').addEventListener('click', function(event) {
+        var isConfirmed = confirm('Are you sure you want to proceed with this action?');
+        if (!isConfirmed) {
+            event.preventDefault(); // Prevent form submission if the user clicks "Cancel"
+        }
+    });
+</script>
+<script>
+    var submitButton = document.getElementById("submitButton");
+
+    document.getElementById("viewButton").addEventListener("click", function () {
+        // แสดงปุ่ม "Submit" และลิสเนอร์การคลิก
+        submitButton.style.display = "block";
+
+        // เพิ่ม Event Listener ให้ปุ่ม "View" อีกรอบ
+        document.getElementById("viewButton").addEventListener("click", function () {
+            // ซ่อนปุ่ม "Submit" เมื่อคลิกที่ปุ่ม "View" อีกรอบ
+            submitButton.style.display = "block";
+        });
+    });
+
+
+    function submitForm() {
+        // Trigger the form submission
+        document.getElementById("mapping_configForm").submit();
+    }
+
+    // Add an event listener to dynamically update the dropdown options
+    document.getElementById("type_dropdown").addEventListener("change", function () {
+        // Get the selected value
+        // var selectedtype = this.value;
+
+        // // Hide the "All" option if no type is selected
+        // var allOption = this.options[0];
+        // if (selectedtype) {
+        //     allOption.style.display = "none";
+        // } else {
+        //     allOption.style.display = "block";
+        // }
+    });
+</script>
+<script>
+    // Function to show the loading bar
+    function showLoadingBar() {
+        document.getElementById('loading-bar').style.width = '100%';
+    }
+
+    // Function to hide the loading bar
+    function hideLoadingBar() {
+        document.getElementById('loading-bar').style.width = '0';
+    }
+
+    // Event listener for page load
+    window.addEventListener('load', function () {
+        hideLoadingBar(); // Hide the loading bar initially
+    });
+
+    // Event listener for beforeunload (when the page is about to be reloaded)
+    window.addEventListener('beforeunload', function () {
+        showLoadingBar(); // Show the loading bar before the page reloads
+    });
+
+</script>
+<script>
+    function checkInternetConnection() {
+        // ตรวจสอบสถานะเชื่อมต่ออินเทอร์เน็ต
+        // ตรวจสอบได้ว่ามีการเชื่อมต่อหรือไม่ โดยใช้ navigator.onLine
+        return navigator.onLine;
+    }
+
+    // JavaScript
+    function updateStatus() {
+        var statusContainer = document.getElementById('status-container');
+        var statusIcon = document.getElementById('status-icon');
+        var statusText = document.getElementById('status-text');
+        var lastUpdate = document.getElementById('last-update-time');
+
+        var now = new Date();
+        var timeString = now.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true });
+
+        if (checkInternetConnection()) {
+            // ถ้าเชื่อมต่ออินเทอร์เน็ต
+            statusIcon.style.color = 'green'; // สีเขียว
+            statusText.textContent = 'Online';
+            statusText.classList.remove('offline'); // ลบ class 'offline' ถ้ามี
+        } else {
+            // ถ้าไม่เชื่อมต่ออินเทอร์เน็ต
+            statusIcon.style.color = 'red'; // สีแดง
+            statusText.textContent = 'Offline';
+            statusText.classList.add('offline'); // เพิ่ม class 'offline'
+        }
+
+        lastUpdate.textContent = timeString;
+    }
+    // JavaScript
+    setInterval(updateStatus, 10000); // อัปเดตทุก 1 วินาที (1000 มิลลิวินาที)
+
+</script>
+<script>
+    // Function to update weather icon
+    function updateWeatherIcon(weatherCondition) {
+        var iconClass;
+
+        // Add logic to determine the appropriate weather icon based on the condition
+        switch (weatherCondition.toLowerCase()) {
+            case 'clear':
+                iconClass = 'fas fa-sun'; // Font Awesome sun icon
+                break;
+            case 'clouds':
+                iconClass = 'fas fa-cloud'; // Font Awesome cloud icon
+                break;
+            case 'rain':
+                iconClass = 'fas fa-cloud-showers-heavy'; // Font Awesome rain icon
+                break;
+            case 'thunderstorm':
+                iconClass = 'fas fa-bolt'; // Font Awesome thunderstorm icon
+                break;
+            case 'snow':
+                iconClass = 'fas fa-snowflake'; // Font Awesome snow icon
+                break;
+            default:
+                iconClass = 'fas fa-question-circle'; // Default to a question mark icon for unknown conditions
+        }
+
+        // Set the appropriate icon class
+        document.getElementById('weather-icon').innerHTML = '<i class="' + iconClass + '"></i>';
+    }
+
+</script>
+<script>
+    // Function to update date and time
+    function updateDateTime() {
+        var now = new Date();
+        var dateTimeString = now.toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false });
+        document.getElementById('date-time').textContent = dateTimeString;
+    }
+
+    // Function to update weather data from OpenWeatherMap API
+    function updateWeatherData() {
+        // Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
+        var apiKey = 'fbae867d03fc9892a7469d2f562ce558';
+        var city = 'Bangkok'; // Replace with your city name
+        var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + apiKey;
+
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                // Extract relevant weather data
+                var weatherCondition = data.weather[0].main;
+                var weatherDescription = data.weather[0].description;
+                var temperatureKelvin = data.main.temp;
+
+                // Convert temperature from Kelvin to Celsius
+                var temperatureCelsius = temperatureKelvin - 273.15;
+
+                // Update weather icon, description, and temperature
+                updateWeatherIcon(weatherCondition);
+                document.getElementById('weather-description').textContent = 'Weather: ' + weatherDescription;
+                document.getElementById('temperature').textContent = 'Temperature: ' + temperatureCelsius.toFixed(2) + '°C';
+            })
+            .catch(error => console.error('Error fetching weather data:', error));
+    }
+
+
+    // Function to update weather icon
+    function updateWeatherIcon(weatherCondition) {
+        var iconClass;
+
+        // Add logic to determine the appropriate weather icon based on the condition
+        switch (weatherCondition.toLowerCase()) {
+            case 'clear':
+                iconClass = 'fa-sun';
+                break;
+            case 'clouds':
+                iconClass = 'fa-cloud';
+                break;
+            case 'rain':
+                iconClass = 'fa-cloud-showers-heavy';
+                break;
+            default:
+                iconClass = 'fa-question-circle'; // Default to a question mark icon for unknown conditions
+        }
+
+        // Set the appropriate icon class
+        document.getElementById('weather-icon').innerHTML = '<i class="fa ' + iconClass + '" aria-hidden="true"></i>';
+    }
+
+    // Call the functions initially
+    updateDateTime();
+    updateWeatherData();
+
+    // Update date and time every second
+    setInterval(updateDateTime, 1000);
+
+    // Update weather data every 10 minutes (adjust as needed)
+    setInterval(updateWeatherData, 600000);
+</script>
+<script>
+    $(".sidebar-dropdown > a").click(function () {
+        $(".sidebar-submenu").slideUp(200);
+        if (
+            $(this)
+                .parent()
+                .hasClass("active")
+        ) {
+            $(".sidebar-dropdown").removeClass("active");
+            $(this)
+                .parent()
+                .removeClass("active");
+        } else {
+            $(".sidebar-dropdown").removeClass("active");
+            $(this)
+                .next(".sidebar-submenu")
+                .slideDown(200);
+            $(this)
+                .parent()
+                .addClass("active");
+        }
+    });
+
+    $("#close-sidebar").click(function () {
+        $(".page-wrapper").removeClass("toggled");
+    });
+    $("#show-sidebar").click(function () {
+        $(".page-wrapper").addClass("toggled");
+    });
+
+
+
+</script>
+<script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/sb-admin-2.min.js') }}"></script>
+</html>

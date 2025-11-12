@@ -1,0 +1,50 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run main.py without parameters",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/home.py",
+            "args": [],  // ไม่มีพารามิเตอร์
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Manual Poll",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autopoll/manualpoll.py",
+            "args": ["--sitename", "BNS.remove", "--runno", "1"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Autopoll",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/autopoll/Autopoll_1_Master.py",
+            "args": ["--repeat", "1", "--typeid", "5"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "Python Debugger: Automaric File",
+//             "type": "python",
+//             "request": "launch",
+//             "program": "${workspaceFolder}/autopoll/Autopoll_1_Master.py",
+//             "args": ["--repeat", "1", "--typeid", "5"],
+//             "console": "integratedTerminal"
+//         },
+//         {
+//             "name": "Python Debugger: Manual Poll",
+//             "type": "python",
+//             "request": "launch",
+//             "program": "${workspaceFolder}/autopoll/Manual_poll.py",
+//             "args": ["--sitename", "AAC", "--runno", "1"],
+//             "console": "integratedTerminal"
+//         }
+//     ]
+// }

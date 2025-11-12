@@ -1,0 +1,39 @@
+<!-- billing_data_error.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Billing Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Billing Data</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Data Date</th>
+                    <th>Meter ID</th>
+                    <th>Run</th>
+                    <th>Corrected Vol</th>
+                    <th>Uncorrected Vol</th>
+                    <th>AVR PF</th>
+                    <th>AVR TF</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for index, row in df.iterrows() %}
+                <tr>
+                    <td>{{ row['DATA_DATE'] }}</td>
+                    <td>{{ row['METER_ID'] }}</td>
+                    <td>{{ row['RUN'] }}</td>
+                    <td>{{ row['CORRECTED_VOL'] }}</td>
+                    <td>{{ row['UNCORRECTED_VOL'] }}</td>
+                    <td>{{ row['AVR_PF'] }}</td>
+                    <td>{{ row['AVR_TF'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

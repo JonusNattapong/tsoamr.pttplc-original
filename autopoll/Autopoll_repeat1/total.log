@@ -1,0 +1,609 @@
+2024-10-11 15:00:39,658 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-11 15:49:25,870 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 101, Errors: 15
+2024-10-11 15:50:00,835 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-10-11 15:50:48,092 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 163, Errors: 25
+2024-10-11 15:51:37,828 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 114, Errors: 8
+2024-10-11 15:54:33,820 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 122, Errors: 5
+2024-10-12 15:00:39,930 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-12 15:49:47,938 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 98, Errors: 18
+2024-10-12 15:49:55,194 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 160, Errors: 28
+2024-10-12 15:50:17,422 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 111, Errors: 6
+2024-10-12 15:51:50,036 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 116, Errors: 6
+2024-10-12 15:53:54,459 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 119, Errors: 8
+2024-10-13 15:00:40,030 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-13 15:49:34,550 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-10-13 15:50:04,469 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-10-13 15:50:05,570 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 158, Errors: 30
+2024-10-13 15:51:50,673 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 113, Errors: 9
+2024-10-13 15:53:36,833 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2024-10-14 15:00:40,019 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-14 15:49:37,325 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2024-10-14 15:49:47,357 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 158, Errors: 30
+2024-10-14 15:51:00,820 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 107, Errors: 9
+2024-10-14 15:51:48,045 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 115, Errors: 7
+2024-10-14 15:54:51,729 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2024-10-15 15:00:39,554 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-15 15:49:35,753 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 103, Errors: 13
+2024-10-15 15:49:43,405 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 158, Errors: 30
+2024-10-15 15:50:18,738 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-10-15 15:51:48,123 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2024-10-15 15:54:07,654 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2024-10-16 15:00:40,162 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-16 15:49:30,468 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 110, Errors: 7
+2024-10-16 15:49:39,938 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-10-16 15:50:03,610 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 159, Errors: 29
+2024-10-16 15:52:14,830 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 116, Errors: 6
+2024-10-16 15:54:02,941 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 119, Errors: 8
+2024-10-17 15:00:39,588 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-17 15:49:57,664 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2024-10-17 15:49:58,451 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 162, Errors: 26
+2024-10-17 15:49:59,283 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-10-17 15:52:20,209 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 115, Errors: 7
+2024-10-17 15:54:37,162 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2024-10-18 15:00:39,258 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-18 15:49:29,712 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 159, Errors: 29
+2024-10-18 15:50:05,047 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 100, Errors: 16
+2024-10-18 15:50:15,932 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-10-18 15:51:38,941 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 114, Errors: 8
+2024-10-18 15:54:34,796 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 119, Errors: 8
+2024-10-19 15:00:40,550 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-19 15:49:56,640 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 159, Errors: 29
+2024-10-19 15:50:09,610 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 114, Errors: 3
+2024-10-19 15:50:14,714 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 104, Errors: 12
+2024-10-19 15:51:58,107 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 115, Errors: 7
+2024-10-19 15:54:40,864 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 119, Errors: 8
+2024-10-20 15:00:40,007 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-20 15:49:15,339 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 96, Errors: 20
+2024-10-20 15:49:40,336 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2024-10-20 15:49:41,057 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 158, Errors: 30
+2024-10-20 15:51:17,852 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-10-20 15:54:32,809 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2024-10-21 15:00:40,441 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-21 15:49:34,651 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 159, Errors: 29
+2024-10-21 15:50:05,252 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 100, Errors: 16
+2024-10-21 15:50:27,134 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 111, Errors: 6
+2024-10-21 15:52:33,623 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 114, Errors: 8
+2024-10-21 15:54:38,154 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2024-10-22 15:00:40,778 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-22 15:50:07,947 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 110, Errors: 7
+2024-10-22 15:50:52,450 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 107, Errors: 15
+2024-10-22 15:50:52,669 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 104, Errors: 12
+2024-10-22 15:51:09,447 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 155, Errors: 33
+2024-10-22 15:54:35,457 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 119, Errors: 8
+2024-10-23 15:00:39,053 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-23 15:49:56,010 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 111, Errors: 6
+2024-10-23 15:49:56,775 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 101, Errors: 15
+2024-10-23 15:50:10,308 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 158, Errors: 30
+2024-10-23 15:51:38,013 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 113, Errors: 9
+2024-10-23 15:54:34,688 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2024-10-24 15:00:39,571 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 1, Errors: 0
+2024-10-24 15:52:55,977 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-10-24 15:53:05,754 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 162, Errors: 26
+2024-10-24 15:53:20,085 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-10-24 15:54:41,439 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 115, Errors: 7
+2024-10-24 15:57:35,958 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 116, Errors: 11
+2024-10-25 15:00:06,598 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-10-25 15:49:41,600 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-10-25 15:50:28,603 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 110, Errors: 7
+2024-10-25 15:50:39,108 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 166, Errors: 22
+2024-10-25 15:52:18,969 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 114, Errors: 8
+2024-10-25 15:54:00,598 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 115, Errors: 12
+2024-10-26 15:00:06,016 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-10-26 15:49:37,480 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 98, Errors: 18
+2024-10-26 15:49:59,342 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 111, Errors: 6
+2024-10-26 15:50:35,201 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 156, Errors: 32
+2024-10-26 15:52:02,473 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-10-26 15:54:29,675 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2024-10-27 15:00:05,375 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-10-27 15:49:10,101 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 98, Errors: 18
+2024-10-27 15:50:06,092 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 111, Errors: 6
+2024-10-27 15:50:48,595 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 154, Errors: 34
+2024-10-27 15:52:01,093 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 115, Errors: 7
+2024-10-27 15:54:44,253 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2024-10-28 15:00:05,900 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-10-28 15:49:51,469 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 100, Errors: 16
+2024-10-28 15:50:04,479 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 110, Errors: 7
+2024-10-28 15:50:20,688 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 159, Errors: 29
+2024-10-28 15:51:44,113 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-10-28 15:54:33,686 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 119, Errors: 8
+2024-10-29 15:00:06,782 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-10-29 15:49:56,349 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-10-29 15:50:09,766 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 160, Errors: 28
+2024-10-29 15:50:32,224 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 114, Errors: 3
+2024-10-29 15:52:07,350 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 115, Errors: 7
+2024-10-29 15:53:56,233 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2024-10-30 15:00:07,140 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-10-30 15:49:41,974 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-10-30 15:50:32,984 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 159, Errors: 29
+2024-10-30 15:50:41,972 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-10-30 15:51:19,475 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 108, Errors: 14
+2024-10-30 15:54:50,355 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 122, Errors: 5
+2024-10-31 15:00:06,539 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-10-31 15:49:42,847 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 103, Errors: 13
+2024-10-31 15:50:02,355 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-10-31 15:50:47,004 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 158, Errors: 30
+2024-10-31 15:51:27,345 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-10-31 15:54:13,733 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 116, Errors: 11
+2024-11-01 15:00:06,594 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-01 15:49:50,053 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 103, Errors: 13
+2024-11-01 15:50:11,036 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-11-01 15:50:16,872 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 156, Errors: 32
+2024-11-01 15:52:03,232 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 114, Errors: 8
+2024-11-01 15:53:32,728 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2024-11-02 15:00:06,397 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-02 15:49:53,745 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 103, Errors: 13
+2024-11-02 15:50:30,569 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 114, Errors: 3
+2024-11-02 15:50:42,446 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 156, Errors: 32
+2024-11-02 15:51:55,733 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 114, Errors: 8
+2024-11-02 15:54:07,843 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 119, Errors: 8
+2024-11-03 15:00:07,148 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-03 15:50:04,162 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-11-03 15:50:13,047 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-11-03 15:50:35,026 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 156, Errors: 32
+2024-11-03 15:51:44,529 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 113, Errors: 9
+2024-11-03 15:54:02,375 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 119, Errors: 8
+2024-11-04 15:00:07,818 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-04 15:49:58,869 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 104, Errors: 12
+2024-11-04 15:50:33,172 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 110, Errors: 7
+2024-11-04 15:50:44,058 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 156, Errors: 32
+2024-11-04 15:51:56,877 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 114, Errors: 8
+2024-11-04 15:54:03,377 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2024-11-05 15:00:06,131 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-05 15:49:50,391 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-11-05 15:50:15,391 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-11-05 15:50:39,397 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 157, Errors: 31
+2024-11-05 15:51:06,107 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2024-11-05 15:53:57,291 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 116, Errors: 11
+2024-11-06 15:00:06,101 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-06 15:50:08,053 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 156, Errors: 32
+2024-11-06 15:50:24,050 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-11-06 15:50:46,062 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 115, Errors: 2
+2024-11-06 15:51:17,057 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-11-06 15:53:52,438 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2024-11-07 15:00:06,492 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-07 15:49:47,617 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 99, Errors: 17
+2024-11-07 15:50:43,083 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 114, Errors: 3
+2024-11-07 15:51:00,091 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 157, Errors: 31
+2024-11-07 15:51:08,475 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-11-07 15:54:11,965 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 121, Errors: 6
+2024-11-08 15:00:07,063 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-08 15:49:59,694 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 100, Errors: 16
+2024-11-08 15:50:03,536 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 158, Errors: 30
+2024-11-08 15:50:59,187 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 115, Errors: 2
+2024-11-08 15:51:16,390 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2024-11-08 15:54:31,060 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2024-11-09 15:00:06,145 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-09 15:50:33,669 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 157, Errors: 31
+2024-11-09 15:50:36,942 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-11-09 15:51:00,649 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 103, Errors: 13
+2024-11-09 15:51:43,448 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-11-09 15:54:17,965 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 119, Errors: 8
+2024-11-10 15:00:07,843 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-10 15:49:57,553 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-11-10 15:50:47,545 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-11-10 15:50:52,907 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 156, Errors: 32
+2024-11-10 15:51:01,558 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2024-11-10 15:54:26,885 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2024-11-11 15:00:07,624 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-11 15:50:10,590 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 100, Errors: 16
+2024-11-11 15:50:38,391 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 157, Errors: 31
+2024-11-11 15:50:48,231 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-11-11 15:51:13,071 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-11-11 15:54:12,726 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 119, Errors: 8
+2024-11-12 15:00:06,690 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-12 15:50:10,282 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 100, Errors: 16
+2024-11-12 15:50:48,114 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 160, Errors: 28
+2024-11-12 15:51:09,302 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 111, Errors: 6
+2024-11-12 15:51:21,762 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-11-12 15:54:25,268 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 121, Errors: 6
+2024-11-13 15:00:05,983 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-13 15:50:14,118 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 105, Errors: 11
+2024-11-13 15:50:41,638 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 157, Errors: 31
+2024-11-13 15:50:54,121 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 115, Errors: 2
+2024-11-13 15:51:10,618 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-11-13 15:53:39,098 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 116, Errors: 11
+2024-11-14 15:00:05,655 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-14 15:50:08,026 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-11-14 15:50:18,872 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 157, Errors: 31
+2024-11-14 15:50:55,178 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-11-14 15:51:22,901 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-11-14 15:53:23,167 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 115, Errors: 12
+2024-11-15 15:00:06,890 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-15 15:50:22,619 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 101, Errors: 15
+2024-11-15 15:51:23,293 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 115, Errors: 2
+2024-11-15 15:51:37,648 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 158, Errors: 30
+2024-11-15 15:51:43,813 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-11-15 15:54:37,364 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2024-11-16 15:00:11,813 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-16 15:50:41,299 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-11-16 15:50:57,958 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-11-16 15:51:14,953 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-11-16 15:51:42,958 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 157, Errors: 31
+2024-11-16 15:54:05,458 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2024-11-17 15:00:07,539 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-17 15:50:28,305 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 156, Errors: 32
+2024-11-17 15:50:46,154 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 103, Errors: 13
+2024-11-17 15:51:09,430 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 114, Errors: 3
+2024-11-17 15:52:08,965 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-11-17 15:53:37,947 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 114, Errors: 13
+2024-11-18 15:00:06,632 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-18 15:50:01,586 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 101, Errors: 15
+2024-11-18 15:51:13,091 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 159, Errors: 29
+2024-11-18 15:51:15,915 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 115, Errors: 2
+2024-11-18 15:51:51,081 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 113, Errors: 9
+2024-11-18 15:54:13,909 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2024-11-19 12:09:05,061 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-19 12:56:27,723 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 102, Errors: 14
+2024-11-19 12:57:10,595 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2024-11-19 12:57:48,268 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 115, Errors: 2
+2024-11-19 13:00:38,229 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 116, Errors: 11
+2024-11-19 13:05:38,262 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 165, Errors: 23
+2024-11-20 12:09:05,216 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-20 12:56:25,858 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 101, Errors: 15
+2024-11-20 12:57:02,331 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-11-20 12:57:49,835 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2024-11-20 13:00:50,484 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2024-11-20 13:05:31,990 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 168, Errors: 20
+2024-11-21 12:09:04,899 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-21 12:56:17,017 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 98, Errors: 18
+2024-11-21 12:57:25,342 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 115, Errors: 2
+2024-11-21 12:58:04,529 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-11-21 12:59:25,499 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 114, Errors: 13
+2024-11-21 13:04:59,361 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 165, Errors: 23
+2024-11-22 12:09:04,805 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-22 12:56:26,375 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 99, Errors: 17
+2024-11-22 12:57:15,013 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 111, Errors: 6
+2024-11-22 12:58:27,038 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-11-22 12:59:52,849 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 111, Errors: 16
+2024-11-22 13:06:03,514 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 169, Errors: 19
+2024-11-23 12:09:04,713 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-23 12:56:05,234 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 96, Errors: 20
+2024-11-23 12:58:37,565 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-11-23 12:58:39,286 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 114, Errors: 3
+2024-11-23 13:00:51,889 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 114, Errors: 13
+2024-11-23 13:06:16,216 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 165, Errors: 23
+2024-11-24 12:09:04,697 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-24 12:56:32,462 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 98, Errors: 18
+2024-11-24 12:58:28,948 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-11-24 12:58:41,774 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-11-24 12:59:53,447 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 112, Errors: 15
+2024-11-24 13:05:55,455 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 161, Errors: 27
+2024-11-25 12:09:03,875 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-25 12:55:59,530 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 101, Errors: 15
+2024-11-25 12:57:31,385 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 115, Errors: 2
+2024-11-25 12:57:54,030 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-11-25 12:59:52,357 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 112, Errors: 15
+2024-11-25 13:05:49,509 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 158, Errors: 30
+2024-11-26 12:09:03,622 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-26 12:56:42,986 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 100, Errors: 16
+2024-11-26 12:58:29,164 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-11-26 12:58:52,150 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-11-26 13:01:12,119 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2024-11-26 13:06:52,489 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 168, Errors: 20
+2024-11-27 12:09:03,916 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-27 12:55:19,284 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 97, Errors: 19
+2024-11-27 12:57:24,156 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 110, Errors: 7
+2024-11-27 12:58:08,971 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2024-11-27 13:00:28,132 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 116, Errors: 11
+2024-11-27 13:06:37,638 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 161, Errors: 27
+2024-11-28 12:09:21,454 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-28 12:56:20,751 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 95, Errors: 21
+2024-11-28 12:57:26,731 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2024-11-28 12:58:37,384 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-11-28 13:00:38,517 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 115, Errors: 12
+2024-11-28 13:05:55,238 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 163, Errors: 25
+2024-11-29 12:09:21,684 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-29 12:56:44,385 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 100, Errors: 16
+2024-11-29 12:58:00,921 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-11-29 12:58:15,755 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2024-11-29 13:01:14,891 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2024-11-29 13:06:32,282 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 167, Errors: 21
+2024-11-30 12:09:03,691 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-11-30 12:56:26,390 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 96, Errors: 20
+2024-11-30 12:58:51,910 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-11-30 12:59:01,752 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-11-30 13:01:41,282 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 116, Errors: 11
+2024-11-30 13:05:27,895 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 166, Errors: 22
+2024-12-01 12:09:03,832 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-01 12:54:49,632 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 98, Errors: 18
+2024-12-01 12:55:13,998 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2024-12-01 12:56:24,643 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2024-12-01 12:59:18,132 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2024-12-01 13:04:39,482 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 159, Errors: 29
+2024-12-02 12:09:03,975 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-02 12:54:41,100 - INFO: Actaris(G1) : Total sets processed: 116, Successful rows: 97, Errors: 19
+2024-12-02 12:55:39,267 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 111, Errors: 6
+2024-12-02 12:56:50,270 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 113, Errors: 9
+2024-12-02 12:58:45,098 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 113, Errors: 14
+2024-12-02 13:04:56,264 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 160, Errors: 28
+2024-12-03 12:10:00,445 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-03 12:58:38,434 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 98, Errors: 17
+2024-12-03 13:00:22,895 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-12-03 13:01:09,889 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-12-03 13:03:11,579 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 112, Errors: 15
+2024-12-03 13:04:39,902 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 159, Errors: 29
+2024-12-04 12:09:04,119 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-04 12:54:35,433 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 96, Errors: 19
+2024-12-04 12:55:58,268 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2024-12-04 12:56:43,920 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 113, Errors: 9
+2024-12-04 12:59:17,411 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 116, Errors: 11
+2024-12-04 13:04:27,425 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 153, Errors: 35
+2024-12-05 12:09:03,815 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-05 12:53:58,599 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2024-12-05 12:55:42,106 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 110, Errors: 7
+2024-12-05 12:56:26,594 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-12-05 12:58:26,611 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 112, Errors: 15
+2024-12-05 13:04:24,091 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 149, Errors: 39
+2024-12-06 12:09:03,928 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-06 12:54:13,009 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2024-12-06 12:55:42,491 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 110, Errors: 7
+2024-12-06 12:56:19,667 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-12-06 12:59:08,672 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 115, Errors: 12
+2024-12-06 13:04:41,528 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 153, Errors: 35
+2024-12-07 12:09:03,987 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-07 12:54:29,713 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 98, Errors: 17
+2024-12-07 12:55:39,706 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 111, Errors: 6
+2024-12-07 12:56:32,210 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-12-07 12:59:01,713 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 116, Errors: 11
+2024-12-07 13:05:07,524 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 155, Errors: 33
+2024-12-08 12:09:05,469 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-08 12:54:49,360 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 100, Errors: 15
+2024-12-08 12:56:04,522 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 108, Errors: 9
+2024-12-08 12:57:47,013 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-12-08 12:59:50,537 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 112, Errors: 15
+2024-12-08 13:04:29,541 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 155, Errors: 33
+2024-12-09 12:09:05,477 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-09 12:54:25,773 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 101, Errors: 14
+2024-12-09 12:55:46,509 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2024-12-09 12:56:46,202 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-12-09 12:58:53,694 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 112, Errors: 15
+2024-12-09 13:04:15,029 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 159, Errors: 29
+2024-12-10 12:09:04,182 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-10 12:54:31,442 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 96, Errors: 19
+2024-12-10 12:55:29,972 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 110, Errors: 7
+2024-12-10 12:56:26,434 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-12-10 12:59:13,298 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 112, Errors: 15
+2024-12-10 13:04:37,170 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 156, Errors: 32
+2024-12-11 12:09:04,267 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-11 12:54:22,087 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 96, Errors: 19
+2024-12-11 12:55:33,568 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 110, Errors: 7
+2024-12-11 12:56:35,090 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-12-11 12:58:56,943 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 112, Errors: 15
+2024-12-11 13:04:43,280 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 156, Errors: 32
+2024-12-12 12:09:04,182 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-12 12:54:46,965 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2024-12-12 12:55:57,977 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-12-12 12:56:28,966 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-12-12 12:58:29,495 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 112, Errors: 15
+2024-12-12 13:04:06,623 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 161, Errors: 27
+2024-12-13 12:09:04,095 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-13 12:55:12,106 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2024-12-13 12:56:11,766 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-12-13 12:57:08,614 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 113, Errors: 9
+2024-12-13 12:59:20,245 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 111, Errors: 16
+2024-12-13 13:04:31,591 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 159, Errors: 29
+2024-12-14 12:09:04,154 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-14 12:53:56,353 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2024-12-14 12:55:43,848 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-12-14 12:56:38,833 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-12-14 12:58:55,429 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 111, Errors: 16
+2024-12-14 13:04:11,343 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 161, Errors: 27
+2024-12-15 12:09:04,549 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-15 12:53:48,832 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 92, Errors: 23
+2024-12-15 12:55:48,861 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2024-12-15 12:56:13,227 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-12-15 12:59:24,335 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2024-12-15 13:04:40,857 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 156, Errors: 32
+2024-12-16 12:09:04,057 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-16 12:53:35,723 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 92, Errors: 23
+2024-12-16 12:55:53,580 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-12-16 12:57:16,709 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 113, Errors: 9
+2024-12-16 12:59:00,057 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 116, Errors: 11
+2024-12-16 13:04:37,421 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 161, Errors: 27
+2024-12-17 12:09:04,312 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-17 12:53:39,041 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2024-12-17 12:55:58,068 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-12-17 12:56:28,544 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 108, Errors: 14
+2024-12-17 12:59:35,204 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2024-12-17 13:04:05,240 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 159, Errors: 29
+2024-12-18 12:09:07,929 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-18 12:54:24,557 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2024-12-18 12:55:54,207 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-12-18 12:56:35,228 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-12-18 12:59:07,746 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 114, Errors: 13
+2024-12-18 13:04:32,394 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 161, Errors: 27
+2024-12-19 12:09:04,017 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-19 12:54:02,588 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 95, Errors: 20
+2024-12-19 12:55:36,266 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2024-12-19 12:56:26,767 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-12-19 12:58:54,606 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 113, Errors: 14
+2024-12-19 13:04:23,961 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 160, Errors: 28
+2024-12-20 12:09:04,264 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-20 12:54:23,914 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 94, Errors: 21
+2024-12-20 12:54:54,051 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 105, Errors: 12
+2024-12-20 12:56:41,409 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 112, Errors: 10
+2024-12-20 12:58:58,539 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 116, Errors: 11
+2024-12-20 13:04:58,039 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 163, Errors: 25
+2024-12-21 12:09:04,428 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-21 12:53:40,887 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 92, Errors: 23
+2024-12-21 12:55:50,697 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 107, Errors: 15
+2024-12-21 12:56:17,195 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 112, Errors: 5
+2024-12-21 12:59:09,209 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 114, Errors: 13
+2024-12-21 13:04:56,720 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 162, Errors: 26
+2024-12-22 12:09:04,309 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-22 12:53:38,448 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 92, Errors: 23
+2024-12-22 12:55:39,286 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2024-12-22 12:55:47,950 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 107, Errors: 15
+2024-12-22 12:59:03,454 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 115, Errors: 12
+2024-12-22 13:05:05,791 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 164, Errors: 24
+2024-12-23 12:09:04,173 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-23 12:53:40,767 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 95, Errors: 20
+2024-12-23 12:56:01,257 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-12-23 12:56:17,619 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-12-23 13:00:13,775 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2024-12-23 13:05:23,760 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 162, Errors: 26
+2024-12-24 12:09:04,147 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-24 12:54:39,211 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 101, Errors: 14
+2024-12-24 12:56:20,705 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 113, Errors: 4
+2024-12-24 12:56:42,890 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 111, Errors: 11
+2024-12-24 12:59:31,358 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2024-12-24 13:04:57,073 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 165, Errors: 23
+2024-12-25 12:09:04,428 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-25 12:54:40,189 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 100, Errors: 15
+2024-12-25 12:55:12,208 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 108, Errors: 9
+2024-12-25 12:56:01,204 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-12-25 12:58:33,706 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 114, Errors: 13
+2024-12-25 13:05:12,845 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 166, Errors: 22
+2024-12-26 12:09:11,924 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-26 12:54:47,573 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 98, Errors: 17
+2024-12-26 12:55:51,415 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2024-12-26 12:55:53,406 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-12-26 12:59:33,067 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2024-12-26 13:04:54,095 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 166, Errors: 22
+2024-12-27 12:09:22,082 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-27 12:54:27,233 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 99, Errors: 16
+2024-12-27 12:54:46,217 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 108, Errors: 9
+2024-12-27 12:55:14,703 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 106, Errors: 16
+2024-12-27 12:59:50,704 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2024-12-27 13:05:08,721 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 160, Errors: 28
+2024-12-28 12:09:04,366 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-28 12:53:25,772 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 98, Errors: 19
+2024-12-28 12:54:09,121 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2024-12-28 12:55:24,622 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 105, Errors: 17
+2024-12-28 12:59:22,980 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2024-12-28 13:04:26,131 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 160, Errors: 28
+2024-12-29 12:09:07,878 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-29 12:52:43,716 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 96, Errors: 21
+2024-12-29 12:54:56,182 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 102, Errors: 13
+2024-12-29 12:55:27,349 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 107, Errors: 15
+2024-12-29 12:59:11,177 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2024-12-29 13:05:16,676 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 160, Errors: 28
+2024-12-30 12:09:04,545 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-30 12:53:48,095 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 92, Errors: 23
+2024-12-30 12:54:23,748 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 104, Errors: 13
+2024-12-30 12:55:39,757 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2024-12-30 13:00:13,954 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2024-12-30 13:05:26,583 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 161, Errors: 27
+2024-12-31 12:09:04,441 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2024-12-31 12:54:21,620 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2024-12-31 12:54:49,462 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 106, Errors: 11
+2024-12-31 12:55:49,954 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2024-12-31 12:58:52,965 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 112, Errors: 15
+2024-12-31 13:05:30,460 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 162, Errors: 26
+2025-01-01 12:09:03,717 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-01 12:54:07,998 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 95, Errors: 20
+2025-01-01 12:54:53,835 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 108, Errors: 9
+2025-01-01 12:55:53,509 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2025-01-01 12:59:31,837 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2025-01-01 13:04:43,502 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 160, Errors: 28
+2025-01-02 12:09:03,682 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-02 12:54:27,375 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2025-01-02 12:55:45,077 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2025-01-02 12:55:53,728 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 108, Errors: 14
+2025-01-02 12:59:54,364 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2025-01-02 13:04:59,207 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 162, Errors: 26
+2025-01-03 12:09:03,709 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-03 12:54:35,958 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 101, Errors: 14
+2025-01-03 12:55:26,949 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2025-01-03 12:55:40,794 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 108, Errors: 14
+2025-01-03 13:00:04,937 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2025-01-03 13:05:07,462 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 162, Errors: 26
+2025-01-04 12:09:03,627 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-04 12:53:40,098 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 95, Errors: 20
+2025-01-04 12:55:33,231 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2025-01-04 12:55:43,760 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2025-01-04 12:59:56,240 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2025-01-04 13:05:32,092 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 166, Errors: 22
+2025-01-05 12:09:03,871 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-05 12:54:09,764 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 91, Errors: 24
+2025-01-05 12:55:45,632 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 108, Errors: 14
+2025-01-05 12:55:46,249 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2025-01-05 13:00:12,768 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 121, Errors: 6
+2025-01-05 13:05:53,762 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 163, Errors: 25
+2025-01-06 12:09:03,605 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-06 12:54:02,564 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2025-01-06 12:55:16,210 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2025-01-06 12:55:51,035 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2025-01-06 13:00:07,067 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2025-01-06 13:04:39,553 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 163, Errors: 25
+2025-01-07 12:09:03,894 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-07 12:54:54,704 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 98, Errors: 17
+2025-01-07 12:55:40,054 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 109, Errors: 8
+2025-01-07 12:56:15,822 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2025-01-07 13:00:30,684 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 121, Errors: 6
+2025-01-07 13:05:33,054 - INFO: Elster EK-280 : Total sets processed: 188, Successful rows: 164, Errors: 24
+2025-01-08 12:09:03,768 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-08 12:54:07,045 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2025-01-08 12:55:35,394 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 107, Errors: 10
+2025-01-08 12:55:40,894 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 108, Errors: 14
+2025-01-08 12:59:10,703 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 115, Errors: 12
+2025-01-08 13:04:52,873 - INFO: Elster EK-280 : Total sets processed: 187, Successful rows: 166, Errors: 21
+2025-01-09 12:09:04,052 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-09 12:54:37,061 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 101, Errors: 14
+2025-01-09 12:54:55,197 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 105, Errors: 12
+2025-01-09 12:55:58,221 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2025-01-09 12:59:35,718 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2025-01-09 13:05:04,591 - INFO: Elster EK-280 : Total sets processed: 187, Successful rows: 163, Errors: 24
+2025-01-10 12:09:03,648 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-10 12:54:23,205 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 98, Errors: 17
+2025-01-10 12:55:42,717 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 107, Errors: 10
+2025-01-10 12:55:56,197 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 110, Errors: 12
+2025-01-10 13:00:15,197 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2025-01-10 13:04:34,207 - INFO: Elster EK-280 : Total sets processed: 187, Successful rows: 164, Errors: 23
+2025-01-11 12:09:03,830 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-11 12:55:17,813 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 101, Errors: 14
+2025-01-11 12:55:31,474 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 108, Errors: 14
+2025-01-11 12:55:43,464 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 108, Errors: 9
+2025-01-11 12:59:50,469 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2025-01-11 13:04:44,151 - INFO: Elster EK-280 : Total sets processed: 187, Successful rows: 162, Errors: 25
+2025-01-12 12:09:03,786 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-12 12:54:16,048 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2025-01-12 12:54:53,037 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 107, Errors: 10
+2025-01-12 12:55:52,052 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2025-01-12 12:59:39,386 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 118, Errors: 9
+2025-01-12 13:04:33,879 - INFO: Elster EK-280 : Total sets processed: 187, Successful rows: 160, Errors: 27
+2025-01-13 12:09:03,706 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-13 12:54:41,326 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 100, Errors: 15
+2025-01-13 12:55:09,823 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 106, Errors: 11
+2025-01-13 12:55:31,160 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 108, Errors: 14
+2025-01-13 12:59:50,667 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2025-01-13 13:04:41,329 - INFO: Elster EK-280 : Total sets processed: 187, Successful rows: 163, Errors: 24
+2025-01-14 12:09:03,895 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-14 12:54:14,632 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 47, Errors: 68
+2025-01-14 12:55:07,125 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 54, Errors: 68
+2025-01-14 12:55:26,134 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 55, Errors: 62
+2025-01-14 12:59:13,773 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 54, Errors: 73
+2025-01-15 12:09:03,929 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-15 12:55:13,571 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 0, Errors: 115
+2025-01-15 12:55:23,977 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 0, Errors: 117
+2025-01-15 12:55:51,213 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 0, Errors: 122
+2025-01-15 13:00:09,223 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 0, Errors: 127
+2025-01-16 12:09:03,781 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-16 12:55:08,945 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 0, Errors: 115
+2025-01-16 12:55:15,277 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 0, Errors: 117
+2025-01-16 12:55:38,928 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 0, Errors: 122
+2025-01-16 12:59:20,768 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 0, Errors: 127
+2025-01-17 12:09:03,945 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-17 12:55:27,340 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 97, Errors: 18
+2025-01-17 12:55:47,323 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 108, Errors: 9
+2025-01-17 12:56:07,488 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2025-01-17 13:00:04,898 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2025-01-17 13:03:37,624 - INFO: Elster EK-280 : Total sets processed: 187, Successful rows: 171, Errors: 16
+2025-01-18 12:09:04,196 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-18 12:57:28,010 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 99, Errors: 16
+2025-01-18 12:57:40,549 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 111, Errors: 6
+2025-01-18 12:57:49,536 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 109, Errors: 13
+2025-01-18 13:02:26,597 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 120, Errors: 7
+2025-01-18 13:07:06,362 - INFO: Elster EK-280 : Total sets processed: 187, Successful rows: 172, Errors: 15
+2025-01-19 12:09:05,113 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-19 12:57:34,205 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 100, Errors: 15
+2025-01-19 12:57:49,354 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 108, Errors: 14
+2025-01-19 12:57:55,863 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 110, Errors: 7
+2025-01-19 13:02:22,403 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 117, Errors: 10
+2025-01-19 13:07:05,336 - INFO: Elster EK-280 : Total sets processed: 187, Successful rows: 166, Errors: 21
+2025-01-20 12:09:03,969 - INFO: Actaris(U) : Total sets processed: 1, Successful rows: 0, Errors: 1
+2025-01-20 12:57:37,203 - INFO: Actaris(G3) : Total sets processed: 122, Successful rows: 107, Errors: 15
+2025-01-20 12:57:40,432 - INFO: Actaris(G1) : Total sets processed: 115, Successful rows: 100, Errors: 15
+2025-01-20 12:57:45,056 - INFO: Actaris(G2) : Total sets processed: 117, Successful rows: 108, Errors: 9
+2025-01-20 13:02:53,661 - INFO: Actaris(G4) : Total sets processed: 127, Successful rows: 123, Errors: 4
+2025-01-20 13:06:43,212 - INFO: Elster EK-280 : Total sets processed: 187, Successful rows: 172, Errors: 15

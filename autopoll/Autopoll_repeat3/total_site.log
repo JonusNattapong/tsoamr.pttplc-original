@@ -1,0 +1,606 @@
+2024-10-11 22:00:03,780 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-11 22:00:08,133 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-11 22:00:15,802 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-11 22:00:48,873 - INFO: Actaris(G4) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-11 22:00:51,325 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-11 22:05:57,959 - INFO: Elster EK-280 : Total site processed: 17, Successful rows: 7, Errors: 10
+2024-10-12 22:00:03,742 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-12 22:00:16,694 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-12 22:00:46,622 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 1, Errors: 1
+2024-10-12 22:00:48,602 - INFO: Actaris(G4) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-12 22:01:36,647 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-12 22:05:57,693 - INFO: Elster EK-280 : Total site processed: 17, Successful rows: 7, Errors: 10
+2024-10-13 22:00:03,840 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-13 22:00:08,292 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-13 22:00:16,819 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-13 22:00:48,881 - INFO: Actaris(G4) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-13 22:01:23,492 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-13 22:06:30,211 - INFO: Elster EK-280 : Total site processed: 20, Successful rows: 7, Errors: 13
+2024-10-14 22:00:04,014 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-14 22:00:08,411 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-14 22:00:21,820 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-14 22:00:48,924 - INFO: Actaris(G4) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-14 22:01:02,316 - INFO: Actaris(G1) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-10-14 22:07:05,100 - INFO: Elster EK-280 : Total site processed: 20, Successful rows: 8, Errors: 12
+2024-10-15 22:00:03,986 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-15 22:00:07,314 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-15 22:00:45,832 - INFO: Actaris(G3) : Total site processed: 4, Successful rows: 1, Errors: 3
+2024-10-15 22:01:22,841 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-15 22:01:25,063 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-15 22:07:28,963 - INFO: Elster EK-280 : Total site processed: 21, Successful rows: 8, Errors: 13
+2024-10-16 22:00:03,001 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-16 22:00:16,106 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-16 22:00:25,946 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-10-16 22:01:54,438 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 1, Errors: 3
+2024-10-16 22:02:21,631 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-16 22:07:10,364 - INFO: Elster EK-280 : Total site processed: 20, Successful rows: 7, Errors: 13
+2024-10-17 22:00:03,649 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-17 22:00:16,413 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-17 22:00:27,540 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-10-17 22:01:08,721 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-17 22:02:17,795 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-17 22:06:12,714 - INFO: Elster EK-280 : Total site processed: 20, Successful rows: 7, Errors: 13
+2024-10-18 22:00:04,063 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-18 22:00:09,081 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-18 22:00:34,803 - INFO: Actaris(G3) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-18 22:01:39,593 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 1, Errors: 4
+2024-10-18 22:01:45,421 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-18 22:06:39,333 - INFO: Elster EK-280 : Total site processed: 20, Successful rows: 9, Errors: 11
+2024-10-19 22:00:04,193 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-19 22:00:08,628 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-19 22:00:54,172 - INFO: Actaris(G3) : Total site processed: 4, Successful rows: 1, Errors: 3
+2024-10-19 22:01:09,768 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-19 22:02:43,134 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-19 22:07:23,283 - INFO: Elster EK-280 : Total site processed: 22, Successful rows: 9, Errors: 13
+2024-10-20 22:00:04,069 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-20 22:00:31,169 - INFO: Actaris(G3) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-20 22:00:47,155 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 1, Errors: 1
+2024-10-20 22:01:06,216 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-20 22:04:25,909 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 2, Errors: 3
+2024-10-20 22:06:55,884 - INFO: Elster EK-280 : Total site processed: 21, Successful rows: 8, Errors: 13
+2024-10-21 22:00:03,718 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-21 22:00:08,127 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-21 22:00:23,467 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-21 22:01:33,803 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-10-21 22:01:44,090 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-21 22:06:44,668 - INFO: Elster EK-280 : Total site processed: 20, Successful rows: 8, Errors: 12
+2024-10-22 22:00:03,034 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-22 22:00:16,125 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-22 22:00:41,132 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-10-22 22:01:29,495 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-10-22 22:02:07,126 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 1, Errors: 3
+2024-10-22 22:06:48,002 - INFO: Elster EK-280 : Total site processed: 19, Successful rows: 8, Errors: 11
+2024-10-23 22:00:03,462 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-23 22:00:42,225 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-10-23 22:00:44,789 - INFO: Actaris(G3) : Total site processed: 4, Successful rows: 1, Errors: 3
+2024-10-23 22:01:07,046 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-23 22:01:42,709 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-23 22:06:28,911 - INFO: Elster EK-280 : Total site processed: 19, Successful rows: 8, Errors: 11
+2024-10-24 22:00:03,426 - INFO: Actaris(U) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-10-24 22:00:16,141 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-24 22:00:41,468 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-10-24 22:01:50,146 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 1, Errors: 4
+2024-10-24 22:02:08,316 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 1, Errors: 3
+2024-10-24 22:06:07,104 - INFO: Elster EK-280 : Total site processed: 17, Successful rows: 8, Errors: 9
+2024-10-25 22:00:05,517 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-25 22:00:15,822 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-25 22:00:41,331 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-10-25 22:01:03,968 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 1, Errors: 3
+2024-10-25 22:01:53,040 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 1, Errors: 3
+2024-10-25 22:03:42,496 - INFO: Elster EK-280 : Total site processed: 11, Successful rows: 0, Errors: 11
+2024-10-26 22:00:06,627 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-26 22:00:30,988 - INFO: Actaris(G3) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-26 22:00:41,314 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-10-26 22:00:48,354 - INFO: Actaris(G4) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-26 22:01:46,544 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-26 22:07:28,127 - INFO: Elster EK-280 : Total site processed: 20, Successful rows: 9, Errors: 11
+2024-10-27 22:00:06,362 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-27 22:00:08,386 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-27 22:00:15,887 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-27 22:01:18,449 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-27 22:02:28,320 - INFO: Actaris(G1) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-10-27 22:07:20,438 - INFO: Elster EK-280 : Total site processed: 18, Successful rows: 7, Errors: 11
+2024-10-28 22:00:06,460 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-28 22:00:07,626 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-28 22:00:46,161 - INFO: Actaris(G3) : Total site processed: 4, Successful rows: 1, Errors: 3
+2024-10-28 22:01:06,853 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-28 22:02:05,406 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-10-28 22:07:43,190 - INFO: Elster EK-280 : Total site processed: 19, Successful rows: 9, Errors: 10
+2024-10-29 22:00:06,803 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-29 22:00:08,977 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-29 22:00:15,255 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-29 22:01:19,807 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 1, Errors: 3
+2024-10-29 22:02:05,290 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-10-29 22:06:25,973 - INFO: Elster EK-280 : Total site processed: 18, Successful rows: 7, Errors: 11
+2024-10-30 22:00:06,482 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-30 22:00:08,979 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-30 22:00:48,433 - INFO: Actaris(G4) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-30 22:00:53,486 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-10-30 22:01:43,778 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-30 22:06:50,994 - INFO: Elster EK-280 : Total site processed: 18, Successful rows: 8, Errors: 10
+2024-10-31 22:00:06,352 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-31 22:00:08,563 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-10-31 22:00:16,034 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-31 22:01:08,837 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-10-31 22:01:23,773 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-10-31 22:06:34,500 - INFO: Elster EK-280 : Total site processed: 17, Successful rows: 8, Errors: 9
+2024-11-01 22:00:05,850 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-01 22:00:07,452 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-01 22:00:31,040 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-11-01 22:01:39,069 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 1, Errors: 4
+2024-11-01 22:01:45,503 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-01 22:07:17,472 - INFO: Elster EK-280 : Total site processed: 19, Successful rows: 8, Errors: 11
+2024-11-02 22:00:06,881 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-02 22:00:09,232 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-02 22:00:43,815 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-11-02 22:00:48,434 - INFO: Actaris(G4) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-11-02 22:01:46,000 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-02 22:07:53,712 - INFO: Elster EK-280 : Total site processed: 21, Successful rows: 10, Errors: 11
+2024-11-03 22:00:10,323 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-03 22:00:24,072 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-11-03 22:00:53,759 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-03 22:01:03,251 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-11-03 22:02:07,619 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 1, Errors: 4
+2024-11-03 22:07:22,165 - INFO: Elster EK-280 : Total site processed: 20, Successful rows: 8, Errors: 12
+2024-11-04 22:00:05,182 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-04 22:00:53,541 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 1, Errors: 1
+2024-11-04 22:00:54,994 - INFO: Actaris(G3) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-11-04 22:00:55,234 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-04 22:01:14,297 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-11-04 22:07:18,789 - INFO: Elster EK-280 : Total site processed: 20, Successful rows: 8, Errors: 12
+2024-11-05 22:00:06,018 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-05 22:00:08,820 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-05 22:01:08,640 - INFO: Actaris(G3) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-05 22:01:24,242 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-05 22:01:30,790 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-05 22:07:23,251 - INFO: Elster EK-280 : Total site processed: 19, Successful rows: 8, Errors: 11
+2024-11-06 22:00:01,936 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-06 22:00:05,229 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-06 22:00:54,830 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 1, Errors: 4
+2024-11-06 22:01:33,746 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-06 22:02:01,356 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 1, Errors: 2
+2024-11-06 22:07:18,214 - INFO: Elster EK-280 : Total site processed: 19, Successful rows: 9, Errors: 10
+2024-11-07 22:00:03,490 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-07 22:00:06,422 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-07 22:00:51,379 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-07 22:00:54,526 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-07 22:01:10,518 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-11-07 22:06:33,123 - INFO: Elster EK-280 : Total site processed: 17, Successful rows: 7, Errors: 10
+2024-11-08 22:00:06,766 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-08 22:00:41,594 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 1, Errors: 0
+2024-11-08 22:00:48,236 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-08 22:01:07,482 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-08 22:01:23,414 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-11-08 22:07:04,433 - INFO: Elster EK-280 : Total site processed: 19, Successful rows: 8, Errors: 11
+2024-11-09 22:00:10,769 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-09 22:00:49,046 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 1, Errors: 0
+2024-11-09 22:00:52,338 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-09 22:01:08,853 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-09 22:02:05,800 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-09 22:06:49,198 - INFO: Elster EK-280 : Total site processed: 18, Successful rows: 8, Errors: 10
+2024-11-10 22:00:03,232 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-10 22:00:06,576 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-10 22:00:57,653 - INFO: Actaris(G1) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-11-10 22:01:08,237 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-10 22:01:38,733 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 1, Errors: 6
+2024-11-10 22:07:15,133 - INFO: Elster EK-280 : Total site processed: 20, Successful rows: 10, Errors: 10
+2024-11-11 22:00:02,469 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-11 22:00:06,363 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-11 22:00:52,633 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-11 22:01:10,357 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-11 22:01:43,544 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 1, Errors: 2
+2024-11-11 22:07:29,124 - INFO: Elster EK-280 : Total site processed: 19, Successful rows: 8, Errors: 11
+2024-11-12 22:00:03,019 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-12 22:00:06,289 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-12 22:00:54,112 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-12 22:00:56,473 - INFO: Actaris(G1) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-11-12 22:01:37,489 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-12 22:06:56,743 - INFO: Elster EK-280 : Total site processed: 18, Successful rows: 8, Errors: 10
+2024-11-13 22:00:03,952 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-13 22:00:06,105 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-13 22:01:02,657 - INFO: Actaris(G1) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-11-13 22:01:10,334 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-13 22:01:39,163 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-13 22:07:40,502 - INFO: Elster EK-280 : Total site processed: 20, Successful rows: 8, Errors: 12
+2024-11-14 22:00:03,603 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-14 22:00:06,361 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-14 22:01:11,875 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-14 22:01:24,850 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-14 22:01:25,487 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-11-14 22:06:38,157 - INFO: Elster EK-280 : Total site processed: 18, Successful rows: 8, Errors: 10
+2024-11-15 22:00:05,868 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-15 22:00:43,442 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 1, Errors: 0
+2024-11-15 22:01:11,877 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-15 22:01:22,891 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-15 22:02:37,202 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 1, Errors: 2
+2024-11-15 22:06:46,918 - INFO: Elster EK-280 : Total site processed: 17, Successful rows: 6, Errors: 11
+2024-11-16 22:00:04,073 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-16 22:00:06,199 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-16 22:00:52,597 - INFO: Actaris(G1) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-11-16 22:01:14,631 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-16 22:01:23,411 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-16 22:07:44,226 - INFO: Elster EK-280 : Total site processed: 19, Successful rows: 8, Errors: 11
+2024-11-17 22:00:04,035 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-17 22:00:06,547 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-17 22:01:11,783 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-17 22:01:21,788 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-17 22:03:00,033 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 1, Errors: 4
+2024-11-17 22:06:54,132 - INFO: Elster EK-280 : Total site processed: 19, Successful rows: 9, Errors: 10
+2024-11-18 22:00:04,258 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-18 22:00:07,042 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-18 22:01:11,976 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-18 22:02:08,312 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 0, Errors: 7
+2024-11-18 22:02:09,674 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-18 22:07:39,553 - INFO: Elster EK-280 : Total site processed: 19, Successful rows: 8, Errors: 11
+2024-11-19 22:00:03,786 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-19 22:00:06,999 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-19 22:01:11,829 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-11-19 22:01:12,157 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-19 22:01:24,010 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-19 22:03:55,961 - INFO: Elster EK-280 : Total site processed: 11, Successful rows: 2, Errors: 9
+2024-11-20 22:00:04,499 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-20 22:00:06,444 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-20 22:01:11,237 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-20 22:01:24,725 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-20 22:01:52,512 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-20 22:04:05,059 - INFO: Elster EK-280 : Total site processed: 11, Successful rows: 2, Errors: 9
+2024-11-21 22:00:04,203 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-21 22:00:05,710 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-21 22:01:11,660 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-21 22:02:08,939 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 0, Errors: 7
+2024-11-21 22:02:24,217 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-21 22:04:36,616 - INFO: Elster EK-280 : Total site processed: 13, Successful rows: 1, Errors: 12
+2024-11-22 22:00:03,691 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-22 22:00:06,384 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-22 22:01:10,629 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-22 22:02:09,001 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 0, Errors: 7
+2024-11-22 22:02:12,952 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-22 22:03:47,054 - INFO: Elster EK-280 : Total site processed: 11, Successful rows: 1, Errors: 10
+2024-11-23 22:00:06,394 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-23 22:01:12,931 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-23 22:01:21,925 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 1, Errors: 0
+2024-11-23 22:02:24,681 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-23 22:02:43,609 - INFO: Actaris(G4) : Total site processed: 8, Successful rows: 1, Errors: 7
+2024-11-23 22:04:14,155 - INFO: Elster EK-280 : Total site processed: 12, Successful rows: 2, Errors: 10
+2024-11-24 22:00:03,840 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-24 22:00:06,668 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-24 22:01:19,036 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-24 22:01:54,597 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-24 22:02:08,599 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 0, Errors: 7
+2024-11-24 22:04:55,412 - INFO: Elster EK-280 : Total site processed: 13, Successful rows: 2, Errors: 11
+2024-11-25 22:00:04,089 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-25 22:00:04,836 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-25 22:01:11,552 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-25 22:02:03,849 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-25 22:02:32,387 - INFO: Actaris(G4) : Total site processed: 8, Successful rows: 0, Errors: 8
+2024-11-25 22:02:49,813 - INFO: Elster EK-280 : Total site processed: 9, Successful rows: 0, Errors: 9
+2024-11-26 22:00:03,959 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-26 22:00:06,136 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-26 22:01:14,427 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-26 22:01:45,656 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-26 22:01:52,877 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-26 22:03:25,880 - INFO: Elster EK-280 : Total site processed: 9, Successful rows: 1, Errors: 8
+2024-11-27 22:00:03,758 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-27 22:00:06,275 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-27 22:01:10,945 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-27 22:02:05,324 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-27 22:02:15,904 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 1, Errors: 6
+2024-11-27 22:03:29,724 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 0, Errors: 10
+2024-11-28 22:00:04,071 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-28 22:00:06,263 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-28 22:01:10,730 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-28 22:01:45,239 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-28 22:03:33,087 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 1, Errors: 9
+2024-11-28 22:03:55,840 - INFO: Actaris(G1) : Total site processed: 7, Successful rows: 1, Errors: 6
+2024-11-29 22:00:03,858 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-29 22:00:06,647 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-29 22:01:10,928 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-29 22:01:47,097 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-11-29 22:01:49,022 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-11-29 22:04:07,460 - INFO: Elster EK-280 : Total site processed: 11, Successful rows: 1, Errors: 10
+2024-11-30 22:00:04,537 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-11-30 22:00:06,120 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-11-30 22:00:47,581 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-30 22:02:09,525 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-11-30 22:02:15,223 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 1, Errors: 6
+2024-11-30 22:03:32,713 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 1, Errors: 9
+2024-12-01 22:00:05,945 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-01 22:00:33,475 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-01 22:01:46,588 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 2, Errors: 5
+2024-12-01 22:02:18,367 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 1, Errors: 6
+2024-12-01 22:03:07,973 - INFO: Actaris(G1) : Total site processed: 6, Successful rows: 1, Errors: 5
+2024-12-01 22:03:09,037 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 0, Errors: 10
+2024-12-02 22:00:04,404 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-02 22:00:06,250 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-02 22:00:48,272 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-02 22:02:46,353 - INFO: Actaris(G4) : Total site processed: 8, Successful rows: 2, Errors: 6
+2024-12-02 22:03:03,765 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 1, Errors: 3
+2024-12-02 22:03:37,055 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 0, Errors: 10
+2024-12-03 22:00:04,011 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-03 22:00:07,014 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-03 22:00:47,392 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-03 22:01:30,596 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-12-03 22:02:15,100 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 1, Errors: 6
+2024-12-03 22:03:22,090 - INFO: Elster EK-280 : Total site processed: 11, Successful rows: 0, Errors: 11
+2024-12-04 22:00:04,157 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-04 22:00:06,907 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-04 22:00:48,005 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-04 22:02:32,658 - INFO: Actaris(G4) : Total site processed: 8, Successful rows: 1, Errors: 7
+2024-12-04 22:03:04,253 - INFO: Actaris(G1) : Total site processed: 6, Successful rows: 1, Errors: 5
+2024-12-04 22:04:19,438 - INFO: Elster EK-280 : Total site processed: 12, Successful rows: 0, Errors: 12
+2024-12-05 22:00:06,808 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-05 22:00:46,733 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-05 22:01:19,953 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 1, Errors: 0
+2024-12-05 22:02:16,228 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 1, Errors: 6
+2024-12-05 22:03:03,963 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 1, Errors: 4
+2024-12-05 22:05:49,984 - INFO: Elster EK-280 : Total site processed: 14, Successful rows: 1, Errors: 13
+2024-12-06 22:00:03,518 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-06 22:00:06,702 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-06 22:00:48,528 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-06 22:02:10,345 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-06 22:02:45,922 - INFO: Actaris(G4) : Total site processed: 8, Successful rows: 1, Errors: 7
+2024-12-06 22:05:28,308 - INFO: Elster EK-280 : Total site processed: 14, Successful rows: 0, Errors: 14
+2024-12-07 22:00:04,879 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-07 22:00:07,126 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-07 22:00:47,896 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-07 22:02:31,142 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-12-07 22:02:39,776 - INFO: Actaris(G4) : Total site processed: 8, Successful rows: 1, Errors: 7
+2024-12-07 22:04:40,809 - INFO: Elster EK-280 : Total site processed: 13, Successful rows: 1, Errors: 12
+2024-12-08 22:00:04,983 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-08 22:00:07,094 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-08 22:00:49,553 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-08 22:01:30,322 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-12-08 22:02:40,534 - INFO: Actaris(G4) : Total site processed: 8, Successful rows: 1, Errors: 7
+2024-12-08 22:05:05,619 - INFO: Elster EK-280 : Total site processed: 14, Successful rows: 2, Errors: 12
+2024-12-09 22:00:06,956 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-09 22:00:42,711 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 1, Errors: 0
+2024-12-09 22:01:28,920 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-12-09 22:01:50,276 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-12-09 22:02:54,655 - INFO: Actaris(G4) : Total site processed: 9, Successful rows: 1, Errors: 8
+2024-12-09 22:03:42,739 - INFO: Elster EK-280 : Total site processed: 12, Successful rows: 0, Errors: 12
+2024-12-10 22:00:04,134 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-10 22:00:07,457 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-10 22:00:48,982 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-10 22:02:50,959 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-12-10 22:03:08,096 - INFO: Actaris(G4) : Total site processed: 9, Successful rows: 2, Errors: 7
+2024-12-10 22:03:55,725 - INFO: Elster EK-280 : Total site processed: 12, Successful rows: 2, Errors: 10
+2024-12-11 22:00:07,508 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-11 22:00:46,775 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 1, Errors: 0
+2024-12-11 22:01:16,764 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 1, Errors: 5
+2024-12-11 22:03:05,819 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-12-11 22:03:10,217 - INFO: Actaris(G4) : Total site processed: 9, Successful rows: 2, Errors: 7
+2024-12-11 22:03:12,524 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 0, Errors: 10
+2024-12-12 22:00:04,465 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-12 22:00:05,877 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-12 22:00:47,010 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-12 22:02:23,120 - INFO: Actaris(G4) : Total site processed: 8, Successful rows: 1, Errors: 7
+2024-12-12 22:02:44,906 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-12-12 22:03:11,462 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 1, Errors: 9
+2024-12-13 22:00:04,190 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-13 22:00:07,127 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-13 22:00:47,391 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-13 22:02:45,067 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-12-13 22:03:13,587 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 0, Errors: 10
+2024-12-13 22:04:54,524 - INFO: Actaris(G4) : Total site processed: 11, Successful rows: 3, Errors: 8
+2024-12-14 22:00:06,412 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-14 22:00:43,486 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 1, Errors: 0
+2024-12-14 22:00:46,441 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-14 22:02:29,966 - INFO: Actaris(G1) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-12-14 22:02:30,551 - INFO: Actaris(G4) : Total site processed: 8, Successful rows: 1, Errors: 7
+2024-12-14 22:02:48,577 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 0, Errors: 10
+2024-12-15 22:00:03,671 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-15 22:00:06,825 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-15 22:00:49,444 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-15 22:02:37,001 - INFO: Actaris(G4) : Total site processed: 8, Successful rows: 2, Errors: 6
+2024-12-15 22:03:22,403 - INFO: Elster EK-280 : Total site processed: 11, Successful rows: 1, Errors: 10
+2024-12-15 22:05:20,655 - INFO: Actaris(G1) : Total site processed: 7, Successful rows: 1, Errors: 6
+2024-12-16 22:00:04,290 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-16 22:00:06,876 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-16 22:00:48,955 - INFO: Actaris(G3) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-16 22:01:49,149 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 1, Errors: 5
+2024-12-16 22:03:10,409 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 0, Errors: 10
+2024-12-16 22:03:44,448 - INFO: Actaris(G1) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-12-17 22:00:06,126 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-17 22:00:44,134 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 1, Errors: 0
+2024-12-17 22:01:18,525 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-12-17 22:01:32,945 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-12-17 22:03:14,511 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 0, Errors: 10
+2024-12-17 22:03:24,917 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-18 22:00:03,891 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-18 22:00:17,780 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-18 22:01:05,619 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-12-18 22:01:44,909 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 1, Errors: 5
+2024-12-18 22:03:05,561 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 1, Errors: 9
+2024-12-18 22:03:10,092 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-19 22:00:04,414 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-19 22:00:06,635 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-19 22:01:06,137 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-12-19 22:03:13,407 - INFO: Actaris(G4) : Total site processed: 9, Successful rows: 4, Errors: 5
+2024-12-19 22:03:26,093 - INFO: Elster EK-280 : Total site processed: 10, Successful rows: 0, Errors: 10
+2024-12-19 22:03:45,106 - INFO: Actaris(G1) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-12-20 22:00:06,191 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-20 22:00:45,991 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 1, Errors: 0
+2024-12-20 22:01:06,286 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-12-20 22:02:21,879 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 2, Errors: 5
+2024-12-20 22:03:09,670 - INFO: Elster EK-280 : Total site processed: 9, Successful rows: 0, Errors: 9
+2024-12-20 22:03:24,956 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-21 22:00:03,657 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-21 22:00:07,345 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-21 22:01:38,188 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2024-12-21 22:02:46,867 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 3, Errors: 4
+2024-12-21 22:02:47,919 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 0, Errors: 8
+2024-12-21 22:05:57,155 - INFO: Actaris(G1) : Total site processed: 7, Successful rows: 2, Errors: 5
+2024-12-22 22:00:03,777 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-22 22:00:06,709 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-22 22:02:11,507 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 2, Errors: 4
+2024-12-22 22:02:26,440 - INFO: Actaris(G3) : Total site processed: 9, Successful rows: 1, Errors: 8
+2024-12-22 22:03:22,473 - INFO: Elster EK-280 : Total site processed: 9, Successful rows: 0, Errors: 9
+2024-12-22 22:03:45,266 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2024-12-23 22:00:04,386 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-23 22:00:06,441 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-23 22:01:09,389 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-12-23 22:01:58,929 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 1, Errors: 5
+2024-12-23 22:02:04,574 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-12-23 22:02:40,833 - INFO: Elster EK-280 : Total site processed: 7, Successful rows: 0, Errors: 7
+2024-12-24 22:00:04,437 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-24 22:00:06,821 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-24 22:01:23,979 - INFO: Actaris(G1) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-12-24 22:01:35,846 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 1, Errors: 6
+2024-12-24 22:02:11,980 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 2, Errors: 4
+2024-12-24 22:03:04,505 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 0, Errors: 8
+2024-12-25 22:00:06,723 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-25 22:01:06,728 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2024-12-25 22:01:14,390 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 1, Errors: 1
+2024-12-25 22:01:24,695 - INFO: Actaris(G1) : Total site processed: 2, Successful rows: 0, Errors: 2
+2024-12-25 22:01:57,978 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 1, Errors: 6
+2024-12-25 22:02:30,804 - INFO: Elster EK-280 : Total site processed: 7, Successful rows: 0, Errors: 7
+2024-12-26 22:00:03,806 - INFO: Actaris(G2) : Total site processed: 0, Successful rows: 0, Errors: 0
+2024-12-26 22:00:06,583 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-26 22:01:17,977 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2024-12-26 22:01:32,536 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 1, Errors: 4
+2024-12-26 22:02:36,983 - INFO: Elster EK-280 : Total site processed: 7, Successful rows: 0, Errors: 7
+2024-12-26 22:02:45,162 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-12-27 22:00:05,700 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-27 22:01:19,307 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 1, Errors: 3
+2024-12-27 22:01:26,818 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 1, Errors: 1
+2024-12-27 22:02:24,926 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-12-27 22:02:51,619 - INFO: Actaris(G3) : Total site processed: 8, Successful rows: 1, Errors: 7
+2024-12-27 22:03:19,907 - INFO: Elster EK-280 : Total site processed: 9, Successful rows: 0, Errors: 9
+2024-12-28 22:00:06,006 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-28 22:00:09,756 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-28 22:01:37,086 - INFO: Actaris(G3) : Total site processed: 8, Successful rows: 0, Errors: 8
+2024-12-28 22:01:39,734 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 1, Errors: 4
+2024-12-28 22:02:20,088 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-12-28 22:03:14,601 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 0, Errors: 8
+2024-12-29 22:00:06,003 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-29 22:01:09,155 - INFO: Actaris(G2) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-12-29 22:01:42,503 - INFO: Actaris(G3) : Total site processed: 8, Successful rows: 0, Errors: 8
+2024-12-29 22:01:42,536 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-12-29 22:01:48,577 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 1, Errors: 5
+2024-12-29 22:03:54,133 - INFO: Elster EK-280 : Total site processed: 11, Successful rows: 1, Errors: 10
+2024-12-30 22:00:06,325 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-30 22:00:39,844 - INFO: Actaris(G2) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-12-30 22:01:17,890 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2024-12-30 22:01:47,697 - INFO: Actaris(G4) : Total site processed: 6, Successful rows: 1, Errors: 5
+2024-12-30 22:03:33,768 - INFO: Elster EK-280 : Total site processed: 9, Successful rows: 0, Errors: 9
+2024-12-30 22:04:35,657 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 1, Errors: 4
+2024-12-31 22:00:05,546 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2024-12-31 22:00:39,628 - INFO: Actaris(G2) : Total site processed: 3, Successful rows: 0, Errors: 3
+2024-12-31 22:01:18,977 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2024-12-31 22:02:17,508 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 2, Errors: 5
+2024-12-31 22:02:48,118 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2024-12-31 22:03:23,124 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 0, Errors: 8
+2025-01-01 22:00:05,364 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-01 22:01:16,065 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-01 22:01:25,582 - INFO: Actaris(G2) : Total site processed: 3, Successful rows: 1, Errors: 2
+2025-01-01 22:02:17,727 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 2, Errors: 5
+2025-01-01 22:03:11,270 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 0, Errors: 5
+2025-01-01 22:03:31,364 - INFO: Elster EK-280 : Total site processed: 9, Successful rows: 0, Errors: 9
+2025-01-02 22:00:06,371 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-02 22:00:17,675 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-02 22:01:16,427 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-02 22:01:26,432 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 1, Errors: 3
+2025-01-02 22:02:21,726 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 1, Errors: 3
+2025-01-02 22:03:35,658 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 0, Errors: 8
+2025-01-03 22:00:05,409 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-03 22:00:18,580 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-03 22:01:17,388 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-03 22:01:23,678 - INFO: Actaris(G1) : Total site processed: 2, Successful rows: 0, Errors: 2
+2025-01-03 22:01:33,498 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 1, Errors: 4
+2025-01-03 22:03:03,096 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 0, Errors: 8
+2025-01-04 22:00:06,978 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-04 22:00:18,388 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-04 22:01:06,332 - INFO: Actaris(G1) : Total site processed: 2, Successful rows: 0, Errors: 2
+2025-01-04 22:01:16,321 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-04 22:01:16,999 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 1, Errors: 3
+2025-01-04 22:02:52,353 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 1, Errors: 7
+2025-01-05 22:00:06,143 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-05 22:00:17,954 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-05 22:01:07,955 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2025-01-05 22:01:23,014 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-05 22:02:44,375 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2025-01-05 22:03:00,066 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 0, Errors: 8
+2025-01-06 22:00:06,233 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-06 22:00:18,365 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-06 22:01:24,740 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-06 22:01:47,267 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 1, Errors: 3
+2025-01-06 22:02:52,768 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2025-01-06 22:03:01,881 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 0, Errors: 8
+2025-01-07 22:00:05,891 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-07 22:00:18,739 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-07 22:01:07,185 - INFO: Actaris(G1) : Total site processed: 2, Successful rows: 0, Errors: 2
+2025-01-07 22:01:18,052 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-07 22:01:18,573 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 1, Errors: 3
+2025-01-07 22:02:25,894 - INFO: Elster EK-280 : Total site processed: 6, Successful rows: 0, Errors: 6
+2025-01-08 22:00:06,777 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-08 22:00:36,482 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 0, Errors: 2
+2025-01-08 22:01:17,028 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-08 22:01:21,039 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 1, Errors: 3
+2025-01-08 22:02:17,222 - INFO: Elster EK-280 : Total site processed: 6, Successful rows: 0, Errors: 6
+2025-01-08 22:02:29,209 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2025-01-09 22:00:11,503 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-09 22:01:11,835 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 0, Errors: 5
+2025-01-09 22:01:16,720 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-09 22:01:34,304 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 1, Errors: 1
+2025-01-09 22:02:04,516 - INFO: Elster EK-280 : Total site processed: 6, Successful rows: 0, Errors: 6
+2025-01-09 22:02:58,217 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2025-01-10 22:00:06,137 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-10 22:00:55,255 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 1, Errors: 1
+2025-01-10 22:01:17,119 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-10 22:01:20,831 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 1, Errors: 3
+2025-01-10 22:01:55,795 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2025-01-10 22:02:50,412 - INFO: Elster EK-280 : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-11 22:00:05,438 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-11 22:00:18,760 - INFO: Actaris(G2) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-11 22:01:22,534 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-11 22:01:34,790 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 1, Errors: 4
+2025-01-11 22:01:45,976 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2025-01-11 22:03:06,692 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 0, Errors: 8
+2025-01-12 22:00:06,037 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-12 22:00:56,526 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 1, Errors: 1
+2025-01-12 22:01:16,556 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-12 22:01:35,652 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 1, Errors: 4
+2025-01-12 22:03:06,144 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 0, Errors: 8
+2025-01-12 22:04:15,317 - INFO: Actaris(G1) : Total site processed: 5, Successful rows: 1, Errors: 4
+2025-01-13 22:00:05,047 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-13 22:01:18,824 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-13 22:01:29,549 - INFO: Actaris(G2) : Total site processed: 3, Successful rows: 0, Errors: 3
+2025-01-13 22:01:42,489 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 1, Errors: 4
+2025-01-13 22:01:56,108 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2025-01-13 22:02:50,413 - INFO: Elster EK-280 : Total site processed: 7, Successful rows: 0, Errors: 7
+2025-01-14 22:00:06,386 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-14 22:01:39,390 - INFO: Elster EK-280 : Total site processed: 5, Successful rows: 0, Errors: 5
+2025-01-14 22:28:36,469 - INFO: Actaris(G3) : Total site processed: 39, Successful rows: 0, Errors: 39
+2025-01-14 22:33:19,833 - INFO: Actaris(G4) : Total site processed: 49, Successful rows: 0, Errors: 49
+2025-01-14 22:38:26,487 - INFO: Actaris(G2) : Total site processed: 34, Successful rows: 0, Errors: 34
+2025-01-14 22:41:47,994 - INFO: Actaris(G1) : Total site processed: 45, Successful rows: 0, Errors: 45
+2025-01-15 22:00:05,968 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-15 22:00:22,539 - INFO: Elster EK-280 : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-15 22:54:47,780 - INFO: Actaris(G3) : Total site processed: 71, Successful rows: 0, Errors: 71
+2025-01-15 22:58:39,243 - INFO: Actaris(G4) : Total site processed: 83, Successful rows: 0, Errors: 83
+2025-01-15 23:00:16,245 - INFO: Actaris(G2) : Total site processed: 56, Successful rows: 0, Errors: 56
+2025-01-15 23:00:18,067 - INFO: Actaris(G1) : Total site processed: 65, Successful rows: 0, Errors: 65
+2025-01-16 22:00:04,347 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-16 22:00:04,390 - INFO: Elster EK-280 : Total site processed: 0, Successful rows: 0, Errors: 0
+2025-01-16 22:02:41,008 - INFO: Actaris(G3) : Total site processed: 10, Successful rows: 4, Errors: 6
+2025-01-16 22:02:54,271 - INFO: Actaris(G4) : Total site processed: 7, Successful rows: 3, Errors: 4
+2025-01-16 22:15:43,518 - INFO: Actaris(G1) : Total site processed: 19, Successful rows: 16, Errors: 3
+2025-01-16 22:17:53,518 - INFO: Actaris(G2) : Total site processed: 16, Successful rows: 14, Errors: 2
+2025-01-17 22:00:12,870 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-17 22:00:54,697 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 0, Errors: 2
+2025-01-17 22:01:10,392 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 1, Errors: 6
+2025-01-17 22:02:03,250 - INFO: Actaris(G4) : Total site processed: 5, Successful rows: 1, Errors: 4
+2025-01-17 22:02:06,779 - INFO: Actaris(G1) : Total site processed: 4, Successful rows: 0, Errors: 4
+2025-01-17 22:03:14,612 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 2, Errors: 6
+2025-01-18 22:00:07,150 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-18 22:00:42,059 - INFO: Actaris(G3) : Total site processed: 6, Successful rows: 0, Errors: 6
+2025-01-18 22:00:57,219 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 1, Errors: 1
+2025-01-18 22:01:03,357 - INFO: Actaris(G4) : Total site processed: 4, Successful rows: 0, Errors: 4
+2025-01-18 22:02:22,612 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2025-01-18 22:03:39,817 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 1, Errors: 7
+2025-01-19 22:00:07,232 - INFO: Actaris(U) : Total site processed: 1, Successful rows: 0, Errors: 1
+2025-01-19 22:00:49,740 - INFO: Actaris(G4) : Total site processed: 3, Successful rows: 0, Errors: 3
+2025-01-19 22:01:11,782 - INFO: Actaris(G3) : Total site processed: 7, Successful rows: 1, Errors: 6
+2025-01-19 22:01:32,806 - INFO: Actaris(G2) : Total site processed: 2, Successful rows: 0, Errors: 2
+2025-01-19 22:02:24,385 - INFO: Actaris(G1) : Total site processed: 3, Successful rows: 0, Errors: 3
+2025-01-19 22:03:04,546 - INFO: Elster EK-280 : Total site processed: 8, Successful rows: 2, Errors: 6

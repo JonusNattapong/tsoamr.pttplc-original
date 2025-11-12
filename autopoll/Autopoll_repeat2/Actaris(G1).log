@@ -1,0 +1,826 @@
+2024-10-11 21:06:42,216 - ERROR: Error occurred at 2024-10-11 21:06:42 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-11 21:08:28,663 - ERROR: Error occurred at 2024-10-11 21:08:28 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-10-11 21:08:48,707 - ERROR: Error occurred at 2024-10-11 21:08:48 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-12 21:05:48,291 - ERROR: Error occurred at 2024-10-12 21:05:48 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-10-12 21:05:56,490 - ERROR: Error occurred at 2024-10-12 21:05:56 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-10-12 21:08:10,453 - ERROR: Error occurred at 2024-10-12 21:08:10 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-10-12 21:08:32,561 - ERROR: Error occurred at 2024-10-12 21:08:32 - TCP IP: 10.68.110.115, Port: 2404, Run: 2, METERID: MET0361. Error: TimeoutError: timed out
+2024-10-12 21:09:29,935 - ERROR: Error occurred at 2024-10-12 21:09:29 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-13 21:05:29,349 - ERROR: Error occurred at 2024-10-13 21:05:29 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-13 21:05:49,405 - ERROR: Error occurred at 2024-10-13 21:05:49 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-13 21:07:26,206 - ERROR: Error occurred at 2024-10-13 21:07:26 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-10-13 21:07:46,250 - ERROR: Error occurred at 2024-10-13 21:07:46 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-14 21:02:44,649 - ERROR: Error occurred at 2024-10-14 21:02:44 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-10-14 21:03:04,706 - ERROR: Error occurred at 2024-10-14 21:03:04 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-14 21:04:41,416 - ERROR: Error occurred at 2024-10-14 21:04:41 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-15 21:05:28,207 - ERROR: Error occurred at 2024-10-15 21:05:28 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-15 21:05:48,263 - ERROR: Error occurred at 2024-10-15 21:05:48 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-15 21:06:48,202 - ERROR: Error occurred at 2024-10-15 21:06:48 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-10-15 21:07:08,258 - ERROR: Error occurred at 2024-10-15 21:07:08 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-16 21:02:59,397 - ERROR: Error occurred at 2024-10-16 21:02:59 - TCP IP: 10.68.110.208, Port: 2402, Run: 1, METERID: MET0528. Error: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-10-16 21:03:19,453 - ERROR: Error occurred at 2024-10-16 21:03:19 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-16 21:03:39,495 - ERROR: Error occurred at 2024-10-16 21:03:39 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-16 21:03:59,550 - ERROR: Error occurred at 2024-10-16 21:03:59 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-16 21:04:19,691 - ERROR: Error occurred at 2024-10-16 21:04:19 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-16 21:04:39,735 - ERROR: Error occurred at 2024-10-16 21:04:39 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-16 21:04:59,791 - ERROR: Error occurred at 2024-10-16 21:04:59 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-16 21:06:37,832 - ERROR: Error occurred at 2024-10-16 21:06:37 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-17 21:04:17,513 - ERROR: Error occurred at 2024-10-17 21:04:17 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-17 21:04:37,569 - ERROR: Error occurred at 2024-10-17 21:04:37 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-17 21:04:57,614 - ERROR: Error occurred at 2024-10-17 21:04:57 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-17 21:05:17,659 - ERROR: Error occurred at 2024-10-17 21:05:17 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-17 21:05:37,713 - ERROR: Error occurred at 2024-10-17 21:05:37 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-17 21:05:57,771 - ERROR: Error occurred at 2024-10-17 21:05:57 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-17 21:06:17,826 - ERROR: Error occurred at 2024-10-17 21:06:17 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-10-17 21:06:37,883 - ERROR: Error occurred at 2024-10-17 21:06:37 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-18 21:03:35,557 - ERROR: Error occurred at 2024-10-18 21:03:35 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: TimeoutError: timed out
+2024-10-18 21:03:55,604 - ERROR: Error occurred at 2024-10-18 21:03:55 - TCP IP: 10.72.191.149, Port: 2404, Run: 2, METERID: MET0306. Error: TimeoutError: timed out
+2024-10-18 21:06:46,566 - ERROR: Error occurred at 2024-10-18 21:06:46 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-18 21:07:06,610 - ERROR: Error occurred at 2024-10-18 21:07:06 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-18 21:07:26,664 - ERROR: Error occurred at 2024-10-18 21:07:26 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-10-18 21:08:24,168 - ERROR: Error occurred at 2024-10-18 21:08:24 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-19 21:02:55,808 - ERROR: Error occurred at 2024-10-19 21:02:55 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-19 21:03:15,865 - ERROR: Error occurred at 2024-10-19 21:03:15 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-19 21:03:35,910 - ERROR: Error occurred at 2024-10-19 21:03:35 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-19 21:03:55,969 - ERROR: Error occurred at 2024-10-19 21:03:55 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-19 21:04:16,024 - ERROR: Error occurred at 2024-10-19 21:04:15 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-19 21:04:36,069 - ERROR: Error occurred at 2024-10-19 21:04:36 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-19 21:04:56,112 - ERROR: Error occurred at 2024-10-19 21:04:56 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-10-19 21:05:16,169 - ERROR: Error occurred at 2024-10-19 21:05:16 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-20 21:06:12,886 - ERROR: Error occurred at 2024-10-20 21:06:12 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-10-20 21:06:47,300 - ERROR: Error occurred at 2024-10-20 21:06:47 - TCP IP: 10.68.110.208, Port: 2402, Run: 1, METERID: MET0528. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device a624dd3f80000089150103086715713d029c03203142!
+2024-10-20 21:06:59,082 - ERROR: Error occurred at 2024-10-20 21:06:59 - TCP IP: 10.68.110.208, Port: 2404, Run: 2, METERID: MET0528. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device a624dd3f8000008915010308671571a602bd01900440!
+2024-10-20 21:07:19,138 - ERROR: Error occurred at 2024-10-20 21:07:19 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-20 21:07:39,193 - ERROR: Error occurred at 2024-10-20 21:07:39 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-20 21:07:59,237 - ERROR: Error occurred at 2024-10-20 21:07:59 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-20 21:08:19,292 - ERROR: Error occurred at 2024-10-20 21:08:19 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2024-10-20 21:08:39,346 - ERROR: Error occurred at 2024-10-20 21:08:39 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-20 21:08:59,403 - ERROR: Error occurred at 2024-10-20 21:08:59 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-20 21:09:19,538 - ERROR: Error occurred at 2024-10-20 21:09:19 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-21 21:06:45,112 - ERROR: Error occurred at 2024-10-21 21:06:45 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-21 21:07:05,168 - ERROR: Error occurred at 2024-10-21 21:07:05 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-21 21:07:25,212 - ERROR: Error occurred at 2024-10-21 21:07:25 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-10-21 21:07:45,258 - ERROR: Error occurred at 2024-10-21 21:07:45 - TCP IP: 10.72.191.239, Port: 2402, Run: 1, METERID: MET0553. Error: TimeoutError: timed out
+2024-10-21 21:08:43,033 - ERROR: Error occurred at 2024-10-21 21:08:42 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-22 21:02:57,374 - ERROR: Error occurred at 2024-10-22 21:02:57 - TCP IP: 10.68.110.208, Port: 2404, Run: 2, METERID: MET0528. Error: TimeoutError: timed out
+2024-10-22 21:03:17,433 - ERROR: Error occurred at 2024-10-22 21:03:17 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-22 21:03:33,106 - ERROR: Error occurred at 2024-10-22 21:03:33 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-10-22 21:04:32,262 - ERROR: Error occurred at 2024-10-22 21:04:32 - TCP IP: 10.72.191.239, Port: 2402, Run: 1, METERID: MET0553. Error: TimeoutError: timed out
+2024-10-22 21:05:31,254 - ERROR: Error occurred at 2024-10-22 21:05:31 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-23 21:06:16,218 - ERROR: Error occurred at 2024-10-23 21:06:16 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-23 21:06:36,272 - ERROR: Error occurred at 2024-10-23 21:06:36 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-23 21:06:56,315 - ERROR: Error occurred at 2024-10-23 21:06:56 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-10-23 21:07:16,370 - ERROR: Error occurred at 2024-10-23 21:07:16 - TCP IP: 10.72.191.239, Port: 2402, Run: 1, METERID: MET0553. Error: TimeoutError: timed out
+2024-10-23 21:08:13,924 - ERROR: Error occurred at 2024-10-23 21:08:13 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-24 21:06:01,354 - ERROR: Error occurred at 2024-10-24 21:06:01 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: ValueError: invalid literal for int() with base 16: ''
+2024-10-24 21:07:00,317 - ERROR: Error occurred at 2024-10-24 21:07:00 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-24 21:07:20,373 - ERROR: Error occurred at 2024-10-24 21:07:20 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-24 21:07:40,428 - ERROR: Error occurred at 2024-10-24 21:07:40 - TCP IP: 10.72.191.239, Port: 2402, Run: 1, METERID: MET0553. Error: TimeoutError: timed out
+2024-10-24 21:08:00,484 - ERROR: Error occurred at 2024-10-24 21:08:00 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-25 21:01:15,031 - ERROR: Error occurred at 2024-10-25 21:01:14 - TCP IP: 10.68.111.181, Port: 2404, Run: 2, METERID: MET0405. Error: TimeoutError: timed out
+2024-10-25 21:06:04,223 - ERROR: Error occurred at 2024-10-25 21:06:04 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-25 21:06:24,281 - ERROR: Error occurred at 2024-10-25 21:06:24 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-25 21:06:44,336 - ERROR: Error occurred at 2024-10-25 21:06:44 - TCP IP: 10.72.191.239, Port: 2402, Run: 1, METERID: MET0553. Error: TimeoutError: timed out
+2024-10-25 21:07:42,510 - ERROR: Error occurred at 2024-10-25 21:07:42 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-26 21:08:03,986 - ERROR: Error occurred at 2024-10-26 21:08:03 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-26 21:08:24,032 - ERROR: Error occurred at 2024-10-26 21:08:23 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-26 21:08:44,086 - ERROR: Error occurred at 2024-10-26 21:08:44 - TCP IP: 10.72.191.239, Port: 2402, Run: 1, METERID: MET0553. Error: TimeoutError: timed out
+2024-10-26 21:09:45,004 - ERROR: Error occurred at 2024-10-26 21:09:44 - TCP IP: 10.68.110.115, Port: 2404, Run: 2, METERID: MET0361. Error: TimeoutError: timed out
+2024-10-26 21:10:05,051 - ERROR: Error occurred at 2024-10-26 21:10:05 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-27 21:06:46,830 - ERROR: Error occurred at 2024-10-27 21:06:46 - TCP IP: 10.68.111.119, Port: 2402, Run: 1, METERID: MET0416. Error: TimeoutError: timed out
+2024-10-27 21:07:06,874 - ERROR: Error occurred at 2024-10-27 21:07:06 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-27 21:07:26,932 - ERROR: Error occurred at 2024-10-27 21:07:26 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-27 21:07:49,103 - ERROR: Error occurred at 2024-10-27 21:07:49 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-10-27 21:08:09,147 - ERROR: Error occurred at 2024-10-27 21:08:09 - TCP IP: 10.72.191.239, Port: 2402, Run: 1, METERID: MET0553. Error: TimeoutError: timed out
+2024-10-27 21:09:08,565 - ERROR: Error occurred at 2024-10-27 21:09:08 - TCP IP: 10.68.110.115, Port: 2404, Run: 2, METERID: MET0361. Error: TimeoutError: timed out
+2024-10-27 21:09:28,621 - ERROR: Error occurred at 2024-10-27 21:09:28 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-28 21:06:07,325 - ERROR: Error occurred at 2024-10-28 21:06:07 - TCP IP: 10.68.111.119, Port: 2402, Run: 1, METERID: MET0416. Error: TimeoutError: timed out
+2024-10-28 21:06:27,371 - ERROR: Error occurred at 2024-10-28 21:06:27 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-28 21:06:47,425 - ERROR: Error occurred at 2024-10-28 21:06:47 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-28 21:07:07,481 - ERROR: Error occurred at 2024-10-28 21:07:07 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-10-28 21:08:07,203 - ERROR: Error occurred at 2024-10-28 21:08:07 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-10-28 21:08:27,359 - ERROR: Error occurred at 2024-10-28 21:08:27 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-29 21:05:30,262 - ERROR: Error occurred at 2024-10-29 21:05:30 - TCP IP: 10.68.111.119, Port: 2402, Run: 1, METERID: MET0416. Error: TimeoutError: timed out
+2024-10-29 21:05:45,955 - ERROR: Error occurred at 2024-10-29 21:05:45 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-10-29 21:06:06,009 - ERROR: Error occurred at 2024-10-29 21:06:05 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-29 21:06:26,065 - ERROR: Error occurred at 2024-10-29 21:06:26 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-10-29 21:06:48,235 - ERROR: Error occurred at 2024-10-29 21:06:48 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-10-29 21:07:08,290 - ERROR: Error occurred at 2024-10-29 21:07:08 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-30 21:05:29,720 - ERROR: Error occurred at 2024-10-30 21:05:29 - TCP IP: 10.68.111.119, Port: 2402, Run: 1, METERID: MET0416. Error: TimeoutError: timed out
+2024-10-30 21:05:49,765 - ERROR: Error occurred at 2024-10-30 21:05:49 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-30 21:06:09,820 - ERROR: Error occurred at 2024-10-30 21:06:09 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-30 21:06:29,958 - ERROR: Error occurred at 2024-10-30 21:06:29 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-10-30 21:07:26,990 - ERROR: Error occurred at 2024-10-30 21:07:26 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-10-31 21:05:28,832 - ERROR: Error occurred at 2024-10-31 21:05:28 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-31 21:05:48,886 - ERROR: Error occurred at 2024-10-31 21:05:48 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-10-31 21:06:08,941 - ERROR: Error occurred at 2024-10-31 21:06:08 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-10-31 21:07:06,453 - ERROR: Error occurred at 2024-10-31 21:07:06 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-01 21:05:29,840 - ERROR: Error occurred at 2024-11-01 21:05:29 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-01 21:05:49,906 - ERROR: Error occurred at 2024-11-01 21:05:49 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-01 21:06:09,960 - ERROR: Error occurred at 2024-11-01 21:06:09 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-11-01 21:06:32,079 - ERROR: Error occurred at 2024-11-01 21:06:32 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-11-01 21:06:52,206 - ERROR: Error occurred at 2024-11-01 21:06:52 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-02 21:05:13,769 - ERROR: Error occurred at 2024-11-02 21:05:13 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-02 21:05:21,948 - ERROR: Error occurred at 2024-11-02 21:05:21 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-02 21:05:44,055 - ERROR: Error occurred at 2024-11-02 21:05:44 - TCP IP: 10.68.110.115, Port: 2404, Run: 2, METERID: MET0361. Error: TimeoutError: timed out
+2024-11-02 21:06:06,236 - ERROR: Error occurred at 2024-11-02 21:06:06 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-11-02 21:06:26,279 - ERROR: Error occurred at 2024-11-02 21:06:26 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-03 21:02:57,582 - ERROR: Error occurred at 2024-11-03 21:02:57 - TCP IP: 10.68.111.168, Port: 2402, Run: 1, METERID: MET0337. Error: TimeoutError: timed out
+2024-11-03 21:06:02,150 - ERROR: Error occurred at 2024-11-03 21:06:02 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-03 21:06:22,205 - ERROR: Error occurred at 2024-11-03 21:06:22 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-03 21:06:42,260 - ERROR: Error occurred at 2024-11-03 21:06:42 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-11-03 21:07:04,375 - ERROR: Error occurred at 2024-11-03 21:07:04 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-11-03 21:07:24,429 - ERROR: Error occurred at 2024-11-03 21:07:24 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-04 21:05:29,466 - ERROR: Error occurred at 2024-11-04 21:05:29 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-04 21:05:49,522 - ERROR: Error occurred at 2024-11-04 21:05:49 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-04 21:06:11,713 - ERROR: Error occurred at 2024-11-04 21:06:11 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-11-04 21:06:31,768 - ERROR: Error occurred at 2024-11-04 21:06:31 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-05 21:03:58,170 - ERROR: Error occurred at 2024-11-05 21:03:58 - TCP IP: 10.68.111.244, Port: 2402, Run: 1, METERID: MET0126. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-11-05 21:06:12,726 - ERROR: Error occurred at 2024-11-05 21:06:12 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-05 21:06:32,781 - ERROR: Error occurred at 2024-11-05 21:06:32 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-05 21:06:54,969 - ERROR: Error occurred at 2024-11-05 21:06:54 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-11-05 21:07:15,024 - ERROR: Error occurred at 2024-11-05 21:07:14 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-06 21:03:35,278 - ERROR: Error occurred at 2024-11-06 21:03:35 - TCP IP: 10.68.111.168, Port: 2402, Run: 1, METERID: MET0337. Error: TimeoutError: timed out
+2024-11-06 21:03:55,328 - ERROR: Error occurred at 2024-11-06 21:03:55 - TCP IP: 10.68.111.168, Port: 2404, Run: 2, METERID: MET0337. Error: TimeoutError: timed out
+2024-11-06 21:06:48,956 - ERROR: Error occurred at 2024-11-06 21:06:48 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-06 21:07:09,011 - ERROR: Error occurred at 2024-11-06 21:07:08 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-06 21:07:29,066 - ERROR: Error occurred at 2024-11-06 21:07:29 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-07 21:06:18,386 - ERROR: Error occurred at 2024-11-07 21:06:18 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-07 21:06:38,443 - ERROR: Error occurred at 2024-11-07 21:06:38 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-07 21:09:33,339 - ERROR: Error occurred at 2024-11-07 21:09:33 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-11-07 21:09:53,396 - ERROR: Error occurred at 2024-11-07 21:09:53 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-08 21:07:12,834 - ERROR: Error occurred at 2024-11-08 21:07:12 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-08 21:07:31,956 - ERROR: Error occurred at 2024-11-08 21:07:31 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-08 21:07:52,011 - ERROR: Error occurred at 2024-11-08 21:07:51 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-11-08 21:08:49,723 - ERROR: Error occurred at 2024-11-08 21:08:49 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-09 21:02:57,715 - ERROR: Error occurred at 2024-11-09 21:02:57 - TCP IP: 10.68.111.168, Port: 2402, Run: 1, METERID: MET0337. Error: TimeoutError: timed out
+2024-11-09 21:03:17,759 - ERROR: Error occurred at 2024-11-09 21:03:17 - TCP IP: 10.68.111.168, Port: 2404, Run: 2, METERID: MET0337. Error: TimeoutError: timed out
+2024-11-09 21:05:34,311 - ERROR: Error occurred at 2024-11-09 21:05:34 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-09 21:05:49,412 - ERROR: Error occurred at 2024-11-09 21:05:49 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-09 21:06:11,521 - ERROR: Error occurred at 2024-11-09 21:06:11 - TCP IP: 10.68.110.115, Port: 2404, Run: 2, METERID: MET0361. Error: TimeoutError: timed out
+2024-11-09 21:06:31,669 - ERROR: Error occurred at 2024-11-09 21:06:31 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-10 21:06:07,766 - ERROR: Error occurred at 2024-11-10 21:06:07 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-10 21:06:12,029 - ERROR: Error occurred at 2024-11-10 21:06:11 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-10 21:07:48,257 - ERROR: Error occurred at 2024-11-10 21:07:48 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-11 21:05:32,077 - ERROR: Error occurred at 2024-11-11 21:05:32 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device cf1aa03f8000005c11010308673271bb02c707215d4d!
+2024-11-11 21:06:58,860 - ERROR: Error occurred at 2024-11-11 21:06:58 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-11 21:07:17,979 - ERROR: Error occurred at 2024-11-11 21:07:17 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-11 21:08:58,094 - ERROR: Error occurred at 2024-11-11 21:08:58 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-12 21:06:39,103 - ERROR: Error occurred at 2024-11-12 21:06:39 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-12 21:06:59,147 - ERROR: Error occurred at 2024-11-12 21:06:59 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-12 21:09:12,473 - ERROR: Error occurred at 2024-11-12 21:09:12 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-13 21:05:27,967 - ERROR: Error occurred at 2024-11-13 21:05:27 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-13 21:05:48,023 - ERROR: Error occurred at 2024-11-13 21:05:47 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-13 21:06:08,206 - ERROR: Error occurred at 2024-11-13 21:06:08 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-14 21:06:08,223 - ERROR: Error occurred at 2024-11-14 21:06:08 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-14 21:06:23,326 - ERROR: Error occurred at 2024-11-14 21:06:23 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-14 21:07:22,746 - ERROR: Error occurred at 2024-11-14 21:07:22 - TCP IP: 10.68.110.115, Port: 2404, Run: 2, METERID: MET0361. Error: TimeoutError: timed out
+2024-11-14 21:07:42,802 - ERROR: Error occurred at 2024-11-14 21:07:42 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-15 21:04:55,345 - ERROR: Error occurred at 2024-11-15 21:04:55 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-11-15 21:05:15,390 - ERROR: Error occurred at 2024-11-15 21:05:15 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-11-15 21:05:35,444 - ERROR: Error occurred at 2024-11-15 21:05:35 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-15 21:05:55,501 - ERROR: Error occurred at 2024-11-15 21:05:55 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-15 21:08:08,447 - ERROR: Error occurred at 2024-11-15 21:08:08 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-16 21:06:08,973 - ERROR: Error occurred at 2024-11-16 21:06:08 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-16 21:06:29,029 - ERROR: Error occurred at 2024-11-16 21:06:28 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-16 21:08:05,640 - ERROR: Error occurred at 2024-11-16 21:08:05 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-17 21:02:56,039 - ERROR: Error occurred at 2024-11-17 21:02:55 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-11-17 21:02:58,437 - ERROR: Error occurred at 2024-11-17 21:02:58 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-17 21:04:01,221 - ERROR: Error occurred at 2024-11-17 21:04:01 - TCP IP: 10.72.191.200, Port: 2402, Run: 1, METERID: MET0551. Error: TimeoutError: timed out
+2024-11-17 21:04:21,268 - ERROR: Error occurred at 2024-11-17 21:04:21 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-17 21:04:41,430 - ERROR: Error occurred at 2024-11-17 21:04:41 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-17 21:05:41,065 - ERROR: Error occurred at 2024-11-17 21:05:41 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-11-17 21:06:01,119 - ERROR: Error occurred at 2024-11-17 21:06:01 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-18 21:05:28,575 - ERROR: Error occurred at 2024-11-18 21:05:28 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-11-18 21:05:48,628 - ERROR: Error occurred at 2024-11-18 21:05:48 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-11-18 21:06:08,671 - ERROR: Error occurred at 2024-11-18 21:06:08 - TCP IP: 10.72.191.200, Port: 2402, Run: 1, METERID: MET0551. Error: TimeoutError: timed out
+2024-11-18 21:06:28,726 - ERROR: Error occurred at 2024-11-18 21:06:28 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-18 21:06:48,782 - ERROR: Error occurred at 2024-11-18 21:06:48 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-18 21:07:10,994 - ERROR: Error occurred at 2024-11-18 21:07:10 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-11-18 21:07:31,049 - ERROR: Error occurred at 2024-11-18 21:07:31 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-19 21:05:29,563 - ERROR: Error occurred at 2024-11-19 21:05:29 - TCP IP: 10.72.191.200, Port: 2402, Run: 1, METERID: MET0551. Error: TimeoutError: timed out
+2024-11-19 21:06:27,254 - ERROR: Error occurred at 2024-11-19 21:06:27 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-19 21:06:47,311 - ERROR: Error occurred at 2024-11-19 21:06:47 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-19 21:07:45,030 - ERROR: Error occurred at 2024-11-19 21:07:44 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-20 21:06:09,540 - ERROR: Error occurred at 2024-11-20 21:06:09 - TCP IP: 10.72.191.200, Port: 2402, Run: 1, METERID: MET0551. Error: TimeoutError: timed out
+2024-11-20 21:06:17,178 - ERROR: Error occurred at 2024-11-20 21:06:17 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-20 21:06:19,457 - ERROR: Error occurred at 2024-11-20 21:06:19 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-20 21:06:39,514 - ERROR: Error occurred at 2024-11-20 21:06:39 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-20 21:06:59,569 - ERROR: Error occurred at 2024-11-20 21:06:59 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-20 21:07:19,625 - ERROR: Error occurred at 2024-11-20 21:07:19 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-21 21:06:09,385 - ERROR: Error occurred at 2024-11-21 21:06:09 - TCP IP: 10.72.191.200, Port: 2402, Run: 1, METERID: MET0551. Error: TimeoutError: timed out
+2024-11-21 21:06:29,429 - ERROR: Error occurred at 2024-11-21 21:06:29 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-21 21:06:49,608 - ERROR: Error occurred at 2024-11-21 21:06:49 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-21 21:07:09,663 - ERROR: Error occurred at 2024-11-21 21:07:09 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-11-21 21:07:29,717 - ERROR: Error occurred at 2024-11-21 21:07:29 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-21 21:07:49,773 - ERROR: Error occurred at 2024-11-21 21:07:49 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-21 21:09:26,694 - ERROR: Error occurred at 2024-11-21 21:09:26 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-22 21:06:24,388 - ERROR: Error occurred at 2024-11-22 21:06:24 - TCP IP: 10.72.191.200, Port: 2402, Run: 1, METERID: MET0551. Error: TimeoutError: timed out
+2024-11-22 21:07:23,364 - ERROR: Error occurred at 2024-11-22 21:07:23 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-22 21:07:43,410 - ERROR: Error occurred at 2024-11-22 21:07:43 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-22 21:08:03,454 - ERROR: Error occurred at 2024-11-22 21:08:03 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-11-22 21:08:23,509 - ERROR: Error occurred at 2024-11-22 21:08:23 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-22 21:08:43,554 - ERROR: Error occurred at 2024-11-22 21:08:43 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-22 21:09:03,609 - ERROR: Error occurred at 2024-11-22 21:09:03 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-23 21:07:27,985 - ERROR: Error occurred at 2024-11-23 21:07:27 - TCP IP: 10.72.191.200, Port: 2402, Run: 1, METERID: MET0551. Error: TimeoutError: timed out
+2024-11-23 21:08:26,957 - ERROR: Error occurred at 2024-11-23 21:08:26 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-23 21:08:47,002 - ERROR: Error occurred at 2024-11-23 21:08:46 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-23 21:09:07,059 - ERROR: Error occurred at 2024-11-23 21:09:07 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-11-23 21:09:27,113 - ERROR: Error occurred at 2024-11-23 21:09:27 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-23 21:09:47,168 - ERROR: Error occurred at 2024-11-23 21:09:47 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-23 21:10:44,968 - ERROR: Error occurred at 2024-11-23 21:10:44 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-24 21:06:45,480 - ERROR: Error occurred at 2024-11-24 21:06:45 - TCP IP: 10.72.191.200, Port: 2402, Run: 1, METERID: MET0551. Error: TimeoutError: timed out
+2024-11-24 21:07:43,469 - ERROR: Error occurred at 2024-11-24 21:07:43 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-24 21:08:03,525 - ERROR: Error occurred at 2024-11-24 21:08:03 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-24 21:09:01,134 - ERROR: Error occurred at 2024-11-24 21:09:01 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-24 21:09:21,178 - ERROR: Error occurred at 2024-11-24 21:09:21 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-24 21:09:41,349 - ERROR: Error occurred at 2024-11-24 21:09:41 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-25 21:06:10,250 - ERROR: Error occurred at 2024-11-25 21:06:10 - TCP IP: 10.72.191.200, Port: 2402, Run: 1, METERID: MET0551. Error: TimeoutError: timed out
+2024-11-25 21:06:30,306 - ERROR: Error occurred at 2024-11-25 21:06:30 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-25 21:06:50,367 - ERROR: Error occurred at 2024-11-25 21:06:50 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-25 21:07:10,426 - ERROR: Error occurred at 2024-11-25 21:07:10 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-25 21:07:30,481 - ERROR: Error occurred at 2024-11-25 21:07:30 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-25 21:07:50,658 - ERROR: Error occurred at 2024-11-25 21:07:50 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-26 21:05:31,218 - ERROR: Error occurred at 2024-11-26 21:05:31 - TCP IP: 10.72.191.200, Port: 2402, Run: 1, METERID: MET0551. Error: TimeoutError: timed out
+2024-11-26 21:05:51,274 - ERROR: Error occurred at 2024-11-26 21:05:51 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-26 21:06:11,330 - ERROR: Error occurred at 2024-11-26 21:06:11 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-26 21:06:31,374 - ERROR: Error occurred at 2024-11-26 21:06:31 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-26 21:06:51,429 - ERROR: Error occurred at 2024-11-26 21:06:51 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-26 21:07:49,193 - ERROR: Error occurred at 2024-11-26 21:07:49 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-26 21:07:54,302 - ERROR: Error occurred at 2024-11-26 21:07:54 - TCP IP: 10.68.111.191, Port: 2402, Run: 1, METERID: MET0347. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device 00c0!
+2024-11-27 21:08:01,331 - ERROR: Error occurred at 2024-11-27 21:08:01 - TCP IP: 10.72.191.200, Port: 2402, Run: 1, METERID: MET0551. Error: TimeoutError: timed out
+2024-11-27 21:08:16,963 - ERROR: Error occurred at 2024-11-27 21:08:16 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-27 21:08:37,019 - ERROR: Error occurred at 2024-11-27 21:08:36 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-27 21:08:57,074 - ERROR: Error occurred at 2024-11-27 21:08:57 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-27 21:09:17,243 - ERROR: Error occurred at 2024-11-27 21:09:17 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-27 21:09:22,777 - ERROR: Error occurred at 2024-11-27 21:09:22 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-11-27 21:09:42,823 - ERROR: Error occurred at 2024-11-27 21:09:42 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-28 21:04:28,386 - ERROR: Error occurred at 2024-11-28 21:04:28 - TCP IP: 10.68.111.168, Port: 2404, Run: 2, METERID: MET0337. Error: TimeoutError: timed out
+2024-11-28 21:06:05,819 - ERROR: Error occurred at 2024-11-28 21:06:05 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: TimeoutError: timed out
+2024-11-28 21:06:25,873 - ERROR: Error occurred at 2024-11-28 21:06:25 - TCP IP: 10.72.191.149, Port: 2404, Run: 2, METERID: MET0306. Error: TimeoutError: timed out
+2024-11-28 21:07:23,270 - ERROR: Error occurred at 2024-11-28 21:07:23 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-28 21:07:43,316 - ERROR: Error occurred at 2024-11-28 21:07:43 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-28 21:08:03,362 - ERROR: Error occurred at 2024-11-28 21:08:03 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-11-28 21:08:23,407 - ERROR: Error occurred at 2024-11-28 21:08:23 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-28 21:08:43,452 - ERROR: Error occurred at 2024-11-28 21:08:43 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-28 21:09:26,883 - ERROR: Error occurred at 2024-11-28 21:09:26 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-11-28 21:09:46,939 - ERROR: Error occurred at 2024-11-28 21:09:46 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-29 21:06:11,465 - ERROR: Error occurred at 2024-11-29 21:06:11 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-29 21:06:31,521 - ERROR: Error occurred at 2024-11-29 21:06:31 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-29 21:07:30,985 - ERROR: Error occurred at 2024-11-29 21:07:30 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-29 21:07:51,042 - ERROR: Error occurred at 2024-11-29 21:07:50 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-29 21:07:56,152 - ERROR: Error occurred at 2024-11-29 21:07:56 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-11-29 21:08:16,207 - ERROR: Error occurred at 2024-11-29 21:08:16 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-11-30 21:05:30,079 - ERROR: Error occurred at 2024-11-30 21:05:30 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: TimeoutError: timed out
+2024-11-30 21:09:10,094 - ERROR: Error occurred at 2024-11-30 21:09:10 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-30 21:09:30,149 - ERROR: Error occurred at 2024-11-30 21:09:30 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-11-30 21:09:50,203 - ERROR: Error occurred at 2024-11-30 21:09:50 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-30 21:10:10,258 - ERROR: Error occurred at 2024-11-30 21:10:10 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-11-30 21:10:16,189 - ERROR: Error occurred at 2024-11-30 21:10:16 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-11-30 21:10:36,245 - ERROR: Error occurred at 2024-11-30 21:10:36 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-12-01 21:02:58,493 - ERROR: Error occurred at 2024-12-01 21:02:58 - TCP IP: 10.68.111.168, Port: 2402, Run: 1, METERID: MET0337. Error: TimeoutError: timed out
+2024-12-01 21:05:52,444 - ERROR: Error occurred at 2024-12-01 21:05:52 - TCP IP: 10.68.111.62, Port: 2402, Run: 1, METERID: MET0717. Error: TimeoutError: timed out
+2024-12-01 21:06:12,500 - ERROR: Error occurred at 2024-12-01 21:06:12 - TCP IP: 10.68.111.62, Port: 2404, Run: 2, METERID: MET0717. Error: TimeoutError: timed out
+2024-12-01 21:06:32,544 - ERROR: Error occurred at 2024-12-01 21:06:32 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-01 21:06:35,589 - ERROR: Error occurred at 2024-12-01 21:06:35 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-01 21:07:34,592 - ERROR: Error occurred at 2024-12-01 21:07:34 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-01 21:07:54,636 - ERROR: Error occurred at 2024-12-01 21:07:54 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-01 21:08:00,038 - ERROR: Error occurred at 2024-12-01 21:07:59 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-12-01 21:08:20,094 - ERROR: Error occurred at 2024-12-01 21:08:20 - TCP IP: 10.68.111.248, Port: 2402, Run: 1, METERID: MET0603. Error: TimeoutError: timed out
+2024-12-02 21:06:07,005 - ERROR: Error occurred at 2024-12-02 21:06:06 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-02 21:06:27,061 - ERROR: Error occurred at 2024-12-02 21:06:27 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-02 21:08:03,028 - ERROR: Error occurred at 2024-12-02 21:08:02 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-02 21:08:23,083 - ERROR: Error occurred at 2024-12-02 21:08:23 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-02 21:08:43,260 - ERROR: Error occurred at 2024-12-02 21:08:43 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-02 21:09:03,315 - ERROR: Error occurred at 2024-12-02 21:09:03 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-02 21:09:08,419 - ERROR: Error occurred at 2024-12-02 21:09:08 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-12-03 21:08:02,511 - ERROR: Error occurred at 2024-12-03 21:08:02 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-03 21:08:22,567 - ERROR: Error occurred at 2024-12-03 21:08:22 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-03 21:08:42,621 - ERROR: Error occurred at 2024-12-03 21:08:42 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-03 21:09:02,678 - ERROR: Error occurred at 2024-12-03 21:09:02 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-03 21:09:07,900 - ERROR: Error occurred at 2024-12-03 21:09:07 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-12-04 21:04:13,635 - ERROR: Error occurred at 2024-12-04 21:04:13 - TCP IP: 10.68.111.244, Port: 2402, Run: 1, METERID: MET0126. Error: TimeoutError: timed out
+2024-12-04 21:05:58,695 - ERROR: Error occurred at 2024-12-04 21:05:58 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device 80000043905ae1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003fc18937000000004003126f3f800000d8a60103086750c50f071c0721c5d2!
+2024-12-04 21:06:58,021 - ERROR: Error occurred at 2024-12-04 21:06:57 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-04 21:07:18,077 - ERROR: Error occurred at 2024-12-04 21:07:18 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-04 21:07:38,133 - ERROR: Error occurred at 2024-12-04 21:07:38 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-12-04 21:08:37,503 - ERROR: Error occurred at 2024-12-04 21:08:37 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-04 21:08:57,548 - ERROR: Error occurred at 2024-12-04 21:08:57 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-04 21:09:40,203 - ERROR: Error occurred at 2024-12-04 21:09:40 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-12-05 21:05:30,266 - ERROR: Error occurred at 2024-12-05 21:05:30 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: TimeoutError: timed out
+2024-12-05 21:05:50,322 - ERROR: Error occurred at 2024-12-05 21:05:50 - TCP IP: 10.72.191.149, Port: 2404, Run: 2, METERID: MET0306. Error: TimeoutError: timed out
+2024-12-05 21:06:10,379 - ERROR: Error occurred at 2024-12-05 21:06:10 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-05 21:07:48,283 - ERROR: Error occurred at 2024-12-05 21:07:48 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-05 21:08:08,327 - ERROR: Error occurred at 2024-12-05 21:08:08 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-05 21:08:28,373 - ERROR: Error occurred at 2024-12-05 21:08:28 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-05 21:08:48,428 - ERROR: Error occurred at 2024-12-05 21:08:48 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-05 21:08:53,868 - ERROR: Error occurred at 2024-12-05 21:08:53 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-12-06 21:06:08,402 - ERROR: Error occurred at 2024-12-06 21:06:08 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-06 21:06:28,460 - ERROR: Error occurred at 2024-12-06 21:06:28 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-06 21:06:43,662 - ERROR: Error occurred at 2024-12-06 21:06:43 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-06 21:07:03,719 - ERROR: Error occurred at 2024-12-06 21:07:03 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-12-06 21:07:23,780 - ERROR: Error occurred at 2024-12-06 21:07:23 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-06 21:07:43,835 - ERROR: Error occurred at 2024-12-06 21:07:43 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-06 21:07:49,368 - ERROR: Error occurred at 2024-12-06 21:07:49 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-12-07 21:05:29,684 - ERROR: Error occurred at 2024-12-07 21:05:29 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-07 21:05:49,740 - ERROR: Error occurred at 2024-12-07 21:05:49 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-07 21:06:09,796 - ERROR: Error occurred at 2024-12-07 21:06:09 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-07 21:06:29,852 - ERROR: Error occurred at 2024-12-07 21:06:29 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-07 21:06:49,908 - ERROR: Error occurred at 2024-12-07 21:06:49 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-07 21:07:09,953 - ERROR: Error occurred at 2024-12-07 21:07:09 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-07 21:07:30,104 - ERROR: Error occurred at 2024-12-07 21:07:30 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-07 21:08:12,759 - ERROR: Error occurred at 2024-12-07 21:08:12 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-12-08 21:05:30,119 - ERROR: Error occurred at 2024-12-08 21:05:30 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-08 21:05:50,165 - ERROR: Error occurred at 2024-12-08 21:05:50 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-08 21:06:10,213 - ERROR: Error occurred at 2024-12-08 21:06:10 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-08 21:06:30,270 - ERROR: Error occurred at 2024-12-08 21:06:30 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-08 21:07:13,772 - ERROR: Error occurred at 2024-12-08 21:07:13 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-12-09 21:05:30,262 - ERROR: Error occurred at 2024-12-09 21:05:30 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-09 21:05:50,321 - ERROR: Error occurred at 2024-12-09 21:05:50 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-09 21:06:10,379 - ERROR: Error occurred at 2024-12-09 21:06:10 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-09 21:06:30,434 - ERROR: Error occurred at 2024-12-09 21:06:30 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-09 21:06:50,602 - ERROR: Error occurred at 2024-12-09 21:06:50 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-09 21:06:55,712 - ERROR: Error occurred at 2024-12-09 21:06:55 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-12-10 21:05:31,034 - ERROR: Error occurred at 2024-12-10 21:05:30 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-10 21:05:51,093 - ERROR: Error occurred at 2024-12-10 21:05:51 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-10 21:06:11,149 - ERROR: Error occurred at 2024-12-10 21:06:11 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-10 21:06:31,206 - ERROR: Error occurred at 2024-12-10 21:06:31 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-10 21:07:28,997 - ERROR: Error occurred at 2024-12-10 21:07:28 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-10 21:07:49,052 - ERROR: Error occurred at 2024-12-10 21:07:49 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-10 21:08:48,149 - ERROR: Error occurred at 2024-12-10 21:08:48 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-10 21:09:08,205 - ERROR: Error occurred at 2024-12-10 21:09:08 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-10 21:09:13,416 - ERROR: Error occurred at 2024-12-10 21:09:13 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device fdfbfff7fff7f5ef!
+2024-12-11 21:05:29,770 - ERROR: Error occurred at 2024-12-11 21:05:29 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-11 21:05:49,826 - ERROR: Error occurred at 2024-12-11 21:05:49 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-11 21:06:09,875 - ERROR: Error occurred at 2024-12-11 21:06:09 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-11 21:06:29,935 - ERROR: Error occurred at 2024-12-11 21:06:29 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-11 21:07:29,459 - ERROR: Error occurred at 2024-12-11 21:07:29 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-11 21:07:49,515 - ERROR: Error occurred at 2024-12-11 21:07:49 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-11 21:08:47,287 - ERROR: Error occurred at 2024-12-11 21:08:47 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-12-11 21:09:07,342 - ERROR: Error occurred at 2024-12-11 21:09:07 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-11 21:09:27,397 - ERROR: Error occurred at 2024-12-11 21:09:27 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-12 21:06:23,984 - ERROR: Error occurred at 2024-12-12 21:06:23 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-12 21:06:44,030 - ERROR: Error occurred at 2024-12-12 21:06:43 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-12 21:07:04,086 - ERROR: Error occurred at 2024-12-12 21:07:04 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-12 21:07:24,142 - ERROR: Error occurred at 2024-12-12 21:07:24 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-12 21:08:21,989 - ERROR: Error occurred at 2024-12-12 21:08:21 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-12 21:08:42,035 - ERROR: Error occurred at 2024-12-12 21:08:41 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-12 21:09:02,079 - ERROR: Error occurred at 2024-12-12 21:09:02 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-12 21:09:22,125 - ERROR: Error occurred at 2024-12-12 21:09:22 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-13 21:04:14,907 - ERROR: Error occurred at 2024-12-13 21:04:14 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-13 21:04:34,963 - ERROR: Error occurred at 2024-12-13 21:04:34 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-13 21:04:55,008 - ERROR: Error occurred at 2024-12-13 21:04:54 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-13 21:05:15,063 - ERROR: Error occurred at 2024-12-13 21:05:15 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-13 21:07:15,976 - ERROR: Error occurred at 2024-12-13 21:07:15 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-13 21:07:35,532 - ERROR: Error occurred at 2024-12-13 21:07:35 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-13 21:08:34,936 - ERROR: Error occurred at 2024-12-13 21:08:34 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-13 21:08:54,992 - ERROR: Error occurred at 2024-12-13 21:08:54 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-14 21:06:23,501 - ERROR: Error occurred at 2024-12-14 21:06:23 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: TimeoutError: timed out
+2024-12-14 21:06:43,558 - ERROR: Error occurred at 2024-12-14 21:06:43 - TCP IP: 10.68.110.208, Port: 2402, Run: 1, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-14 21:07:03,603 - ERROR: Error occurred at 2024-12-14 21:07:03 - TCP IP: 10.68.110.208, Port: 2404, Run: 2, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-14 21:07:23,660 - ERROR: Error occurred at 2024-12-14 21:07:23 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-14 21:07:43,715 - ERROR: Error occurred at 2024-12-14 21:07:43 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-14 21:08:03,890 - ERROR: Error occurred at 2024-12-14 21:08:03 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-14 21:08:23,947 - ERROR: Error occurred at 2024-12-14 21:08:23 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-12-14 21:08:44,001 - ERROR: Error occurred at 2024-12-14 21:08:43 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-14 21:09:04,057 - ERROR: Error occurred at 2024-12-14 21:09:04 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-15 21:03:20,836 - ERROR: Error occurred at 2024-12-15 21:03:20 - TCP IP: 10.68.111.168, Port: 2402, Run: 1, METERID: MET0337. Error: TimeoutError: timed out
+2024-12-15 21:03:52,606 - ERROR: Error occurred at 2024-12-15 21:03:52 - TCP IP: 10.68.111.168, Port: 2404, Run: 2, METERID: MET0337. Error: TimeoutError: timed out
+2024-12-15 21:05:30,103 - ERROR: Error occurred at 2024-12-15 21:05:30 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: TimeoutError: timed out
+2024-12-15 21:05:50,160 - ERROR: Error occurred at 2024-12-15 21:05:50 - TCP IP: 10.68.110.208, Port: 2402, Run: 1, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-15 21:06:10,327 - ERROR: Error occurred at 2024-12-15 21:06:10 - TCP IP: 10.68.110.208, Port: 2404, Run: 2, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-15 21:06:30,381 - ERROR: Error occurred at 2024-12-15 21:06:30 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-15 21:06:50,435 - ERROR: Error occurred at 2024-12-15 21:06:50 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-15 21:07:10,490 - ERROR: Error occurred at 2024-12-15 21:07:10 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-15 21:07:30,545 - ERROR: Error occurred at 2024-12-15 21:07:30 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-15 21:07:50,601 - ERROR: Error occurred at 2024-12-15 21:07:50 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-15 21:08:10,647 - ERROR: Error occurred at 2024-12-15 21:08:10 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-15 21:09:08,588 - ERROR: Error occurred at 2024-12-15 21:09:08 - TCP IP: 10.72.191.239, Port: 2402, Run: 1, METERID: MET0553. Error: TimeoutError: timed out
+2024-12-15 21:09:28,646 - ERROR: Error occurred at 2024-12-15 21:09:28 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-15 21:09:48,813 - ERROR: Error occurred at 2024-12-15 21:09:48 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-16 21:06:50,884 - ERROR: Error occurred at 2024-12-16 21:06:50 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: TimeoutError: timed out
+2024-12-16 21:07:10,940 - ERROR: Error occurred at 2024-12-16 21:07:10 - TCP IP: 10.68.110.208, Port: 2402, Run: 1, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-16 21:07:31,115 - ERROR: Error occurred at 2024-12-16 21:07:30 - TCP IP: 10.68.110.208, Port: 2404, Run: 2, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-16 21:07:51,171 - ERROR: Error occurred at 2024-12-16 21:07:51 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-16 21:07:55,352 - ERROR: Error occurred at 2024-12-16 21:07:55 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-16 21:08:05,122 - ERROR: Error occurred at 2024-12-16 21:08:05 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-16 21:09:02,887 - ERROR: Error occurred at 2024-12-16 21:09:02 - TCP IP: 10.68.110.39, Port: 2402, Run: 1, METERID: MET0346. Error: TimeoutError: timed out
+2024-12-16 21:09:22,944 - ERROR: Error occurred at 2024-12-16 21:09:22 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-16 21:09:43,118 - ERROR: Error occurred at 2024-12-16 21:09:42 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-16 21:10:42,261 - ERROR: Error occurred at 2024-12-16 21:10:42 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-16 21:11:02,319 - ERROR: Error occurred at 2024-12-16 21:11:02 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-17 21:05:31,866 - ERROR: Error occurred at 2024-12-17 21:05:31 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: TimeoutError: timed out
+2024-12-17 21:05:51,921 - ERROR: Error occurred at 2024-12-17 21:05:51 - TCP IP: 10.68.110.208, Port: 2402, Run: 1, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-17 21:06:11,977 - ERROR: Error occurred at 2024-12-17 21:06:11 - TCP IP: 10.68.110.208, Port: 2404, Run: 2, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-17 21:06:32,033 - ERROR: Error occurred at 2024-12-17 21:06:31 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-17 21:06:52,089 - ERROR: Error occurred at 2024-12-17 21:06:52 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-17 21:07:12,267 - ERROR: Error occurred at 2024-12-17 21:07:12 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-17 21:07:32,311 - ERROR: Error occurred at 2024-12-17 21:07:32 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-17 21:07:52,367 - ERROR: Error occurred at 2024-12-17 21:07:52 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-17 21:08:12,424 - ERROR: Error occurred at 2024-12-17 21:08:12 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-17 21:08:32,470 - ERROR: Error occurred at 2024-12-17 21:08:32 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-18 21:05:30,845 - ERROR: Error occurred at 2024-12-18 21:05:30 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: TimeoutError: timed out
+2024-12-18 21:05:50,902 - ERROR: Error occurred at 2024-12-18 21:05:50 - TCP IP: 10.68.110.208, Port: 2402, Run: 1, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-18 21:06:10,957 - ERROR: Error occurred at 2024-12-18 21:06:10 - TCP IP: 10.68.110.208, Port: 2404, Run: 2, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-18 21:06:31,029 - ERROR: Error occurred at 2024-12-18 21:06:30 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-18 21:06:51,084 - ERROR: Error occurred at 2024-12-18 21:06:51 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-18 21:07:11,251 - ERROR: Error occurred at 2024-12-18 21:07:11 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-18 21:07:31,299 - ERROR: Error occurred at 2024-12-18 21:07:31 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-18 21:08:30,495 - ERROR: Error occurred at 2024-12-18 21:08:30 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-18 21:08:50,550 - ERROR: Error occurred at 2024-12-18 21:08:50 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-19 21:06:08,694 - ERROR: Error occurred at 2024-12-19 21:06:08 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: TimeoutError: timed out
+2024-12-19 21:06:28,749 - ERROR: Error occurred at 2024-12-19 21:06:28 - TCP IP: 10.72.191.149, Port: 2404, Run: 2, METERID: MET0306. Error: TimeoutError: timed out
+2024-12-19 21:06:48,795 - ERROR: Error occurred at 2024-12-19 21:06:48 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: TimeoutError: timed out
+2024-12-19 21:07:08,850 - ERROR: Error occurred at 2024-12-19 21:07:08 - TCP IP: 10.68.110.208, Port: 2402, Run: 1, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-19 21:07:28,905 - ERROR: Error occurred at 2024-12-19 21:07:28 - TCP IP: 10.68.110.208, Port: 2404, Run: 2, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-19 21:07:48,962 - ERROR: Error occurred at 2024-12-19 21:07:48 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-19 21:08:09,129 - ERROR: Error occurred at 2024-12-19 21:08:09 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-19 21:08:29,184 - ERROR: Error occurred at 2024-12-19 21:08:29 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-19 21:08:49,240 - ERROR: Error occurred at 2024-12-19 21:08:49 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-19 21:09:09,295 - ERROR: Error occurred at 2024-12-19 21:09:09 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-19 21:09:29,351 - ERROR: Error occurred at 2024-12-19 21:09:29 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-20 21:05:30,767 - ERROR: Error occurred at 2024-12-20 21:05:30 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: TimeoutError: timed out
+2024-12-20 21:05:50,811 - ERROR: Error occurred at 2024-12-20 21:05:50 - TCP IP: 10.68.110.208, Port: 2402, Run: 1, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-20 21:06:10,856 - ERROR: Error occurred at 2024-12-20 21:06:10 - TCP IP: 10.68.110.208, Port: 2404, Run: 2, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-20 21:07:49,172 - ERROR: Error occurred at 2024-12-20 21:07:49 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-20 21:08:09,215 - ERROR: Error occurred at 2024-12-20 21:08:09 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-20 21:08:29,272 - ERROR: Error occurred at 2024-12-20 21:08:29 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-20 21:08:49,328 - ERROR: Error occurred at 2024-12-20 21:08:49 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-20 21:09:09,383 - ERROR: Error occurred at 2024-12-20 21:09:09 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-20 21:09:29,427 - ERROR: Error occurred at 2024-12-20 21:09:29 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-20 21:09:49,483 - ERROR: Error occurred at 2024-12-20 21:09:49 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-21 21:00:51,406 - ERROR: Error occurred at 2024-12-21 21:00:51 - TCP IP: 10.68.111.181, Port: 2402, Run: 1, METERID: MET0405. Error: TimeoutError: timed out
+2024-12-21 21:05:38,223 - ERROR: Error occurred at 2024-12-21 21:05:38 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: TimeoutError: timed out
+2024-12-21 21:05:58,267 - ERROR: Error occurred at 2024-12-21 21:05:58 - TCP IP: 10.72.191.149, Port: 2404, Run: 2, METERID: MET0306. Error: TimeoutError: timed out
+2024-12-21 21:06:18,313 - ERROR: Error occurred at 2024-12-21 21:06:18 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: TimeoutError: timed out
+2024-12-21 21:06:38,359 - ERROR: Error occurred at 2024-12-21 21:06:38 - TCP IP: 10.68.110.208, Port: 2402, Run: 1, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-21 21:06:58,414 - ERROR: Error occurred at 2024-12-21 21:06:58 - TCP IP: 10.68.110.208, Port: 2404, Run: 2, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-21 21:07:18,459 - ERROR: Error occurred at 2024-12-21 21:07:18 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-21 21:07:38,631 - ERROR: Error occurred at 2024-12-21 21:07:38 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-21 21:07:58,674 - ERROR: Error occurred at 2024-12-21 21:07:58 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-21 21:08:18,729 - ERROR: Error occurred at 2024-12-21 21:08:18 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-21 21:08:38,784 - ERROR: Error occurred at 2024-12-21 21:08:38 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-21 21:08:58,832 - ERROR: Error occurred at 2024-12-21 21:08:58 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-21 21:09:18,893 - ERROR: Error occurred at 2024-12-21 21:09:18 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-21 21:09:38,950 - ERROR: Error occurred at 2024-12-21 21:09:38 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-22 21:05:30,720 - ERROR: Error occurred at 2024-12-22 21:05:30 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: TimeoutError: timed out
+2024-12-22 21:05:50,765 - ERROR: Error occurred at 2024-12-22 21:05:50 - TCP IP: 10.68.110.208, Port: 2402, Run: 1, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-22 21:06:10,944 - ERROR: Error occurred at 2024-12-22 21:06:10 - TCP IP: 10.68.110.208, Port: 2404, Run: 2, METERID: MET0528. Error: TimeoutError: timed out
+2024-12-22 21:06:31,001 - ERROR: Error occurred at 2024-12-22 21:06:30 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-22 21:06:51,057 - ERROR: Error occurred at 2024-12-22 21:06:51 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-22 21:07:11,113 - ERROR: Error occurred at 2024-12-22 21:07:11 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-22 21:07:31,158 - ERROR: Error occurred at 2024-12-22 21:07:31 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-22 21:09:07,198 - ERROR: Error occurred at 2024-12-22 21:09:07 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-22 21:09:27,254 - ERROR: Error occurred at 2024-12-22 21:09:27 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-22 21:11:05,474 - ERROR: Error occurred at 2024-12-22 21:11:05 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-22 21:11:25,520 - ERROR: Error occurred at 2024-12-22 21:11:25 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-23 21:07:11,548 - ERROR: Error occurred at 2024-12-23 21:07:11 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-23 21:09:24,619 - ERROR: Error occurred at 2024-12-23 21:09:24 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-23 21:09:44,675 - ERROR: Error occurred at 2024-12-23 21:09:44 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-23 21:10:04,843 - ERROR: Error occurred at 2024-12-23 21:10:04 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-12-23 21:10:24,899 - ERROR: Error occurred at 2024-12-23 21:10:24 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-23 21:10:44,954 - ERROR: Error occurred at 2024-12-23 21:10:44 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-24 21:06:43,934 - ERROR: Error occurred at 2024-12-24 21:06:43 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-24 21:07:03,991 - ERROR: Error occurred at 2024-12-24 21:07:03 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-24 21:07:24,046 - ERROR: Error occurred at 2024-12-24 21:07:23 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-24 21:07:44,103 - ERROR: Error occurred at 2024-12-24 21:07:44 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-25 21:06:46,792 - ERROR: Error occurred at 2024-12-25 21:06:46 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-25 21:07:06,849 - ERROR: Error occurred at 2024-12-25 21:07:06 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-25 21:07:26,904 - ERROR: Error occurred at 2024-12-25 21:07:26 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-25 21:07:46,951 - ERROR: Error occurred at 2024-12-25 21:07:46 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-26 21:05:29,626 - ERROR: Error occurred at 2024-12-26 21:05:29 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-26 21:05:49,684 - ERROR: Error occurred at 2024-12-26 21:05:49 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-26 21:06:09,739 - ERROR: Error occurred at 2024-12-26 21:06:09 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-26 21:06:29,795 - ERROR: Error occurred at 2024-12-26 21:06:29 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-26 21:07:29,050 - ERROR: Error occurred at 2024-12-26 21:07:29 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-26 21:07:49,106 - ERROR: Error occurred at 2024-12-26 21:07:49 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-26 21:08:09,151 - ERROR: Error occurred at 2024-12-26 21:08:09 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-26 21:08:29,207 - ERROR: Error occurred at 2024-12-26 21:08:29 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-27 21:06:08,667 - ERROR: Error occurred at 2024-12-27 21:06:08 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-27 21:06:28,713 - ERROR: Error occurred at 2024-12-27 21:06:28 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-27 21:06:48,767 - ERROR: Error occurred at 2024-12-27 21:06:48 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-27 21:07:08,813 - ERROR: Error occurred at 2024-12-27 21:07:08 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-27 21:07:13,073 - ERROR: Error occurred at 2024-12-27 21:07:13 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-27 21:07:33,127 - ERROR: Error occurred at 2024-12-27 21:07:33 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-27 21:07:53,183 - ERROR: Error occurred at 2024-12-27 21:07:53 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-28 21:05:30,767 - ERROR: Error occurred at 2024-12-28 21:05:30 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-28 21:05:50,823 - ERROR: Error occurred at 2024-12-28 21:05:50 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-28 21:05:56,537 - ERROR: Error occurred at 2024-12-28 21:05:56 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-28 21:06:56,122 - ERROR: Error occurred at 2024-12-28 21:06:56 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-28 21:07:03,763 - ERROR: Error occurred at 2024-12-28 21:07:03 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-28 21:08:03,110 - ERROR: Error occurred at 2024-12-28 21:08:03 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-28 21:08:23,167 - ERROR: Error occurred at 2024-12-28 21:08:23 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-28 21:08:45,285 - ERROR: Error occurred at 2024-12-28 21:08:45 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-12-29 21:05:30,484 - ERROR: Error occurred at 2024-12-29 21:05:30 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-29 21:05:32,854 - ERROR: Error occurred at 2024-12-29 21:05:32 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-29 21:05:52,911 - ERROR: Error occurred at 2024-12-29 21:05:52 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-29 21:06:12,967 - ERROR: Error occurred at 2024-12-29 21:06:12 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-29 21:06:35,663 - ERROR: Error occurred at 2024-12-29 21:06:35 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: TimeoutError: timed out
+2024-12-30 21:05:30,234 - ERROR: Error occurred at 2024-12-30 21:05:30 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: TimeoutError: timed out
+2024-12-30 21:06:31,415 - ERROR: Error occurred at 2024-12-30 21:06:31 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-30 21:06:51,471 - ERROR: Error occurred at 2024-12-30 21:06:51 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-30 21:06:55,660 - ERROR: Error occurred at 2024-12-30 21:06:55 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-30 21:06:57,929 - ERROR: Error occurred at 2024-12-30 21:06:57 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-30 21:08:42,916 - ERROR: Error occurred at 2024-12-30 21:08:42 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-30 21:08:59,152 - ERROR: Error occurred at 2024-12-30 21:08:59 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-30 21:09:19,197 - ERROR: Error occurred at 2024-12-30 21:09:19 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2024-12-30 21:09:39,252 - ERROR: Error occurred at 2024-12-30 21:09:39 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-30 21:09:59,297 - ERROR: Error occurred at 2024-12-30 21:09:59 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-31 21:05:30,611 - ERROR: Error occurred at 2024-12-31 21:05:30 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: TimeoutError: timed out
+2024-12-31 21:05:50,667 - ERROR: Error occurred at 2024-12-31 21:05:50 - TCP IP: 10.72.191.149, Port: 2404, Run: 2, METERID: MET0306. Error: TimeoutError: timed out
+2024-12-31 21:06:10,723 - ERROR: Error occurred at 2024-12-31 21:06:10 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-31 21:06:30,769 - ERROR: Error occurred at 2024-12-31 21:06:30 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2024-12-31 21:06:38,512 - ERROR: Error occurred at 2024-12-31 21:06:38 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-12-31 21:07:39,773 - ERROR: Error occurred at 2024-12-31 21:07:39 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-31 21:07:59,830 - ERROR: Error occurred at 2024-12-31 21:07:59 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2024-12-31 21:08:19,998 - ERROR: Error occurred at 2024-12-31 21:08:19 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2024-12-31 21:08:40,057 - ERROR: Error occurred at 2024-12-31 21:08:40 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-01 21:05:32,773 - ERROR: Error occurred at 2025-01-01 21:05:32 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: TimeoutError: timed out
+2025-01-01 21:06:22,020 - ERROR: Error occurred at 2025-01-01 21:06:21 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-01 21:06:24,298 - ERROR: Error occurred at 2025-01-01 21:06:24 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-01 21:08:03,632 - ERROR: Error occurred at 2025-01-01 21:08:03 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-01 21:08:23,689 - ERROR: Error occurred at 2025-01-01 21:08:23 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-01 21:08:43,745 - ERROR: Error occurred at 2025-01-01 21:08:43 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2025-01-01 21:09:03,800 - ERROR: Error occurred at 2025-01-01 21:09:03 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-01 21:09:23,859 - ERROR: Error occurred at 2025-01-01 21:09:23 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-02 21:05:29,959 - ERROR: Error occurred at 2025-01-02 21:05:29 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: TimeoutError: timed out
+2025-01-02 21:07:41,985 - ERROR: Error occurred at 2025-01-02 21:07:41 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-02 21:08:40,939 - ERROR: Error occurred at 2025-01-02 21:08:40 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-02 21:09:00,994 - ERROR: Error occurred at 2025-01-02 21:09:00 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-02 21:09:21,049 - ERROR: Error occurred at 2025-01-02 21:09:20 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-02 21:09:41,093 - ERROR: Error occurred at 2025-01-02 21:09:41 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-03 21:06:08,992 - ERROR: Error occurred at 2025-01-03 21:06:08 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-03 21:06:29,047 - ERROR: Error occurred at 2025-01-03 21:06:28 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-03 21:06:49,102 - ERROR: Error occurred at 2025-01-03 21:06:49 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-03 21:07:09,157 - ERROR: Error occurred at 2025-01-03 21:07:09 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-04 21:10:06,400 - ERROR: Error occurred at 2025-01-04 21:10:06 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-04 21:10:26,458 - ERROR: Error occurred at 2025-01-04 21:10:26 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-04 21:11:26,058 - ERROR: Error occurred at 2025-01-04 21:11:26 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-04 21:11:46,112 - ERROR: Error occurred at 2025-01-04 21:11:46 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-05 21:08:11,005 - ERROR: Error occurred at 2025-01-05 21:08:10 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2025-01-05 21:08:31,062 - ERROR: Error occurred at 2025-01-05 21:08:31 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2025-01-05 21:08:51,238 - ERROR: Error occurred at 2025-01-05 21:08:51 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: TimeoutError: timed out
+2025-01-05 21:09:11,284 - ERROR: Error occurred at 2025-01-05 21:09:11 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: TimeoutError: timed out
+2025-01-05 21:10:48,018 - ERROR: Error occurred at 2025-01-05 21:10:47 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-05 21:11:08,063 - ERROR: Error occurred at 2025-01-05 21:11:08 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-05 21:12:06,869 - ERROR: Error occurred at 2025-01-05 21:12:06 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-05 21:12:26,924 - ERROR: Error occurred at 2025-01-05 21:12:26 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-06 21:05:30,468 - ERROR: Error occurred at 2025-01-06 21:05:30 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: TimeoutError: timed out
+2025-01-06 21:05:50,522 - ERROR: Error occurred at 2025-01-06 21:05:50 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: timed out
+2025-01-06 21:05:54,737 - ERROR: Error occurred at 2025-01-06 21:05:54 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-06 21:06:01,942 - ERROR: Error occurred at 2025-01-06 21:06:01 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-06 21:07:38,986 - ERROR: Error occurred at 2025-01-06 21:07:38 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-06 21:07:59,031 - ERROR: Error occurred at 2025-01-06 21:07:58 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-06 21:08:19,206 - ERROR: Error occurred at 2025-01-06 21:08:19 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-06 21:08:39,263 - ERROR: Error occurred at 2025-01-06 21:08:39 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-07 21:08:39,286 - ERROR: Error occurred at 2025-01-07 21:08:39 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-07 21:08:59,332 - ERROR: Error occurred at 2025-01-07 21:08:59 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-07 21:09:19,501 - ERROR: Error occurred at 2025-01-07 21:09:19 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-07 21:09:39,556 - ERROR: Error occurred at 2025-01-07 21:09:39 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-08 21:07:26,742 - ERROR: Error occurred at 2025-01-08 21:07:26 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-08 21:07:42,227 - ERROR: Error occurred at 2025-01-08 21:07:42 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-08 21:08:40,106 - ERROR: Error occurred at 2025-01-08 21:08:40 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-08 21:09:00,163 - ERROR: Error occurred at 2025-01-08 21:09:00 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-08 21:09:32,539 - ERROR: Error occurred at 2025-01-08 21:09:32 - TCP IP: 10.68.111.151, Port: 2402, Run: 1, METERID: MET0286. Error: DatabaseError: ORA-00984: un nom de colonne n'est pas autorisé ici
+2025-01-08 21:09:54,516 - ERROR: Error occurred at 2025-01-08 21:09:54 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: ValueError: invalid literal for int() with base 16: ''
+2025-01-09 21:01:40,750 - ERROR: Error occurred at 2025-01-09 21:01:40 - TCP IP: 10.68.111.181, Port: 4001, Run: 1, METERID: MET0406. Error: TimeoutError: timed out
+2025-01-09 21:02:00,794 - ERROR: Error occurred at 2025-01-09 21:02:00 - TCP IP: 10.68.111.181, Port: 4002, Run: 2, METERID: MET0406. Error: TimeoutError: timed out
+2025-01-09 21:04:53,264 - ERROR: Error occurred at 2025-01-09 21:04:53 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-09 21:05:13,322 - ERROR: Error occurred at 2025-01-09 21:05:13 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-09 21:05:33,379 - ERROR: Error occurred at 2025-01-09 21:05:33 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-09 21:05:53,436 - ERROR: Error occurred at 2025-01-09 21:05:53 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-09 21:06:25,822 - ERROR: Error occurred at 2025-01-09 21:06:25 - TCP IP: 10.68.111.151, Port: 2402, Run: 1, METERID: MET0286. Error: DatabaseError: ORA-00984: un nom de colonne n'est pas autorisé ici
+2025-01-09 21:06:58,187 - ERROR: Error occurred at 2025-01-09 21:06:58 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: DatabaseError: ORA-00984: un nom de colonne n'est pas autorisé ici
+2025-01-10 21:07:31,892 - ERROR: Error occurred at 2025-01-10 21:07:31 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-10 21:07:51,948 - ERROR: Error occurred at 2025-01-10 21:07:51 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-10 21:08:49,693 - ERROR: Error occurred at 2025-01-10 21:08:49 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-10 21:09:09,750 - ERROR: Error occurred at 2025-01-10 21:09:09 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-10 21:09:42,107 - ERROR: Error occurred at 2025-01-10 21:09:42 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: DatabaseError: ORA-00984: un nom de colonne n'est pas autorisé ici
+2025-01-11 21:05:30,528 - ERROR: Error occurred at 2025-01-11 21:05:30 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-11 21:05:50,583 - ERROR: Error occurred at 2025-01-11 21:05:50 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-11 21:06:10,628 - ERROR: Error occurred at 2025-01-11 21:06:10 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-11 21:06:30,674 - ERROR: Error occurred at 2025-01-11 21:06:30 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-11 21:07:41,981 - ERROR: Error occurred at 2025-01-11 21:07:41 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: DatabaseError: ORA-00984: un nom de colonne n'est pas autorisé ici
+2025-01-12 21:05:30,096 - ERROR: Error occurred at 2025-01-12 21:05:30 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: TimeoutError: timed out
+2025-01-12 21:05:50,142 - ERROR: Error occurred at 2025-01-12 21:05:50 - TCP IP: 10.72.191.149, Port: 2404, Run: 2, METERID: MET0306. Error: TimeoutError: timed out
+2025-01-12 21:06:06,632 - ERROR: Error occurred at 2025-01-12 21:06:06 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: BadRequest: 400 Bad Request: Error: Unexpected response code from device 8fbe773f800000ebc101030867842eba02be07216a30!
+2025-01-12 21:07:14,254 - ERROR: Error occurred at 2025-01-12 21:07:14 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-12 21:07:34,311 - ERROR: Error occurred at 2025-01-12 21:07:34 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-12 21:07:54,484 - ERROR: Error occurred at 2025-01-12 21:07:54 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-12 21:08:14,530 - ERROR: Error occurred at 2025-01-12 21:08:14 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-12 21:08:46,778 - ERROR: Error occurred at 2025-01-12 21:08:46 - TCP IP: 10.68.111.151, Port: 2402, Run: 1, METERID: MET0286. Error: DatabaseError: ORA-00984: un nom de colonne n'est pas autorisé ici
+2025-01-12 21:09:07,730 - ERROR: Error occurred at 2025-01-12 21:09:07 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: error: unpack requires a buffer of 4 bytes
+2025-01-13 21:06:07,861 - ERROR: Error occurred at 2025-01-13 21:06:07 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-13 21:06:27,909 - ERROR: Error occurred at 2025-01-13 21:06:27 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-13 21:06:47,955 - ERROR: Error occurred at 2025-01-13 21:06:47 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-13 21:07:08,000 - ERROR: Error occurred at 2025-01-13 21:07:07 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-13 21:08:06,544 - ERROR: Error occurred at 2025-01-13 21:08:06 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: error: unpack requires a buffer of 4 bytes
+2025-01-14 21:00:42,678 - ERROR: Error occurred at 2025-01-14 21:00:42 - TCP IP: 10.68.111.181, Port: 2402, Run: 1, METERID: MET0405. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:01:20,630 - ERROR: Error occurred at 2025-01-14 21:01:20 - TCP IP: 10.68.111.181, Port: 2404, Run: 2, METERID: MET0405. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:01:58,637 - ERROR: Error occurred at 2025-01-14 21:01:58 - TCP IP: 10.68.111.181, Port: 4001, Run: 1, METERID: MET0406. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:02:36,625 - ERROR: Error occurred at 2025-01-14 21:02:36 - TCP IP: 10.68.111.181, Port: 4002, Run: 2, METERID: MET0406. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:03:14,121 - ERROR: Error occurred at 2025-01-14 21:03:14 - TCP IP: 10.68.111.168, Port: 2402, Run: 1, METERID: MET0337. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:03:51,628 - ERROR: Error occurred at 2025-01-14 21:03:51 - TCP IP: 10.68.111.168, Port: 2404, Run: 2, METERID: MET0337. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:04:30,620 - ERROR: Error occurred at 2025-01-14 21:04:30 - TCP IP: 10.68.110.109, Port: 2402, Run: 1, METERID: MET0772. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:05:08,666 - ERROR: Error occurred at 2025-01-14 21:05:08 - TCP IP: 10.68.110.109, Port: 2404, Run: 2, METERID: MET0772. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:05:57,628 - ERROR: Error occurred at 2025-01-14 21:05:57 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:06:36,672 - ERROR: Error occurred at 2025-01-14 21:06:36 - TCP IP: 10.72.191.149, Port: 2404, Run: 2, METERID: MET0306. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:06:51,773 - ERROR: Error occurred at 2025-01-14 21:06:51 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-14 21:07:00,129 - ERROR: Error occurred at 2025-01-14 21:06:59 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-14 21:07:37,801 - ERROR: Error occurred at 2025-01-14 21:07:37 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:08:15,786 - ERROR: Error occurred at 2025-01-14 21:08:15 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:08:53,635 - ERROR: Error occurred at 2025-01-14 21:08:53 - TCP IP: 10.68.111.62, Port: 2404, Run: 2, METERID: MET0717. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:09:31,303 - ERROR: Error occurred at 2025-01-14 21:09:31 - TCP IP: 10.68.110.74, Port: 2402, Run: 1, METERID: MET0719. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:10:09,127 - ERROR: Error occurred at 2025-01-14 21:10:08 - TCP IP: 10.68.110.74, Port: 2404, Run: 2, METERID: MET0719. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:10:46,799 - ERROR: Error occurred at 2025-01-14 21:10:46 - TCP IP: 10.68.111.235, Port: 2402, Run: 1, METERID: MET0683. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:11:25,301 - ERROR: Error occurred at 2025-01-14 21:11:25 - TCP IP: 10.68.111.235, Port: 2404, Run: 2, METERID: MET0683. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:11:45,348 - ERROR: Error occurred at 2025-01-14 21:11:45 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-14 21:12:05,405 - ERROR: Error occurred at 2025-01-14 21:12:05 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-14 21:12:44,648 - ERROR: Error occurred at 2025-01-14 21:12:44 - TCP IP: 10.68.110.25, Port: 2402, Run: 1, METERID: MET0743. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:13:24,301 - ERROR: Error occurred at 2025-01-14 21:13:24 - TCP IP: 10.68.111.11, Port: 2402, Run: 1, METERID: MET0744. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:14:03,798 - ERROR: Error occurred at 2025-01-14 21:14:03 - TCP IP: 10.68.110.66, Port: 2402, Run: 1, METERID: MET0745. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:14:41,608 - ERROR: Error occurred at 2025-01-14 21:14:41 - TCP IP: 10.68.110.23, Port: 2402, Run: 1, METERID: MET0718. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:15:21,318 - ERROR: Error occurred at 2025-01-14 21:15:21 - TCP IP: 10.68.111.190, Port: 2402, Run: 1, METERID: MET0742. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:15:59,294 - ERROR: Error occurred at 2025-01-14 21:15:59 - TCP IP: 10.72.191.93, Port: 2402, Run: 1, METERID: MET0663. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:16:37,135 - ERROR: Error occurred at 2025-01-14 21:16:37 - TCP IP: 10.68.111.251, Port: 2402, Run: 1, METERID: MET0508. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:17:17,142 - ERROR: Error occurred at 2025-01-14 21:17:17 - TCP IP: 10.68.111.224, Port: 2402, Run: 1, METERID: MET0506. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:17:55,292 - ERROR: Error occurred at 2025-01-14 21:17:55 - TCP IP: 10.68.111.224, Port: 2404, Run: 2, METERID: MET0506. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:18:34,800 - ERROR: Error occurred at 2025-01-14 21:18:34 - TCP IP: 10.72.191.176, Port: 2402, Run: 1, METERID: MET0562. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:19:12,795 - ERROR: Error occurred at 2025-01-14 21:19:12 - TCP IP: 10.72.191.176, Port: 2404, Run: 2, METERID: MET0562. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:19:52,294 - ERROR: Error occurred at 2025-01-14 21:19:52 - TCP IP: 10.68.111.64, Port: 2402, Run: 1, METERID: MET0136. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:20:31,794 - ERROR: Error occurred at 2025-01-14 21:20:31 - TCP IP: 10.68.111.95, Port: 2402, Run: 1, METERID: MET0350. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:21:09,675 - ERROR: Error occurred at 2025-01-14 21:21:09 - TCP IP: 10.68.111.171, Port: 2402, Run: 1, METERID: MET0352. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:21:49,337 - ERROR: Error occurred at 2025-01-14 21:21:49 - TCP IP: 10.72.191.197, Port: 4001, Run: 1, METERID: MET0605. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:22:27,343 - ERROR: Error occurred at 2025-01-14 21:22:27 - TCP IP: 10.72.191.197, Port: 4002, Run: 2, METERID: MET0605. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:23:09,334 - ERROR: Error occurred at 2025-01-14 21:23:09 - TCP IP: 10.72.191.202, Port: 2402, Run: 1, METERID: MET0571. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:23:48,329 - ERROR: Error occurred at 2025-01-14 21:23:48 - TCP IP: 10.72.191.206, Port: 4001, Run: 1, METERID: MET0563. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:24:26,328 - ERROR: Error occurred at 2025-01-14 21:24:26 - TCP IP: 10.72.191.206, Port: 4002, Run: 2, METERID: MET0563. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:24:46,371 - ERROR: Error occurred at 2025-01-14 21:24:46 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2025-01-14 21:25:25,657 - ERROR: Error occurred at 2025-01-14 21:25:25 - TCP IP: 10.72.191.239, Port: 2402, Run: 1, METERID: MET0553. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:26:04,838 - ERROR: Error occurred at 2025-01-14 21:26:04 - TCP IP: 10.68.111.199, Port: 2402, Run: 1, METERID: MET0668. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:26:24,892 - ERROR: Error occurred at 2025-01-14 21:26:24 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-14 21:26:44,945 - ERROR: Error occurred at 2025-01-14 21:26:44 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-14 21:27:22,830 - ERROR: Error occurred at 2025-01-14 21:27:22 - TCP IP: 10.68.110.249, Port: 2402, Run: 1, METERID: MET0357. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:28:01,842 - ERROR: Error occurred at 2025-01-14 21:28:01 - TCP IP: 10.72.191.209, Port: 4001, Run: 1, METERID: MET0607. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:28:40,346 - ERROR: Error occurred at 2025-01-14 21:28:40 - TCP IP: 10.72.191.209, Port: 4002, Run: 2, METERID: MET0607. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:29:19,869 - ERROR: Error occurred at 2025-01-14 21:29:19 - TCP IP: 10.72.191.107, Port: 4001, Run: 1, METERID: MET0359. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:29:57,871 - ERROR: Error occurred at 2025-01-14 21:29:57 - TCP IP: 10.72.191.107, Port: 4002, Run: 2, METERID: MET0359. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:30:37,367 - ERROR: Error occurred at 2025-01-14 21:30:37 - TCP IP: 10.72.191.234, Port: 4001, Run: 1, METERID: MET0573. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:31:15,874 - ERROR: Error occurred at 2025-01-14 21:31:15 - TCP IP: 10.72.191.234, Port: 4002, Run: 2, METERID: MET0573. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:31:53,702 - ERROR: Error occurred at 2025-01-14 21:31:53 - TCP IP: 10.68.111.123, Port: 2402, Run: 1, METERID: MET0293. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:32:33,222 - ERROR: Error occurred at 2025-01-14 21:32:33 - TCP IP: 10.72.191.210, Port: 2402, Run: 1, METERID: MET0570. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:33:11,865 - ERROR: Error occurred at 2025-01-14 21:33:11 - TCP IP: 10.72.191.210, Port: 2404, Run: 2, METERID: MET0570. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:33:49,694 - ERROR: Error occurred at 2025-01-14 21:33:49 - TCP IP: 10.72.191.174, Port: 2402, Run: 1, METERID: MET0648. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:34:27,367 - ERROR: Error occurred at 2025-01-14 21:34:27 - TCP IP: 10.72.191.174, Port: 2404, Run: 2, METERID: MET0648. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:35:07,354 - ERROR: Error occurred at 2025-01-14 21:35:07 - TCP IP: 10.68.111.13, Port: 2402, Run: 1, METERID: MET0765. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:35:39,718 - ERROR: Error occurred at 2025-01-14 21:35:39 - TCP IP: 10.68.111.151, Port: 2402, Run: 1, METERID: MET0286. Error: DatabaseError: ORA-00984: un nom de colonne n'est pas autorisé ici
+2025-01-14 21:36:11,959 - ERROR: Error occurred at 2025-01-14 21:36:11 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: DatabaseError: ORA-00984: un nom de colonne n'est pas autorisé ici
+2025-01-14 21:36:49,855 - ERROR: Error occurred at 2025-01-14 21:36:49 - TCP IP: 10.68.110.115, Port: 2404, Run: 2, METERID: MET0361. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:37:28,867 - ERROR: Error occurred at 2025-01-14 21:37:28 - TCP IP: 10.68.110.226, Port: 2402, Run: 1, METERID: MET0362. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:38:06,691 - ERROR: Error occurred at 2025-01-14 21:38:06 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:38:44,342 - ERROR: Error occurred at 2025-01-14 21:38:44 - TCP IP: 10.68.110.92, Port: 2402, Run: 1, METERID: MET0510. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:39:22,855 - ERROR: Error occurred at 2025-01-14 21:39:22 - TCP IP: 10.68.110.92, Port: 2404, Run: 2, METERID: MET0510. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:40:00,680 - ERROR: Error occurred at 2025-01-14 21:40:00 - TCP IP: 10.72.191.111, Port: 2402, Run: 1, METERID: MET0121. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:40:38,356 - ERROR: Error occurred at 2025-01-14 21:40:38 - TCP IP: 10.68.111.191, Port: 2402, Run: 1, METERID: MET0347. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-14 21:41:17,862 - ERROR: Error occurred at 2025-01-14 21:41:17 - TCP IP: 10.72.191.198, Port: 2402, Run: 1, METERID: MET0559. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:00:41,904 - ERROR: Error occurred at 2025-01-15 21:00:41 - TCP IP: 10.72.191.154, Port: 2402, Run: 1, METERID: MET0644. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:01:19,848 - ERROR: Error occurred at 2025-01-15 21:01:19 - TCP IP: 10.68.110.238, Port: 2402, Run: 1, METERID: MET0706. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:01:59,354 - ERROR: Error occurred at 2025-01-15 21:01:59 - TCP IP: 10.68.111.195, Port: 2402, Run: 1, METERID: MET0333. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:02:38,342 - ERROR: Error occurred at 2025-01-15 21:02:38 - TCP IP: 10.72.191.235, Port: 2402, Run: 1, METERID: MET0604. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:03:19,851 - ERROR: Error occurred at 2025-01-15 21:03:19 - TCP IP: 10.68.111.181, Port: 2402, Run: 1, METERID: MET0405. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:03:57,859 - ERROR: Error occurred at 2025-01-15 21:03:57 - TCP IP: 10.68.111.181, Port: 2404, Run: 2, METERID: MET0405. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:04:35,940 - ERROR: Error occurred at 2025-01-15 21:04:35 - TCP IP: 10.68.111.181, Port: 4001, Run: 1, METERID: MET0406. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:05:13,863 - ERROR: Error occurred at 2025-01-15 21:05:13 - TCP IP: 10.68.111.181, Port: 4002, Run: 2, METERID: MET0406. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:05:51,546 - ERROR: Error occurred at 2025-01-15 21:05:51 - TCP IP: 10.68.110.69, Port: 2402, Run: 1, METERID: MET0334. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:06:31,016 - ERROR: Error occurred at 2025-01-15 21:06:30 - TCP IP: 10.68.110.155, Port: 2402, Run: 1, METERID: MET0519. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:07:09,037 - ERROR: Error occurred at 2025-01-15 21:07:08 - TCP IP: 10.68.110.155, Port: 2404, Run: 2, METERID: MET0519. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:07:46,866 - ERROR: Error occurred at 2025-01-15 21:07:46 - TCP IP: 10.68.111.20, Port: 2402, Run: 1, METERID: MET0171. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:08:24,550 - ERROR: Error occurred at 2025-01-15 21:08:24 - TCP IP: 10.68.111.20, Port: 2404, Run: 2, METERID: MET0171. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:09:02,537 - ERROR: Error occurred at 2025-01-15 21:09:02 - TCP IP: 10.68.110.227, Port: 2402, Run: 1, METERID: MET0336. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:09:40,884 - ERROR: Error occurred at 2025-01-15 21:09:40 - TCP IP: 10.68.110.227, Port: 2404, Run: 2, METERID: MET0336. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:10:19,043 - ERROR: Error occurred at 2025-01-15 21:10:18 - TCP IP: 10.68.111.168, Port: 2402, Run: 1, METERID: MET0337. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:10:57,033 - ERROR: Error occurred at 2025-01-15 21:10:56 - TCP IP: 10.68.111.168, Port: 2404, Run: 2, METERID: MET0337. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:11:34,890 - ERROR: Error occurred at 2025-01-15 21:11:34 - TCP IP: 10.68.111.244, Port: 2402, Run: 1, METERID: MET0126. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:12:14,534 - ERROR: Error occurred at 2025-01-15 21:12:14 - TCP IP: 10.72.191.114, Port: 2402, Run: 1, METERID: MET0774. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:12:53,367 - ERROR: Error occurred at 2025-01-15 21:12:53 - TCP IP: 10.68.110.109, Port: 2402, Run: 1, METERID: MET0772. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:13:31,387 - ERROR: Error occurred at 2025-01-15 21:13:31 - TCP IP: 10.68.110.109, Port: 2404, Run: 2, METERID: MET0772. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:14:13,051 - ERROR: Error occurred at 2025-01-15 21:14:13 - TCP IP: 10.72.191.149, Port: 2402, Run: 1, METERID: MET0306. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:14:53,053 - ERROR: Error occurred at 2025-01-15 21:14:52 - TCP IP: 10.72.191.149, Port: 2404, Run: 2, METERID: MET0306. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:15:32,877 - ERROR: Error occurred at 2025-01-15 21:15:32 - TCP IP: 10.68.110.193, Port: 2402, Run: 1, METERID: MET0494. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:16:13,382 - ERROR: Error occurred at 2025-01-15 21:16:13 - TCP IP: 10.68.110.208, Port: 2402, Run: 1, METERID: MET0528. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:16:51,066 - ERROR: Error occurred at 2025-01-15 21:16:51 - TCP IP: 10.68.110.208, Port: 2404, Run: 2, METERID: MET0528. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:17:30,394 - ERROR: Error occurred at 2025-01-15 21:17:30 - TCP IP: 10.72.191.193, Port: 2402, Run: 1, METERID: MET0585. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:18:09,549 - ERROR: Error occurred at 2025-01-15 21:18:09 - TCP IP: 10.68.110.138, Port: 2402, Run: 1, METERID: MET0313. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:18:47,372 - ERROR: Error occurred at 2025-01-15 21:18:47 - TCP IP: 10.68.111.49, Port: 2402, Run: 1, METERID: MET0338. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:19:25,584 - ERROR: Error occurred at 2025-01-15 21:19:25 - TCP IP: 10.68.111.49, Port: 2404, Run: 2, METERID: MET0338. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:20:04,573 - ERROR: Error occurred at 2025-01-15 21:20:04 - TCP IP: 10.72.191.212, Port: 2402, Run: 1, METERID: MET0569. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:20:43,086 - ERROR: Error occurred at 2025-01-15 21:20:43 - TCP IP: 10.72.191.212, Port: 2404, Run: 2, METERID: MET0569. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:21:20,909 - ERROR: Error occurred at 2025-01-15 21:21:20 - TCP IP: 10.72.191.108, Port: 2402, Run: 1, METERID: MET0400. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:21:59,081 - ERROR: Error occurred at 2025-01-15 21:21:59 - TCP IP: 10.68.110.148, Port: 2402, Run: 1, METERID: MET0341. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:22:36,923 - ERROR: Error occurred at 2025-01-15 21:22:36 - TCP IP: 10.68.110.18, Port: 2101, Run: 1, METERID: MET0454. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:23:14,592 - ERROR: Error occurred at 2025-01-15 21:23:14 - TCP IP: 10.68.110.18, Port: 2102, Run: 2, METERID: MET0454. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:23:52,446 - ERROR: Error occurred at 2025-01-15 21:23:52 - TCP IP: 10.68.110.18, Port: 2103, Run: 3, METERID: MET0454. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:24:30,423 - ERROR: Error occurred at 2025-01-15 21:24:30 - TCP IP: 10.68.110.18, Port: 2104, Run: 4, METERID: MET0454. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:25:08,585 - ERROR: Error occurred at 2025-01-15 21:25:08 - TCP IP: 10.68.110.49, Port: 2402, Run: 1, METERID: MET0705. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:25:46,429 - ERROR: Error occurred at 2025-01-15 21:25:46 - TCP IP: 10.68.110.49, Port: 2404, Run: 2, METERID: MET0705. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:26:24,102 - ERROR: Error occurred at 2025-01-15 21:26:24 - TCP IP: 10.68.111.119, Port: 2402, Run: 1, METERID: MET0416. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:27:03,410 - ERROR: Error occurred at 2025-01-15 21:27:03 - TCP IP: 10.72.191.200, Port: 2402, Run: 1, METERID: MET0551. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:27:42,912 - ERROR: Error occurred at 2025-01-15 21:27:42 - TCP IP: 10.72.191.204, Port: 2402, Run: 1, METERID: MET0561. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:28:22,075 - ERROR: Error occurred at 2025-01-15 21:28:22 - TCP IP: 10.72.191.187, Port: 2402, Run: 1, METERID: MET0555. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:29:01,620 - ERROR: Error occurred at 2025-01-15 21:29:01 - TCP IP: 10.68.110.137, Port: 2404, Run: 1, METERID: MET0456. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:29:39,674 - ERROR: Error occurred at 2025-01-15 21:29:39 - TCP IP: 10.68.110.146, Port: 2402, Run: 1, METERID: MET0651. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:30:17,474 - ERROR: Error occurred at 2025-01-15 21:30:17 - TCP IP: 10.68.110.146, Port: 2404, Run: 2, METERID: MET0651. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:31:11,230 - ERROR: Error occurred at 2025-01-15 21:31:11 - TCP IP: 10.72.191.203, Port: 2402, Run: 1, METERID: MET0568. Error: TimeoutError: timed out
+2025-01-15 21:31:50,105 - ERROR: Error occurred at 2025-01-15 21:31:50 - TCP IP: 10.72.191.203, Port: 2404, Run: 2, METERID: MET0568. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:32:27,955 - ERROR: Error occurred at 2025-01-15 21:32:27 - TCP IP: 10.68.110.39, Port: 2402, Run: 1, METERID: MET0346. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:33:07,128 - ERROR: Error occurred at 2025-01-15 21:33:07 - TCP IP: 10.68.111.75, Port: 2402, Run: 1, METERID: MET0758. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:33:45,105 - ERROR: Error occurred at 2025-01-15 21:33:45 - TCP IP: 10.68.111.75, Port: 2404, Run: 2, METERID: MET0758. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:34:24,613 - ERROR: Error occurred at 2025-01-15 21:34:24 - TCP IP: 10.68.111.162, Port: 2402, Run: 1, METERID: MET0460. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:35:02,611 - ERROR: Error occurred at 2025-01-15 21:35:02 - TCP IP: 10.68.111.162, Port: 2404, Run: 2, METERID: MET0460. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:35:24,235 - ERROR: Error occurred at 2025-01-15 21:35:24 - TCP IP: 10.68.110.186, Port: 2402, Run: 1, METERID: MET0491. Error: ValueError: invalid literal for int() with base 16: ''
+2025-01-15 21:36:03,613 - ERROR: Error occurred at 2025-01-15 21:36:03 - TCP IP: 10.72.191.95, Port: 2402, Run: 1, METERID: MET0513. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:36:42,619 - ERROR: Error occurred at 2025-01-15 21:36:42 - TCP IP: 10.72.191.91, Port: 2402, Run: 1, METERID: MET0511. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:37:20,600 - ERROR: Error occurred at 2025-01-15 21:37:20 - TCP IP: 10.72.191.91, Port: 2404, Run: 2, METERID: MET0511. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:37:58,965 - ERROR: Error occurred at 2025-01-15 21:37:58 - TCP IP: 10.68.110.225, Port: 2402, Run: 1, METERID: MET0665. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:38:36,629 - ERROR: Error occurred at 2025-01-15 21:38:36 - TCP IP: 10.68.110.225, Port: 2404, Run: 2, METERID: MET0665. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:39:14,633 - ERROR: Error occurred at 2025-01-15 21:39:14 - TCP IP: 10.68.111.62, Port: 2402, Run: 1, METERID: MET0717. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:39:52,460 - ERROR: Error occurred at 2025-01-15 21:39:52 - TCP IP: 10.68.111.62, Port: 2404, Run: 2, METERID: MET0717. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:40:30,117 - ERROR: Error occurred at 2025-01-15 21:40:30 - TCP IP: 10.68.110.74, Port: 2402, Run: 1, METERID: MET0719. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:41:07,959 - ERROR: Error occurred at 2025-01-15 21:41:07 - TCP IP: 10.68.110.74, Port: 2404, Run: 2, METERID: MET0719. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:41:46,630 - ERROR: Error occurred at 2025-01-15 21:41:46 - TCP IP: 10.68.111.235, Port: 2402, Run: 1, METERID: MET0683. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:42:24,957 - ERROR: Error occurred at 2025-01-15 21:42:24 - TCP IP: 10.68.111.235, Port: 2404, Run: 2, METERID: MET0683. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:42:45,018 - ERROR: Error occurred at 2025-01-15 21:42:44 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-15 21:43:05,072 - ERROR: Error occurred at 2025-01-15 21:43:05 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-15 21:43:44,672 - ERROR: Error occurred at 2025-01-15 21:43:44 - TCP IP: 10.68.110.25, Port: 2402, Run: 1, METERID: MET0743. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:44:23,638 - ERROR: Error occurred at 2025-01-15 21:44:23 - TCP IP: 10.68.111.11, Port: 2402, Run: 1, METERID: MET0744. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:45:02,637 - ERROR: Error occurred at 2025-01-15 21:45:02 - TCP IP: 10.68.110.66, Port: 2402, Run: 1, METERID: MET0745. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:45:40,649 - ERROR: Error occurred at 2025-01-15 21:45:40 - TCP IP: 10.68.110.23, Port: 2402, Run: 1, METERID: MET0718. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:46:20,634 - ERROR: Error occurred at 2025-01-15 21:46:20 - TCP IP: 10.68.111.190, Port: 2402, Run: 1, METERID: MET0742. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:46:58,459 - ERROR: Error occurred at 2025-01-15 21:46:58 - TCP IP: 10.72.191.93, Port: 2402, Run: 1, METERID: MET0663. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:47:35,992 - ERROR: Error occurred at 2025-01-15 21:47:35 - TCP IP: 10.68.111.251, Port: 2402, Run: 1, METERID: MET0508. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:48:15,619 - ERROR: Error occurred at 2025-01-15 21:48:15 - TCP IP: 10.68.111.224, Port: 2402, Run: 1, METERID: MET0506. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:48:53,954 - ERROR: Error occurred at 2025-01-15 21:48:53 - TCP IP: 10.68.111.224, Port: 2404, Run: 2, METERID: MET0506. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:49:33,141 - ERROR: Error occurred at 2025-01-15 21:49:33 - TCP IP: 10.72.191.176, Port: 2402, Run: 1, METERID: MET0562. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:50:11,129 - ERROR: Error occurred at 2025-01-15 21:50:11 - TCP IP: 10.72.191.176, Port: 2404, Run: 2, METERID: MET0562. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:50:50,122 - ERROR: Error occurred at 2025-01-15 21:50:50 - TCP IP: 10.68.111.64, Port: 2402, Run: 1, METERID: MET0136. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:51:28,131 - ERROR: Error occurred at 2025-01-15 21:51:28 - TCP IP: 10.68.111.95, Port: 2402, Run: 1, METERID: MET0350. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:52:06,134 - ERROR: Error occurred at 2025-01-15 21:52:06 - TCP IP: 10.68.111.171, Port: 2402, Run: 1, METERID: MET0352. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:52:45,642 - ERROR: Error occurred at 2025-01-15 21:52:45 - TCP IP: 10.72.191.197, Port: 4001, Run: 1, METERID: MET0605. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:53:23,960 - ERROR: Error occurred at 2025-01-15 21:53:23 - TCP IP: 10.72.191.197, Port: 4002, Run: 2, METERID: MET0605. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:54:03,136 - ERROR: Error occurred at 2025-01-15 21:54:03 - TCP IP: 10.72.191.202, Port: 2402, Run: 1, METERID: MET0571. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:54:42,116 - ERROR: Error occurred at 2025-01-15 21:54:42 - TCP IP: 10.72.191.206, Port: 4001, Run: 1, METERID: MET0563. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:55:20,123 - ERROR: Error occurred at 2025-01-15 21:55:20 - TCP IP: 10.72.191.206, Port: 4002, Run: 2, METERID: MET0563. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:55:40,169 - ERROR: Error occurred at 2025-01-15 21:55:40 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2025-01-15 21:56:00,224 - ERROR: Error occurred at 2025-01-15 21:56:00 - TCP IP: 10.72.191.239, Port: 2402, Run: 1, METERID: MET0553. Error: TimeoutError: timed out
+2025-01-15 21:56:23,987 - ERROR: Error occurred at 2025-01-15 21:56:23 - TCP IP: 10.68.111.199, Port: 2402, Run: 1, METERID: MET0668. Error: TimeoutError: timed out
+2025-01-15 21:56:44,680 - ERROR: Error occurred at 2025-01-15 21:56:43 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-15 21:57:04,744 - ERROR: Error occurred at 2025-01-15 21:57:04 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-15 21:57:43,134 - ERROR: Error occurred at 2025-01-15 21:57:43 - TCP IP: 10.68.110.249, Port: 2402, Run: 1, METERID: MET0357. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:58:22,468 - ERROR: Error occurred at 2025-01-15 21:58:22 - TCP IP: 10.72.191.209, Port: 4001, Run: 1, METERID: MET0607. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:59:01,020 - ERROR: Error occurred at 2025-01-15 21:59:00 - TCP IP: 10.72.191.209, Port: 4002, Run: 2, METERID: MET0607. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 21:59:40,929 - ERROR: Error occurred at 2025-01-15 21:59:40 - TCP IP: 10.72.191.107, Port: 4001, Run: 1, METERID: MET0359. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:00:20,249 - ERROR: Error occurred at 2025-01-15 22:00:19 - TCP IP: 10.72.191.107, Port: 4002, Run: 2, METERID: MET0359. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:01:01,177 - ERROR: Error occurred at 2025-01-15 22:01:01 - TCP IP: 10.72.191.234, Port: 4001, Run: 1, METERID: MET0573. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:01:39,709 - ERROR: Error occurred at 2025-01-15 22:01:39 - TCP IP: 10.72.191.234, Port: 4002, Run: 2, METERID: MET0573. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:02:18,002 - ERROR: Error occurred at 2025-01-15 22:02:17 - TCP IP: 10.68.111.123, Port: 2402, Run: 1, METERID: MET0293. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:03:00,014 - ERROR: Error occurred at 2025-01-15 22:02:59 - TCP IP: 10.72.191.210, Port: 2402, Run: 1, METERID: MET0570. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:03:40,189 - ERROR: Error occurred at 2025-01-15 22:03:40 - TCP IP: 10.72.191.210, Port: 2404, Run: 2, METERID: MET0570. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:04:18,989 - ERROR: Error occurred at 2025-01-15 22:04:18 - TCP IP: 10.72.191.174, Port: 2402, Run: 1, METERID: MET0648. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:05:14,102 - ERROR: Error occurred at 2025-01-15 22:05:14 - TCP IP: 10.72.191.174, Port: 2404, Run: 2, METERID: MET0648. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:05:54,452 - ERROR: Error occurred at 2025-01-15 22:05:54 - TCP IP: 10.68.111.13, Port: 2402, Run: 1, METERID: MET0765. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:06:32,990 - ERROR: Error occurred at 2025-01-15 22:06:32 - TCP IP: 10.68.111.151, Port: 2402, Run: 1, METERID: MET0286. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:06:54,121 - ERROR: Error occurred at 2025-01-15 22:06:54 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: error: unpack requires a buffer of 4 bytes
+2025-01-15 22:07:32,141 - ERROR: Error occurred at 2025-01-15 22:07:32 - TCP IP: 10.68.110.115, Port: 2404, Run: 2, METERID: MET0361. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:08:11,114 - ERROR: Error occurred at 2025-01-15 22:08:11 - TCP IP: 10.68.110.226, Port: 2402, Run: 1, METERID: MET0362. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:08:48,955 - ERROR: Error occurred at 2025-01-15 22:08:48 - TCP IP: 10.68.111.117, Port: 2402, Run: 1, METERID: MET0455. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:09:26,639 - ERROR: Error occurred at 2025-01-15 22:09:26 - TCP IP: 10.68.110.92, Port: 2402, Run: 1, METERID: MET0510. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:10:04,635 - ERROR: Error occurred at 2025-01-15 22:10:04 - TCP IP: 10.68.110.92, Port: 2404, Run: 2, METERID: MET0510. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:10:42,490 - ERROR: Error occurred at 2025-01-15 22:10:42 - TCP IP: 10.72.191.111, Port: 2402, Run: 1, METERID: MET0121. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:11:20,455 - ERROR: Error occurred at 2025-01-15 22:11:20 - TCP IP: 10.68.111.191, Port: 2402, Run: 1, METERID: MET0347. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-15 22:11:59,636 - ERROR: Error occurred at 2025-01-15 22:11:59 - TCP IP: 10.72.191.198, Port: 2402, Run: 1, METERID: MET0559. Error: DatabaseError: ORA-01653: impossible d'étendre la table PTT_PIVOT.AMR_CONFIGURED_DATA de 1024 dans le tablespace PTT_PIVOT_DATA
+2025-01-16 21:05:27,967 - ERROR: Error occurred at 2025-01-16 21:05:27 - TCP IP: 10.68.111.181, Port: 4002, Run: 2, METERID: MET0406. Error: TimeoutError: timed out
+2025-01-16 21:43:07,537 - ERROR: Error occurred at 2025-01-16 21:43:07 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-16 21:43:27,585 - ERROR: Error occurred at 2025-01-16 21:43:27 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-16 21:45:57,291 - ERROR: Error occurred at 2025-01-16 21:45:57 - TCP IP: 10.68.110.23, Port: 2402, Run: 1, METERID: MET0718. Error: TimeoutError: timed out
+2025-01-16 21:57:58,983 - ERROR: Error occurred at 2025-01-16 21:57:58 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-16 21:58:19,171 - ERROR: Error occurred at 2025-01-16 21:58:18 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-16 21:58:39,227 - ERROR: Error occurred at 2025-01-16 21:58:39 - TCP IP: 10.68.110.249, Port: 2402, Run: 1, METERID: MET0357. Error: TimeoutError: timed out
+2025-01-16 22:07:39,919 - ERROR: Error occurred at 2025-01-16 22:07:39 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: ValueError: invalid literal for int() with base 16: ''
+2025-01-17 21:06:53,936 - ERROR: Error occurred at 2025-01-17 21:06:53 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-17 21:07:13,996 - ERROR: Error occurred at 2025-01-17 21:07:13 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-17 21:07:34,044 - ERROR: Error occurred at 2025-01-17 21:07:34 - TCP IP: 10.68.111.118, Port: 2402, Run: 1, METERID: MET0125. Error: TimeoutError: timed out
+2025-01-17 21:07:54,103 - ERROR: Error occurred at 2025-01-17 21:07:54 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-17 21:08:14,161 - ERROR: Error occurred at 2025-01-17 21:08:14 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-17 21:09:13,900 - ERROR: Error occurred at 2025-01-17 21:09:13 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: ValueError: invalid literal for int() with base 16: ''
+2025-01-18 21:06:10,584 - ERROR: Error occurred at 2025-01-18 21:06:10 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-18 21:06:30,631 - ERROR: Error occurred at 2025-01-18 21:06:30 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-18 21:06:50,815 - ERROR: Error occurred at 2025-01-18 21:06:50 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-18 21:07:10,862 - ERROR: Error occurred at 2025-01-18 21:07:10 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-18 21:07:43,114 - ERROR: Error occurred at 2025-01-18 21:07:43 - TCP IP: 10.68.111.151, Port: 2402, Run: 1, METERID: MET0286. Error: DatabaseError: ORA-00984: un nom de colonne n'est pas autorisé ici
+2025-01-18 21:08:15,495 - ERROR: Error occurred at 2025-01-18 21:08:15 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: DatabaseError: ORA-00984: un nom de colonne n'est pas autorisé ici
+2025-01-19 21:06:08,911 - ERROR: Error occurred at 2025-01-19 21:06:08 - TCP IP: 10.68.110.73, Port: 4001, Run: 1, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-19 21:06:28,968 - ERROR: Error occurred at 2025-01-19 21:06:28 - TCP IP: 10.68.110.73, Port: 4002, Run: 2, METERID: MET0712. Error: TimeoutError: timed out
+2025-01-19 21:06:49,016 - ERROR: Error occurred at 2025-01-19 21:06:48 - TCP IP: 10.72.191.214, Port: 4001, Run: 1, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-19 21:07:09,073 - ERROR: Error occurred at 2025-01-19 21:07:09 - TCP IP: 10.72.191.214, Port: 4002, Run: 2, METERID: MET0608. Error: TimeoutError: timed out
+2025-01-19 21:07:41,472 - ERROR: Error occurred at 2025-01-19 21:07:41 - TCP IP: 10.68.111.151, Port: 2402, Run: 1, METERID: MET0286. Error: DatabaseError: ORA-00984: un nom de colonne n'est pas autorisé ici
+2025-01-19 21:08:06,446 - ERROR: Error occurred at 2025-01-19 21:08:06 - TCP IP: 10.68.111.151, Port: 2404, Run: 2, METERID: MET0286. Error: ValueError: invalid literal for int() with base 16: ''
