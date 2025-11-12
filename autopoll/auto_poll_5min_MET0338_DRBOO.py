@@ -426,107 +426,107 @@ def poll_meter(sitename_poll, runno, meterid, tcp_ip, tcp_port):
 
 if __name__ == '__main__':
     sitename = "DRBOO"
-    runno = 1  # Assuming runno is 1, adjust if needed
     meterid = "MET0338"
     tcp_ip = "10.68.111.49"  # EVC address
     tcp_port = 2402  # EVC port
 
     while True:
         print(f"Polling at {datetime.datetime.now()}")
-        data = poll_meter(sitename, runno, meterid, tcp_ip, tcp_port)
-        if data:
-            # Save to file with date
-            now = datetime.datetime.now()
-            date_str = now.strftime('%Y%m%d')
-            time_str = now.strftime('%H_%M')
-            filename = f"data_{meterid}_{sitename}_Date_{date_str}_Time_{time_str}.txt"
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write(f"Timestamp: {data['timestamp']}\n")
-                f.write(f"Meter ID: {data['meter_id']}\n")
-                f.write(f"Sitename: {data['sitename']}\n")
-                f.write(f"Run: {data['run']}\n\n")
-                
-                # Write Billing Data in table format
-                f.write("BILLING DATA\n")
-                f.write("=" * 120 + "\n")
-                f.write(f"{'Time Stamp':<20} {'Uncorrected Volume':<25} {'Corrected Volume':<25} {'Pressure Daily Average':<30} {'Temperature Daily Average':<30}\n")
-                f.write("=" * 120 + "\n")
-                
-                # Parse billing data
-                billing_data = data['billing_data']
-                days = {}
-                for key, value in billing_data.items():
-                    # Extract day number from key like "day1_billing1_..."
-                    if key.startswith('day'):
-                        day_num = key.split('_')[0]
-                        if day_num not in days:
-                            days[day_num] = {}
-                        days[day_num][key] = value
-                
-                # Write each day's data
-                for day_num in sorted(days.keys()):
-                    day_data = days[day_num]
-                    timestamp = ""
-                    uncorrected = ""
-                    corrected = ""
-                    pressure = ""
-                    temperature = ""
+        for runno in [1, 2]:
+            data = poll_meter(sitename, runno, meterid, tcp_ip, tcp_port)
+            if data:
+                # Save to file with date
+                now = datetime.datetime.now()
+                date_str = now.strftime('%Y%m%d')
+                time_str = now.strftime('%H_%M')
+                filename = f"data_{meterid}_{sitename}_run{runno}_Date_{date_str}_Time_{time_str}.txt"
+                with open(filename, 'w', encoding='utf-8') as f:
+                    f.write(f"Timestamp: {data['timestamp']}\n")
+                    f.write(f"Meter ID: {data['meter_id']}\n")
+                    f.write(f"Sitename: {data['sitename']}\n")
+                    f.write(f"Run: {data['run']}\n\n")
                     
-                    for key, value in day_data.items():
-                        if 'DATE' in key.upper() or 'TIME' in key.upper():
-                            timestamp = str(value)
-                        elif 'UNCORRECTED' in key.upper():
-                            uncorrected = str(value)
-                        elif 'CORRECTED' in key.upper():
-                            corrected = str(value)
-                        elif 'AVR_PF' in key.upper() or 'PRESSURE' in key.upper():
-                            pressure = str(value)
-                        elif 'AVR_TF' in key.upper() or 'TEMPERATURE' in key.upper() or 'TEMP' in key.upper():
-                            temperature = str(value)
+                    # Write Billing Data in table format
+                    f.write("BILLING DATA\n")
+                    f.write("=" * 120 + "\n")
+                    f.write(f"{'Time Stamp':<20} {'Uncorrected Volume':<25} {'Corrected Volume':<25} {'Pressure Daily Average':<30} {'Temperature Daily Average':<30}\n")
+                    f.write("=" * 120 + "\n")
                     
-                    f.write(f"{timestamp:<20} {uncorrected:<25} {corrected:<25} {pressure:<30} {temperature:<30}\n")
-                
-                f.write("=" * 120 + "\n\n")
-                
-                # Write Config Data in table format
-                f.write("CONFIG DATA\n")
-                f.write("=" * 180 + "\n")
-                # Column headers
-                headers = ['Date and Time', 'Imp.w', 'Pb', 'Tb', 'Prd', 'Trd', 'SG', 'CO2', 'N2', 'Pressure', 'Temperature', 'Z Ration', 'Zf', 'Cf', 'Qm', 'Qb', 'Low Battery Alarm']
-                header_line = ""
-                for header in headers:
-                    header_line += f"{header:<12} "
-                f.write(header_line + "\n")
-                f.write("=" * 180 + "\n")
-                
-                # Write config data row
-                config_data = data['config_data']
-                config_values = []
-                
-                # Map config data to columns (adjust based on actual data structure)
-                for header in headers:
-                    value = "N/A"
-                    for key, val in config_data.items():
-                        if header.upper().replace(' ', '').replace('.', '') in key.upper().replace(' ', '').replace('_', ''):
-                            value = str(val)
-                            break
-                    config_values.append(value)
-                
-                # Write the row
-                row_line = ""
-                for val in config_values:
-                    row_line += f"{val:<12} "
-                f.write(row_line + "\n")
-                f.write("=" * 180 + "\n\n")
-                
-                # Write raw config data for reference
-                f.write("RAW CONFIG DATA:\n")
-                f.write("-" * 60 + "\n")
-                for key, value in config_data.items():
-                    f.write(f"  {key}: {value}\n")
-            print(f"Data saved to {filename}")
-        else:
-            print("Failed to poll data")
+                    # Parse billing data
+                    billing_data = data['billing_data']
+                    days = {}
+                    for key, value in billing_data.items():
+                        # Extract day number from key like "day1_billing1_..."
+                        if key.startswith('day'):
+                            day_num = key.split('_')[0]
+                            if day_num not in days:
+                                days[day_num] = {}
+                            days[day_num][key] = value
+                    
+                    # Write each day's data
+                    for day_num in sorted(days.keys()):
+                        day_data = days[day_num]
+                        timestamp = ""
+                        uncorrected = ""
+                        corrected = ""
+                        pressure = ""
+                        temperature = ""
+                        
+                        for key, value in day_data.items():
+                            if 'DATE' in key.upper() or 'TIME' in key.upper():
+                                timestamp = str(value)
+                            elif 'UNCORRECTED' in key.upper():
+                                uncorrected = str(value)
+                            elif 'CORRECTED' in key.upper():
+                                corrected = str(value)
+                            elif 'AVR_PF' in key.upper() or 'PRESSURE' in key.upper():
+                                pressure = str(value)
+                            elif 'AVR_TF' in key.upper() or 'TEMPERATURE' in key.upper() or 'TEMP' in key.upper():
+                                temperature = str(value)
+                        
+                        f.write(f"{timestamp:<20} {uncorrected:<25} {corrected:<25} {pressure:<30} {temperature:<30}\n")
+                    
+                    f.write("=" * 120 + "\n\n")
+                    
+                    # Write Config Data in table format
+                    f.write("CONFIG DATA\n")
+                    f.write("=" * 180 + "\n")
+                    # Column headers
+                    headers = ['Date and Time', 'Imp.w', 'Pb', 'Tb', 'Prd', 'Trd', 'SG', 'CO2', 'N2', 'Pressure', 'Temperature', 'Z Ration', 'Zf', 'Cf', 'Qm', 'Qb', 'Low Battery Alarm']
+                    header_line = ""
+                    for header in headers:
+                        header_line += f"{header:<12} "
+                    f.write(header_line + "\n")
+                    f.write("=" * 180 + "\n")
+                    
+                    # Write config data row
+                    config_data = data['config_data']
+                    config_values = []
+                    
+                    # Map config data to columns (adjust based on actual data structure)
+                    for header in headers:
+                        value = "N/A"
+                        for key, val in config_data.items():
+                            if header.upper().replace(' ', '').replace('.', '') in key.upper().replace(' ', '').replace('_', ''):
+                                value = str(val)
+                                break
+                        config_values.append(value)
+                    
+                    # Write the row
+                    row_line = ""
+                    for val in config_values:
+                        row_line += f"{val:<12} "
+                    f.write(row_line + "\n")
+                    f.write("=" * 180 + "\n\n")
+                    
+                    # Write raw config data for reference
+                    f.write("RAW CONFIG DATA:\n")
+                    f.write("-" * 60 + "\n")
+                    for key, value in config_data.items():
+                        f.write(f"  {key}: {value}\n")
+                print(f"Data saved to {filename}")
+            else:
+                print(f"Failed to poll data for run {runno}")
 
         # Wait 5 minutes
         time.sleep(300)
