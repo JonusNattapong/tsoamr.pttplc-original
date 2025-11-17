@@ -44,24 +44,15 @@ import modbusdrv
 import dotenv
 from dotenv import load_dotenv
 
+# Configure logging
+logging.basicConfig(filename='autopoll_5min_error.log', level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
+
 communication_traffic = []
 change_to_32bit_counter = 0
 evc_type = 1  # Default evc_type
 
-# ช่วง 22:30 - 23:59: หยุด polling และรอจนถึง 06:00 ของวันถัดไป
-# ช่วง 00:00 - 05:59: หยุด polling และรอจนถึง 06:00 ของวันเดียวกัน
-# ช่วง 06:00 - 22:29: polling ตามปกติทุก 5 นาที
-
 def is_polling_disabled():
-    """Check if current time is within the disabled polling period (22:30 - 06:00)"""
-    now = datetime.datetime.now()
-    current_time = now.time()
-    start_time = datetime.time(22, 30)  # 22:30
-    end_time = datetime.time(6, 0)    # 06:00
-    
-    # Polling is disabled from 22:30 to 23:59 and 00:00 to 05:59
-    if start_time <= current_time or current_time < end_time:
-        return True
+    """Polling is always enabled"""
     return False
 
 def verifyNumericReturnNULL(value):
@@ -279,7 +270,7 @@ def save_to_database(METERID, run, list_of_values_configured, list_of_values_bil
             print("Billing data saved to database")
 
     except Exception as e:
-        print(f"Error saving to database: {e}")
+        logging.error(f"Error saving to database: {e}")
 
 def poll_meter(sitename_poll, runno, meterid, tcp_ip, tcp_port, save_to_db=True):
     try:
@@ -492,7 +483,7 @@ def poll_meter(sitename_poll, runno, meterid, tcp_ip, tcp_port, save_to_db=True)
         return collected_data
 
     except Exception as e:
-        print(f"Error polling meter: {e}")
+        logging.error(f"Error polling meter: {e}")
         return None
 
 if __name__ == '__main__':
@@ -503,7 +494,7 @@ if __name__ == '__main__':
     parser.add_argument('--tcp-ip', type=str, default='192.168.102.192', help='TCP IP address (default: 192.168.102.192)')
     parser.add_argument('--tcp-port', type=int, default=1521, help='TCP port (default: 1521)')
     parser.add_argument('--save-db', type=lambda x: (str(x).lower() in ['true', '1', 'yes', 'on']), 
-                       default=False, help='Save data to database (default: False, accepts: true/false, 1/0, yes/no, on/off)')
+                       default=False, help='Save data to database (default: False, save txt only, accepts: true/false, 1/0, yes/no, on/off)')
     parser.add_argument('--save-path', type=str, default='.', help='Path to save the txt file (default: current directory)')
     parser.add_argument('--interval', type=int, default=300, help='Polling interval in seconds (default: 300 = 5 minutes)')
 
@@ -637,7 +628,7 @@ if __name__ == '__main__':
                     f.write(f"  {key}: {value}\n")
             print(f"✅ Data saved to {full_path}")
         else:
-            print("❌ Failed to poll data")
+            logging.error("Failed to poll data")
 
         # Wait for next poll
         print(f"⏰ Waiting {poll_interval} seconds until next poll...")
