@@ -16,6 +16,27 @@ import sys
 from pathlib import Path
 import json
 
+# แสดง help list ของสคริปต์
+# python "AutoPoll_5min_MET0338_DRBOO.py" --help
+
+# ตัวอย่างการรันสคริปต์
+# python AutoPoll_5min_MET0338_DRBOO.py
+
+# บันทึกทั้งไฟล์และฐานข้อมูล
+# python AutoPoll_5min_MET0338_DRBOO.py --save-db=true
+
+# บันทึกเฉพาะไฟล์ (ไม่บันทึกฐานข้อมูล)
+# python AutoPoll_5min_MET0338_DRBOO.py --save-db=false
+
+# เปลี่ยน meter และ connection
+# python AutoPoll_5min_MET0338_DRBOO.py --meterid "METER001" --tcp-ip "192.168.1.100" --tcp-port 502 --save-db=true
+
+# เปลี่ยน interval เป็น 10 นาที
+# python AutoPoll_5min_MET0338_DRBOO.py --interval 600 --save-db=false
+
+# save path สำหรับบันทึกไฟล์ polling
+# python AutoPoll_5min_MET0338_DRBOO.py --save-path "C:\MyData\Polls"
+
 # Add root directory to sys.path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
@@ -26,6 +47,22 @@ from dotenv import load_dotenv
 communication_traffic = []
 change_to_32bit_counter = 0
 evc_type = 1  # Default evc_type
+
+# ช่วง 22:30 - 23:59: หยุด polling และรอจนถึง 06:00 ของวันถัดไป
+# ช่วง 00:00 - 05:59: หยุด polling และรอจนถึง 06:00 ของวันเดียวกัน
+# ช่วง 06:00 - 22:29: polling ตามปกติทุก 5 นาที
+
+def is_polling_disabled():
+    """Check if current time is within the disabled polling period (22:30 - 06:00)"""
+    now = datetime.datetime.now()
+    current_time = now.time()
+    start_time = datetime.time(22, 30)  # 22:30
+    end_time = datetime.time(6, 0)    # 06:00
+    
+    # Polling is disabled from 22:30 to 23:59 and 00:00 to 05:59
+    if start_time <= current_time or current_time < end_time:
+        return True
+    return False
 
 def verifyNumericReturnNULL(value):
     if (isinstance(value, (int, float)) and math.isnan(value)) or value == '' or value == 'None' or value == 'NONE' or value is None:
@@ -54,11 +91,13 @@ load_dotenv()
 
 username = os.getenv("DB_USERNAME")
 password = os.getenv("DB_PASSWORD")
-hostname = os.getenv("DB_HOSTNAME")
+# Use a clearer name to avoid confusing the DB host with meter/sim IPs
+db_hostname = os.getenv("DB_HOSTNAME")
 port = os.getenv("DB_PORT")
 service_name = os.getenv("DB_SERVICE")
 
-dsn = cx_Oracle.makedsn(hostname, port, service_name=service_name)
+# DSN for Oracle uses the DB host — kept separate from any meter TCP IP (SIM_IP)
+dsn = cx_Oracle.makedsn(db_hostname, port, service_name=service_name)
 
 connection_info = {
     "user": username,
@@ -69,11 +108,28 @@ connection_info = {
     "increment": 1,
     "threaded": True
 }
-connection_pool = cx_Oracle.SessionPool(**connection_info)
+
+# Defer connection pool creation until needed
+connection_pool = None
+
+def get_connection_pool():
+    global connection_pool
+    if connection_pool is None:
+        try:
+            connection_pool = cx_Oracle.SessionPool(**connection_info)
+        except cx_Oracle.DatabaseError as e:
+            print(f"Database connection failed: {e}")
+            print("Please check your database credentials and Oracle client installation.")
+            return None
+    return connection_pool
 
 def fetch_data(query, params=None):
+    pool = get_connection_pool()
+    if pool is None:
+        return []
+    
     try:
-        with connection_pool.acquire() as connection:
+        with pool.acquire() as connection:
             with connection.cursor() as cursor:
                 if params:
                     cursor.execute(query, params)
@@ -158,11 +214,14 @@ def save_to_database(METERID, run, list_of_values_configured, list_of_values_bil
         sql_text_config_insert += "'')"
 
         # Execute config insert
-        with cx_Oracle.connect(username, password, f"{hostname}:{port}/{service_name}") as connection:
+        pool = get_connection_pool()
+        if pool is None:
+            raise Exception("Database connection not available")
+        
+        with pool.acquire() as connection:
             with connection.cursor() as cursor:
                 cursor.execute(sql_text_config_delete)
                 cursor.execute(sql_text_config_insert)
-        connection.commit()
         print("Config data saved to database")
 
         # Billing Data
@@ -212,18 +271,17 @@ def save_to_database(METERID, run, list_of_values_configured, list_of_values_bil
                     full_sql_text += create_SQL_text_insert_Billing(METERID, run, current_datetime_upper, date_polled, corrected_polled, uncorrected_polled, avr_pf_polled, avr_tf_polled) + "\n"
 
         if full_sql_text:
-            with cx_Oracle.connect(username, password, f"{hostname}:{port}/{service_name}") as connection:
+            with pool.acquire() as connection:
                 with connection.cursor() as cursor:
                     for sql_statement in full_sql_text.split(";"):
                         if sql_statement.strip():
                             cursor.execute(sql_statement.strip())
-            connection.commit()
             print("Billing data saved to database")
 
     except Exception as e:
         print(f"Error saving to database: {e}")
 
-def poll_meter(sitename_poll, runno, meterid, tcp_ip, tcp_port):
+def poll_meter(sitename_poll, runno, meterid, tcp_ip, tcp_port, save_to_db=True):
     try:
         # Hardcoded values for MET0338 DRBOO
         Sitename = sitename_poll
@@ -235,6 +293,15 @@ def poll_meter(sitename_poll, runno, meterid, tcp_ip, tcp_port):
         poll_billing_set = "0,10,1,10"  # Example, adjust as needed
         CONFIG_ENABLE_set = "11"  # Example
         BILLING_ENABLE_set = "11"  # Example
+
+        # Guard: if someone accidentally passes the DB host as the meter IP, warn them
+        try:
+            db_host_check = db_hostname
+        except NameError:
+            db_host_check = None
+
+        if db_host_check and tcp_ip and str(tcp_ip).strip() == str(db_host_check).strip():
+            print("Warning: the tcp-ip equals DB_HOSTNAME (DB host).\nMake sure you supplied the meter/SIM IP (SIM_IP) — DB host and meter IP are different.")
 
         print(f"Connecting to {tcp_ip}:{tcp_port}")
 
@@ -415,8 +482,12 @@ def poll_meter(sitename_poll, runno, meterid, tcp_ip, tcp_port):
             "billing_data": billing_data
         }
 
-        # Save to database
-        save_to_database(METERID, run, list_of_values_configured, list_of_values_billing, df_mapping, df_mappingbilling, max_day_polled, max_order)
+        # Save to database (only if save_to_db is True)
+        if save_to_db:
+            save_to_database(METERID, run, list_of_values_configured, list_of_values_billing, df_mapping, df_mappingbilling, max_day_polled, max_order)
+            print("💾 Data saved to database")
+        else:
+            print("📄 Database save skipped (file-only mode)")
 
         return collected_data
 
@@ -425,108 +496,149 @@ def poll_meter(sitename_poll, runno, meterid, tcp_ip, tcp_port):
         return None
 
 if __name__ == '__main__':
-    sitename = "DRBOO"
-    meterid = "MET0338"
-    tcp_ip = "10.68.111.49"  # EVC address
-    tcp_port = 2402  # EVC port
+    parser = argparse.ArgumentParser(description='Auto Poll MET0338 DRBOO Meter')
+    parser.add_argument('--sitename', type=str, default='DRBOO', help='Site name (default: DRBOO)')
+    parser.add_argument('--runno', type=int, default=1, help='Run number (default: 1)')
+    parser.add_argument('--meterid', type=str, default='MET0338', help='Meter ID (default: MET0338)')
+    parser.add_argument('--tcp-ip', type=str, default='192.168.102.192', help='TCP IP address (default: 192.168.102.192)')
+    parser.add_argument('--tcp-port', type=int, default=1521, help='TCP port (default: 1521)')
+    parser.add_argument('--save-db', type=lambda x: (str(x).lower() in ['true', '1', 'yes', 'on']), 
+                       default=False, help='Save data to database (default: False, accepts: true/false, 1/0, yes/no, on/off)')
+    parser.add_argument('--save-path', type=str, default='.', help='Path to save the txt file (default: current directory)')
+    parser.add_argument('--interval', type=int, default=300, help='Polling interval in seconds (default: 300 = 5 minutes)')
+
+    args = parser.parse_args()
+
+    sitename = args.sitename
+    runno = args.runno
+    meterid = args.meterid
+    tcp_ip = args.tcp_ip
+    tcp_port = args.tcp_port
+    save_to_db = args.save_db
+    poll_interval = args.interval
+    save_path = args.save_path
+
+    print(f"🚀 Starting Auto Poll for {meterid} at {sitename}")
+    print(f"📡 Connection: {tcp_ip}:{tcp_port}")
+    print(f"💾 Save to DB: {'Yes' if save_to_db else 'No (File only)'}")
+    print(f"📁 Save Path: {save_path}")
+    print(f"⏱️  Poll Interval: {poll_interval} seconds")
+    print("="*60)
 
     while True:
-        print(f"Polling at {datetime.datetime.now()}")
-        for runno in [1, 2]:
-            data = poll_meter(sitename, runno, meterid, tcp_ip, tcp_port)
-            if data:
-                # Save to file with date
-                now = datetime.datetime.now()
-                date_str = now.strftime('%Y%m%d')
-                time_str = now.strftime('%H_%M')
-                filename = f"data_{meterid}_{sitename}_run{runno}_Date_{date_str}_Time_{time_str}.txt"
-                with open(filename, 'w', encoding='utf-8') as f:
-                    f.write(f"Timestamp: {data['timestamp']}\n")
-                    f.write(f"Meter ID: {data['meter_id']}\n")
-                    f.write(f"Sitename: {data['sitename']}\n")
-                    f.write(f"Run: {data['run']}\n\n")
-                    
-                    # Write Billing Data in table format
-                    f.write("BILLING DATA\n")
-                    f.write("=" * 120 + "\n")
-                    f.write(f"{'Time Stamp':<20} {'Uncorrected Volume':<25} {'Corrected Volume':<25} {'Pressure Daily Average':<30} {'Temperature Daily Average':<30}\n")
-                    f.write("=" * 120 + "\n")
-                    
-                    # Parse billing data
-                    billing_data = data['billing_data']
-                    days = {}
-                    for key, value in billing_data.items():
-                        # Extract day number from key like "day1_billing1_..."
-                        if key.startswith('day'):
-                            day_num = key.split('_')[0]
-                            if day_num not in days:
-                                days[day_num] = {}
-                            days[day_num][key] = value
-                    
-                    # Write each day's data
-                    for day_num in sorted(days.keys()):
-                        day_data = days[day_num]
-                        timestamp = ""
-                        uncorrected = ""
-                        corrected = ""
-                        pressure = ""
-                        temperature = ""
-                        
-                        for key, value in day_data.items():
-                            if 'DATE' in key.upper() or 'TIME' in key.upper():
-                                timestamp = str(value)
-                            elif 'UNCORRECTED' in key.upper():
-                                uncorrected = str(value)
-                            elif 'CORRECTED' in key.upper():
-                                corrected = str(value)
-                            elif 'AVR_PF' in key.upper() or 'PRESSURE' in key.upper():
-                                pressure = str(value)
-                            elif 'AVR_TF' in key.upper() or 'TEMPERATURE' in key.upper() or 'TEMP' in key.upper():
-                                temperature = str(value)
-                        
-                        f.write(f"{timestamp:<20} {uncorrected:<25} {corrected:<25} {pressure:<30} {temperature:<30}\n")
-                    
-                    f.write("=" * 120 + "\n\n")
-                    
-                    # Write Config Data in table format
-                    f.write("CONFIG DATA\n")
-                    f.write("=" * 180 + "\n")
-                    # Column headers
-                    headers = ['Date and Time', 'Imp.w', 'Pb', 'Tb', 'Prd', 'Trd', 'SG', 'CO2', 'N2', 'Pressure', 'Temperature', 'Z Ration', 'Zf', 'Cf', 'Qm', 'Qb', 'Low Battery Alarm']
-                    header_line = ""
-                    for header in headers:
-                        header_line += f"{header:<12} "
-                    f.write(header_line + "\n")
-                    f.write("=" * 180 + "\n")
-                    
-                    # Write config data row
-                    config_data = data['config_data']
-                    config_values = []
-                    
-                    # Map config data to columns (adjust based on actual data structure)
-                    for header in headers:
-                        value = "N/A"
-                        for key, val in config_data.items():
-                            if header.upper().replace(' ', '').replace('.', '') in key.upper().replace(' ', '').replace('_', ''):
-                                value = str(val)
-                                break
-                        config_values.append(value)
-                    
-                    # Write the row
-                    row_line = ""
-                    for val in config_values:
-                        row_line += f"{val:<12} "
-                    f.write(row_line + "\n")
-                    f.write("=" * 180 + "\n\n")
-                    
-                    # Write raw config data for reference
-                    f.write("RAW CONFIG DATA:\n")
-                    f.write("-" * 60 + "\n")
-                    for key, value in config_data.items():
-                        f.write(f"  {key}: {value}\n")
-                print(f"Data saved to {filename}")
+        if is_polling_disabled():
+            # Calculate time until next allowed polling time (6:00 AM)
+            now = datetime.datetime.now()
+            if now.time() >= datetime.time(22, 30):
+                # If after 22:30, sleep until 6:00 tomorrow
+                next_poll_time = datetime.datetime.combine(now.date() + datetime.timedelta(days=1), datetime.time(6, 0))
             else:
-                print(f"Failed to poll data for run {runno}")
+                # If before 6:00, sleep until 6:00 today
+                next_poll_time = datetime.datetime.combine(now.date(), datetime.time(6, 0))
+            
+            sleep_seconds = (next_poll_time - now).total_seconds()
+            print(f"🛑 Polling disabled during 22:30-06:00. Sleeping until {next_poll_time.strftime('%Y-%m-%d %H:%M:%S')}")
+            time.sleep(sleep_seconds)
+            continue
+        
+        print(f"🔄 Polling at {datetime.datetime.now()}")
+        data = poll_meter(sitename, runno, meterid, tcp_ip, tcp_port, save_to_db)
+        if data:
+            # Save to file with date
+            now = datetime.datetime.now()
+            date_str = now.strftime('%Y%m%d')
+            time_str = now.strftime('%H_%M')
+            filename = f"data_{meterid}_{sitename}_Date_{date_str}_Time_{time_str}.txt"
+            os.makedirs(save_path, exist_ok=True)
+            full_path = os.path.join(save_path, filename)
+            with open(full_path, 'w', encoding='utf-8') as f:
+                f.write(f"Timestamp: {data['timestamp']}\n")
+                f.write(f"Meter ID: {data['meter_id']}\n")
+                f.write(f"Sitename: {data['sitename']}\n")
+                f.write(f"Run: {data['run']}\n\n")
+                
+                # Write Billing Data in table format
+                f.write("BILLING DATA\n")
+                f.write("=" * 120 + "\n")
+                f.write(f"{'Time Stamp':<20} {'Uncorrected Volume':<25} {'Corrected Volume':<25} {'Pressure Daily Average':<30} {'Temperature Daily Average':<30}\n")
+                f.write("=" * 120 + "\n")
+                
+                # Parse billing data
+                billing_data = data['billing_data']
+                days = {}
+                for key, value in billing_data.items():
+                    # Extract day number from key like "day1_billing1_..."
+                    if key.startswith('day'):
+                        day_num = key.split('_')[0]
+                        if day_num not in days:
+                            days[day_num] = {}
+                        days[day_num][key] = value
+                
+                # Write each day's data
+                for day_num in sorted(days.keys()):
+                    day_data = days[day_num]
+                    timestamp = ""
+                    uncorrected = ""
+                    corrected = ""
+                    pressure = ""
+                    temperature = ""
+                    
+                    for key, value in day_data.items():
+                        if 'DATE' in key.upper() or 'TIME' in key.upper():
+                            timestamp = str(value)
+                        elif 'UNCORRECTED' in key.upper():
+                            uncorrected = str(value)
+                        elif 'CORRECTED' in key.upper():
+                            corrected = str(value)
+                        elif 'AVR_PF' in key.upper() or 'PRESSURE' in key.upper():
+                            pressure = str(value)
+                        elif 'AVR_TF' in key.upper() or 'TEMPERATURE' in key.upper() or 'TEMP' in key.upper():
+                            temperature = str(value)
+                    
+                    f.write(f"{timestamp:<20} {uncorrected:<25} {corrected:<25} {pressure:<30} {temperature:<30}\n")
+                
+                f.write("=" * 120 + "\n\n")
+                
+                # Write Config Data in table format
+                f.write("CONFIG DATA\n")
+                f.write("=" * 180 + "\n")
+                # Column headers
+                headers = ['Date and Time', 'Imp.w', 'Pb', 'Tb', 'Prd', 'Trd', 'SG', 'CO2', 'N2', 'Pressure', 'Temperature', 'Z Ration', 'Zf', 'Cf', 'Qm', 'Qb', 'Low Battery Alarm']
+                header_line = ""
+                for header in headers:
+                    header_line += f"{header:<12} "
+                f.write(header_line + "\n")
+                f.write("=" * 180 + "\n")
+                
+                # Write config data row
+                config_data = data['config_data']
+                config_values = []
+                
+                # Map config data to columns (adjust based on actual data structure)
+                for header in headers:
+                    value = "N/A"
+                    for key, val in config_data.items():
+                        if header.upper().replace(' ', '').replace('.', '') in key.upper().replace(' ', '').replace('_', ''):
+                            value = str(val)
+                            break
+                    config_values.append(value)
+                
+                # Write the row
+                row_line = ""
+                for val in config_values:
+                    row_line += f"{val:<12} "
+                f.write(row_line + "\n")
+                f.write("=" * 180 + "\n\n")
+                
+                # Write raw config data for reference
+                f.write("RAW CONFIG DATA:\n")
+                f.write("-" * 60 + "\n")
+                for key, value in config_data.items():
+                    f.write(f"  {key}: {value}\n")
+            print(f"✅ Data saved to {full_path}")
+        else:
+            print("❌ Failed to poll data")
 
-        # Wait 5 minutes
-        time.sleep(300)
+        # Wait for next poll
+        print(f"⏰ Waiting {poll_interval} seconds until next poll...")
+        time.sleep(poll_interval)
